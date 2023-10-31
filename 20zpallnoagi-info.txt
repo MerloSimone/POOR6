@@ -1,0 +1,1 @@
+ADJ gross income (colonna 17 nell'excel, Col21=A00100 nel csv)/ #individuals (colonna 10 nell'excel, Col14=N2 nel csv)
