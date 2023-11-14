@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars/"
+     xml:base="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars">
+        <rdfs:comment xml:lang="en">This ontology represents the electric cars in the state of Washington domain, together with data about the charging stations and the average income for each ZipCode in the state of Washington.</rdfs:comment>
+        <rdfs:isDefinedBy rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#2076747"/>
+        <rdfs:label xml:lang="en">Electric Cars ontology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#BEV -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#BEV">
+        <rdfs:subClassOf rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Car"/>
+        <owl:disjointWith rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#PHEV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Car -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Car"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#City -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#City"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#CleanCar -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#CleanCar">
+        <rdfs:subClassOf rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#BEV"/>
+        <rdfs:subClassOf rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#PHEV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#County -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#County"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Maker -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Maker"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ModelYear -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ModelYear"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#NotCleanCar -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#NotCleanCar">
+        <rdfs:subClassOf rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#BEV"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#PHEV -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#PHEV">
+        <rdfs:subClassOf rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Car"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Person -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Person"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Year -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Year"/>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#2076747 -->
+
+    <owl:NamedIndividual rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#2076747">
+        <rdf:type rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Person"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Merlo Simone</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Car"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#City"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#County"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Maker"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ModelYear"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Person"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Year"/>
+            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
