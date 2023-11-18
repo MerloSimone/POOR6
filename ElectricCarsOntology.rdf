@@ -18,6 +18,23 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////
@@ -32,6 +49,16 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#City"/>
         <rdfs:range rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#County"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasModelYear -->
+
+    <owl:ObjectProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasModelYear">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Car"/>
+        <rdfs:range rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ModelYear"/>
     </owl:ObjectProperty>
     
 
@@ -56,12 +83,32 @@
     
 
 
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#madeBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#madeBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model"/>
+        <rdfs:range rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Maker"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ofCity -->
 
     <owl:ObjectProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ofCity">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode"/>
         <rdfs:range rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ofModel -->
+
+    <owl:ObjectProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ofModel">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ModelYear"/>
+        <rdfs:range rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model"/>
     </owl:ObjectProperty>
     
 
@@ -84,6 +131,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>AGI: Adjusted Gross Income.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -106,6 +154,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ModelYear"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>MSRP: Manufacturer&apos;s Suggested Retail Price.</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -128,6 +177,17 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Car"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>Range expressed in miles.</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#year -->
+
+    <owl:DatatypeProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#year">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ModelYear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
     </owl:DatatypeProperty>
     
 
@@ -217,7 +277,14 @@
 
     <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model -->
 
-    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model"/>
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#madeBy"/>
+                <owl:someValuesFrom rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Maker"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -284,12 +351,6 @@
     
 
 
-    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Year -->
-
-    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Year"/>
-    
-
-
     <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode -->
 
     <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode">
@@ -344,32 +405,6 @@
         <rdf:type rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Person"/>
         <rdfs:label>Spinosa Diego</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // General axioms
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Car"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#City"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#County"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Maker"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Model"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ModelYear"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Person"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Year"/>
-            <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode"/>
-        </owl:members>
-    </rdf:Description>
 </rdf:RDF>
 
 
