@@ -1,0 +1,734 @@
+Zipcode,Type,City,County,State,Area Codes
+98001,Standard,Auburn,King County,WA,206-253
+98002,Standard,Auburn,King County,WA,253-206
+98003,Standard,Federal Way,King County,WA,206-253
+98004,Standard,Bellevue,King County,WA,425-206-253
+98005,Standard,Bellevue,King County,WA,425-206
+98006,Standard,Bellevue,King County,WA,360-425-206
+98007,Standard,Bellevue,King County,WA,425-206
+98008,Standard,Bellevue,King County,WA,206-425
+98009,Po Box,Bellevue,King County,WA,425
+98010,Standard,Black Diamond,King County,WA,360-206
+98011,Standard,Bothell,King County,WA,206-425-360
+98012,Standard,Bothell,Snohomish County,WA,425-206
+98013,Po Box,Burton,King County,WA,206
+98014,Standard,Carnation,King County,WA,425
+98015,Po Box,Bellevue,King County,WA,425
+98019,Standard,Duvall,King County,WA,425-206
+98020,Standard,Edmonds,Snohomish County,WA,206-425
+98021,Standard,Bothell,Snohomish County,WA,425-206
+98022,Standard,Enumclaw,King County,WA,253-360-206
+98023,Standard,Federal Way,King County,WA,253
+98024,Standard,Fall City,King County,WA,425
+98025,Po Box,Hobart,King County,WA,
+98026,Standard,Edmonds,Snohomish County,WA,425-206
+98027,Standard,Issaquah,King County,WA,425-206
+98028,Standard,Kenmore,King County,WA,206-425
+98029,Standard,Issaquah,King County,WA,425-206
+98030,Standard,Kent,King County,WA,253
+98031,Standard,Kent,King County,WA,206-253-425
+98032,Standard,Kent,King County,WA,253-425-206
+98033,Standard,Kirkland,King County,WA,206-425
+98034,Standard,Kirkland,King County,WA,425-206
+98035,Po Box,Kent,King County,WA,253
+98036,Standard,Lynnwood,Snohomish County,WA,425-360-206
+98037,Standard,Lynnwood,Snohomish County,WA,425-206
+98038,Standard,Maple Valley,King County,WA,253-425-206-360
+98039,Standard,Medina,King County,WA,425
+98040,Standard,Mercer Island,King County,WA,425-206
+98041,Po Box,Bothell,King County,WA,425
+98042,Standard,Kent,King County,WA,253-425-206-360
+98043,Standard,Mountlake Terrace,Snohomish County,WA,206-425
+98045,Standard,North Bend,King County,WA,425
+98046,Po Box,Lynnwood,Snohomish County,WA,206
+98047,Standard,Pacific,King County,WA,253
+98050,Po Box,Preston,King County,WA,425
+98051,Standard,Ravensdale,King County,WA,360-425
+98052,Standard,Redmond,King County,WA,425-206
+98053,Standard,Redmond,King County,WA,425-206
+98054,Standard,Redondo,King County,WA,
+98055,Standard,Renton,King County,WA,206-425-253
+98056,Standard,Renton,King County,WA,425-206
+98057,Standard,Renton,King County,WA,206
+98058,Standard,Renton,King County,WA,425-253-206
+98059,Standard,Renton,King County,WA,425-206
+98061,Po Box,Rollingbay,Kitsap County,WA,
+98062,Po Box,Seahurst,King County,WA,
+98063,Po Box,Federal Way,King County,WA,253
+98064,Po Box,Kent,King County,WA,253
+98065,Standard,Snoqualmie,King County,WA,425
+98068,Po Box,Snoqualmie Pass,Kittitas County,WA,425
+98070,Standard,Vashon,King County,WA,206
+98071,Po Box,Auburn,King County,WA,206-253
+98072,Standard,Woodinville,King County,WA,425-206-360
+98073,Po Box,Redmond,King County,WA,206
+98074,Standard,Sammamish,King County,WA,425-206
+98075,Standard,Sammamish,King County,WA,425-206
+98077,Standard,Woodinville,King County,WA,425
+98082,Po Box,Mill Creek,King County,WA,
+98083,Po Box,Kirkland,King County,WA,425
+98087,Standard,Lynnwood,Snohomish County,WA,425
+98089,Po Box,Kent,King County,WA,253
+98092,Standard,Auburn,King County,WA,206-253-360
+98093,Po Box,Federal Way,King County,WA,253
+98101,Standard,Seattle,King County,WA,206-425-360
+98102,Standard,Seattle,King County,WA,206-425-253-360
+98103,Standard,Seattle,King County,WA,206-425
+98104,Standard,Seattle,King County,WA,206-425-360-253
+98105,Standard,Seattle,King County,WA,206-425
+98106,Standard,Seattle,King County,WA,206
+98107,Standard,Seattle,King County,WA,206
+98108,Standard,Seattle,King County,WA,206-425
+98109,Standard,Seattle,King County,WA,206-425-360
+98110,Standard,Bainbridge Island,Kitsap County,WA,206
+98111,Po Box,Seattle,King County,WA,206
+98112,Standard,Seattle,King County,WA,206-425
+98113,Po Box,Seattle,King County,WA,206
+98114,Po Box,Seattle,King County,WA,206
+98115,Standard,Seattle,King County,WA,206-425
+98116,Standard,Seattle,King County,WA,425-206
+98117,Standard,Seattle,King County,WA,206
+98118,Standard,Seattle,King County,WA,206
+98119,Standard,Seattle,King County,WA,206-425
+98121,Standard,Seattle,King County,WA,206-253-360-425
+98122,Standard,Seattle,King County,WA,206-425
+98124,Po Box,Seattle,King County,WA,206
+98125,Standard,Seattle,King County,WA,206-425
+98126,Standard,Seattle,King County,WA,206
+98127,Po Box,Seattle,King County,WA,206
+98129,Unique,Seattle,King County,WA,206
+98131,Standard,Seattle,King County,WA,206
+98132,Standard,Seattle,King County,WA,206
+98133,Standard,Seattle,King County,WA,206-425
+98134,Standard,Seattle,King County,WA,206
+98136,Standard,Seattle,King County,WA,206
+98138,Po Box,Seattle,King County,WA,206
+98139,Po Box,Seattle,King County,WA,206
+98141,Po Box,Seattle,King County,WA,206
+98144,Standard,Seattle,King County,WA,206-425
+98145,Po Box,Seattle,King County,WA,206
+98146,Standard,Seattle,King County,WA,206-253
+98148,Standard,Seattle,King County,WA,206-253
+98151,Unique,Seattle,King County,WA,206
+98154,Standard,Seattle,King County,WA,206-425-253-360
+98155,Standard,Seattle,King County,WA,206-425
+98158,Standard,Seattle,King County,WA,425-360-206
+98160,Po Box,Seattle,King County,WA,206
+98161,Standard,Seattle,King County,WA,206-425
+98164,Standard,Seattle,King County,WA,206
+98165,Po Box,Seattle,King County,WA,206
+98166,Standard,Seattle,King County,WA,206-360-253
+98168,Standard,Seattle,King County,WA,425-206-360-253
+98170,Unique,Seattle,King County,WA,206
+98171,Standard,Seattle,King County,WA,206
+98174,Standard,Seattle,King County,WA,206
+98175,Po Box,Seattle,King County,WA,206
+98177,Standard,Seattle,King County,WA,206-425
+98178,Standard,Seattle,King County,WA,206-425-253
+98181,Unique,Seattle,King County,WA,206
+98184,Unique,Seattle,King County,WA,206
+98185,Unique,Seattle,King County,WA,206
+98188,Standard,Seattle,King County,WA,206-425-360-253
+98189,Unique,Seattle,King County,WA,
+98190,Unique,Seattle,King County,WA,206
+98191,Unique,Seattle,King County,WA,206
+98194,Po Box,Seattle,King County,WA,206
+98195,Unique,Seattle,King County,WA,206
+98198,Standard,Seattle,King County,WA,206-253
+98199,Standard,Seattle,King County,WA,206-425
+98201,Standard,Everett,Snohomish County,WA,425-206
+98203,Standard,Everett,Snohomish County,WA,425-36
+98204,Standard,Everett,Snohomish County,WA,425
+98205,Standard,Everett,Snohomish County,WA,425
+98206,Po Box,Everett,Snohomish County,WA,425
+98207,Unique,Everett,Snohomish County,WA,425
+98208,Standard,Everett,Snohomish County,WA,425-206
+98213,Po Box,Everett,Snohomish County,WA,425
+98220,Standard,Acme,Whatcom County,WA,360
+98221,Standard,Anacortes,Skagit County,WA,360
+98222,Standard,Blakely Island,San Juan County,WA,360
+98223,Standard,Arlington,Snohomish County,WA,425-360-206
+98224,Po Box,Baring,King County,WA,360
+98225,Standard,Bellingham,Whatcom County,WA,360-206
+98226,Standard,Bellingham,Whatcom County,WA,360
+98227,Po Box,Bellingham,Whatcom County,WA,360
+98228,Po Box,Bellingham,Whatcom County,WA,360
+98229,Standard,Bellingham,Whatcom County,WA,360
+98230,Standard,Blaine,Whatcom County,WA,360
+98231,Po Box,Blaine,Whatcom County,WA,360
+98232,Standard,Bow,Skagit County,WA,360
+98233,Standard,Burlington,Skagit County,WA,360
+98235,Po Box,Clearlake,Skagit County,WA,360
+98236,Standard,Clinton,Island County,WA,360
+98237,Standard,Concrete,Skagit County,WA,360
+98238,Po Box,Conway,Skagit County,WA,360
+98239,Standard,Coupeville,Island County,WA,360
+98240,Standard,Custer,Whatcom County,WA,360
+98241,Standard,Darrington,Snohomish County,WA,360
+98243,Po Box,Deer Harbor,San Juan County,WA,360
+98244,Standard,Deming,Whatcom County,WA,360
+98245,Standard,Eastsound,San Juan County,WA,360
+98247,Standard,Everson,Whatcom County,WA,360
+98248,Standard,Ferndale,Whatcom County,WA,360
+98249,Standard,Freeland,Island County,WA,360
+98250,Standard,Friday Harbor,San Juan County,WA,360
+98251,Standard,Gold Bar,Snohomish County,WA,360
+98252,Standard,Granite Falls,Snohomish County,WA,360
+98253,Standard,Greenbank,Island County,WA,360
+98255,Po Box,Hamilton,Skagit County,WA,360
+98256,Po Box,Index,Snohomish County,WA,360
+98257,Standard,La Conner,Skagit County,WA,360
+98258,Standard,Lake Stevens,Snohomish County,WA,425-36
+98259,Po Box,North Lakewood,Snohomish County,WA,
+98260,Standard,Langley,Island County,WA,425-36
+98261,Standard,Lopez Island,San Juan County,WA,360
+98262,Standard,Lummi Island,Whatcom County,WA,360
+98263,Po Box,Lyman,Skagit County,WA,360
+98264,Standard,Lynden,Whatcom County,WA,360
+98266,Standard,Maple Falls,Whatcom County,WA,360
+98267,Standard,Marblemount,Skagit County,WA,360
+98270,Standard,Marysville,Snohomish County,WA,360-425
+98271,Standard,Marysville,Snohomish County,WA,360-425-206
+98272,Standard,Monroe,Snohomish County,WA,360-425-206
+98273,Standard,Mount Vernon,Skagit County,WA,360
+98274,Standard,Mount Vernon,Skagit County,WA,360
+98275,Standard,Mukilteo,Snohomish County,WA,425-206
+98276,Po Box,Nooksack,Whatcom County,WA,360
+98277,Standard,Oak Harbor,Island County,WA,360
+98278,Unique,Oak Harbor,Island County,WA,360
+98279,Standard,Olga,San Juan County,WA,360
+98280,Po Box,Orcas,San Juan County,WA,360
+98281,Standard,Point Roberts,Whatcom County,WA,360
+98282,Standard,Camano Island,Island County,WA,360
+98283,Standard,Rockport,Skagit County,WA,360
+98284,Standard,Sedro Woolley,Skagit County,WA,360-425
+98286,Po Box,Shaw Island,San Juan County,WA,360
+98287,Po Box,Silvana,Snohomish County,WA,206
+98288,Po Box,Skykomish,King County,WA,360
+98290,Standard,Snohomish,Snohomish County,WA,360-425
+98291,Po Box,Snohomish,Snohomish County,WA,206
+98292,Standard,Stanwood,Snohomish County,WA,425-36
+98293,Po Box,Startup,Snohomish County,WA,360
+98294,Standard,Sultan,Snohomish County,WA,360
+98295,Standard,Sumas,Whatcom County,WA,360
+98296,Standard,Snohomish,Snohomish County,WA,360-206-425
+98297,Po Box,Waldron,San Juan County,WA,360
+98303,Standard,Anderson Island,Pierce County,WA,253
+98304,Standard,Ashford,Pierce County,WA,360-503
+98305,Standard,Beaver,Clallam County,WA,360
+98310,Standard,Bremerton,Kitsap County,WA,360-206
+98311,Standard,Bremerton,Kitsap County,WA,360-425-206
+98312,Standard,Bremerton,Kitsap County,WA,360
+98314,Unique,Bremerton,Kitsap County,WA,360
+98315,Standard,Silverdale,Kitsap County,WA,360
+98320,Standard,Brinnon,Jefferson County,WA,360
+98321,Standard,Buckley,Pierce County,WA,360-253
+98322,Po Box,Burley,Kitsap County,WA,253
+98323,Standard,Carbonado,Pierce County,WA,360
+98324,Po Box,Carlsborg,Clallam County,WA,360
+98325,Standard,Chimacum,Jefferson County,WA,360
+98326,Standard,Clallam Bay,Clallam County,WA,360
+98327,Standard,Dupont,Pierce County,WA,253
+98328,Standard,Eatonville,Pierce County,WA,360-253
+98329,Standard,Gig Harbor,Pierce County,WA,253
+98330,Standard,Elbe,Pierce County,WA,360
+98331,Standard,Forks,Jefferson County,WA,360
+98332,Standard,Gig Harbor,Pierce County,WA,253
+98333,Standard,Fox Island,Pierce County,WA,253
+98335,Standard,Gig Harbor,Pierce County,WA,253-360-206
+98336,Standard,Glenoma,Lewis County,WA,360
+98337,Standard,Bremerton,Kitsap County,WA,360
+98338,Standard,Graham,Pierce County,WA,253-36
+98339,Standard,Port Hadlock,Jefferson County,WA,360
+98340,Standard,Hansville,Kitsap County,WA,360
+98342,Standard,Indianola,Kitsap County,WA,360
+98343,Po Box,Joyce,Clallam County,WA,360
+98344,Po Box,Kapowsin,Pierce County,WA,360
+98345,Po Box,Keyport,Kitsap County,WA,360
+98346,Standard,Kingston,Kitsap County,WA,360
+98348,Po Box,La Grande,Thurston County,WA,
+98349,Standard,Lakebay,Pierce County,WA,253
+98350,Po Box,La Push,Clallam County,WA,360
+98351,Standard,Longbranch,Pierce County,WA,253
+98352,Unique,Sumner,Pierce County,WA,253
+98353,Po Box,Manchester,Kitsap County,WA,
+98354,Standard,Milton,Pierce County,WA,253
+98355,Standard,Mineral,Lewis County,WA,360
+98356,Standard,Morton,Lewis County,WA,360
+98357,Po Box,Neah Bay,Clallam County,WA,360
+98358,Standard,Nordland,Jefferson County,WA,360
+98359,Standard,Olalla,Kitsap County,WA,253
+98360,Standard,Orting,Pierce County,WA,253-36
+98361,Standard,Packwood,Lewis County,WA,360
+98362,Standard,Port Angeles,Clallam County,WA,360
+98363,Standard,Port Angeles,Clallam County,WA,360
+98364,Po Box,Port Gamble,Kitsap County,WA,360
+98365,Standard,Port Ludlow,Jefferson County,WA,360
+98366,Standard,Port Orchard,Kitsap County,WA,360
+98367,Standard,Port Orchard,Kitsap County,WA,360-253
+98368,Standard,Port Townsend,Jefferson County,WA,360
+98370,Standard,Poulsbo,Kitsap County,WA,360-425
+98371,Standard,Puyallup,Pierce County,WA,253
+98372,Standard,Puyallup,Pierce County,WA,253
+98373,Standard,Puyallup,Pierce County,WA,253
+98374,Standard,Puyallup,Pierce County,WA,253-36
+98375,Standard,Puyallup,Pierce County,WA,253
+98376,Standard,Quilcene,Jefferson County,WA,360
+98377,Standard,Randle,Lewis County,WA,360
+98378,Po Box,Retsil,Kitsap County,WA,
+98380,Standard,Seabeck,Kitsap County,WA,360
+98381,Standard,Sekiu,Clallam County,WA,360
+98382,Standard,Sequim,Clallam County,WA,360
+98383,Standard,Silverdale,Kitsap County,WA,360
+98384,Po Box,South Colby,Kitsap County,WA,
+98385,Po Box,South Prairie,Pierce County,WA,360
+98386,Po Box,Southworth,Kitsap County,WA,
+98387,Standard,Spanaway,Pierce County,WA,206-253
+98388,Standard,Steilacoom,Pierce County,WA,253
+98390,Standard,Sumner,Pierce County,WA,253-360-206
+98391,Standard,Bonney Lake,Pierce County,WA,
+98392,Standard,Suquamish,Kitsap County,WA,206-36
+98393,Po Box,Tracyton,Kitsap County,WA,360
+98394,Standard,Vaughn,Pierce County,WA,253
+98395,Po Box,Wauna,Pierce County,WA,
+98396,Po Box,Wilkeson,Pierce County,WA,360
+98397,Po Box,Longmire,Pierce County,WA,
+98398,Po Box,Paradise Inn,Lewis County,WA,
+98401,Po Box,Tacoma,Pierce County,WA,253
+98402,Standard,Tacoma,Pierce County,WA,253
+98403,Standard,Tacoma,Pierce County,WA,253
+98404,Standard,Tacoma,Pierce County,WA,253
+98405,Standard,Tacoma,Pierce County,WA,253
+98406,Standard,Tacoma,Pierce County,WA,253-206
+98407,Standard,Tacoma,Pierce County,WA,253
+98408,Standard,Tacoma,Pierce County,WA,253
+98409,Standard,Tacoma,Pierce County,WA,253
+98411,Po Box,Tacoma,Pierce County,WA,253
+98412,Po Box,Tacoma,Pierce County,WA,253
+98413,Standard,Tacoma,Pierce County,WA,253
+98415,Po Box,Tacoma,Pierce County,WA,253
+98416,Unique,Tacoma,Pierce County,WA,253
+98417,Po Box,Tacoma,Pierce County,WA,253
+98418,Standard,Tacoma,Pierce County,WA,253
+98419,Po Box,Tacoma,Pierce County,WA,253
+98421,Standard,Tacoma,Pierce County,WA,253
+98422,Standard,Tacoma,Pierce County,WA,253
+98424,Standard,Tacoma,Pierce County,WA,253-206
+98430,Unique,Camp Murray,Pierce County,WA,
+98431,Unique,Tacoma,Pierce County,WA,253
+98433,Standard,Tacoma,Pierce County,WA,253
+98438,Po Box,Mcchord Afb,Pierce County,WA,253
+98439,Standard,Lakewood,Pierce County,WA,253
+98442,Standard,Tacoma,Pierce County,WA,253
+98443,Standard,Tacoma,Pierce County,WA,253
+98444,Standard,Tacoma,Pierce County,WA,253-206
+98445,Standard,Tacoma,Pierce County,WA,253
+98446,Standard,Tacoma,Pierce County,WA,253
+98447,Unique,Tacoma,Pierce County,WA,253
+98448,Po Box,Tacoma,Pierce County,WA,253
+98450,Unique,Tacoma,Pierce County,WA,253
+98455,Unique,Tacoma,Pierce County,WA,253
+98460,Unique,Tacoma,Pierce County,WA,253
+98464,Po Box,Tacoma,Pierce County,WA,253
+98465,Standard,Tacoma,Pierce County,WA,253
+98466,Standard,Tacoma,Pierce County,WA,253
+98467,Standard,University Place,Pierce County,WA,253-206
+98471,Unique,Tacoma,Pierce County,WA,253
+98477,Unique,Tacoma,Pierce County,WA,253
+98481,Unique,Tacoma,Pierce County,WA,253
+98490,Po Box,Tacoma,Pierce County,WA,253
+98492,Standard,Tacoma,Pierce County,WA,253
+98493,Unique,Tacoma,Pierce County,WA,253
+98496,Po Box,Lakewood,Pierce County,WA,253
+98497,Po Box,Lakewood,Pierce County,WA,253
+98498,Standard,Lakewood,Pierce County,WA,253
+98499,Standard,Lakewood,Pierce County,WA,253
+98501,Standard,Olympia,Thurston County,WA,360
+98502,Standard,Olympia,Thurston County,WA,360
+98503,Standard,Lacey,Thurston County,WA,206-425-360
+98504,Unique,Olympia,Thurston County,WA,360
+98505,Unique,Olympia,Thurston County,WA,360
+98506,Standard,Olympia,Thurston County,WA,360
+98507,Po Box,Olympia,Thurston County,WA,360
+98508,Po Box,Olympia,Thurston County,WA,360
+98509,Po Box,Lacey,Thurston County,WA,360
+98511,Po Box,Tumwater,Thurston County,WA,360
+98512,Standard,Olympia,Thurston County,WA,360
+98513,Standard,Olympia,Thurston County,WA,360
+98516,Standard,Olympia,Thurston County,WA,360-253
+98520,Standard,Aberdeen,Grays Harbor County,WA,360
+98522,Po Box,Adna,Lewis County,WA,360
+98524,Standard,Allyn,Mason County,WA,360
+98526,Standard,Amanda Park,Grays Harbor County,WA,360
+98527,Po Box,Bay Center,Pacific County,WA,360
+98528,Standard,Belfair,Mason County,WA,360
+98530,Po Box,Bucoda,Thurston County,WA,360
+98531,Standard,Centralia,Lewis County,WA,360
+98532,Standard,Chehalis,Lewis County,WA,360
+98533,Standard,Cinebar,Lewis County,WA,360
+98535,Standard,Copalis Beach,Grays Harbor County,WA,360
+98536,Standard,Copalis Crossing,Grays Harbor County,WA,360
+98537,Standard,Cosmopolis,Grays Harbor County,WA,360
+98538,Standard,Curtis,Lewis County,WA,360
+98539,Po Box,Doty,Lewis County,WA,360
+98540,Po Box,East Olympia,Thurston County,WA,360
+98541,Standard,Elma,Grays Harbor County,WA,360
+98542,Standard,Ethel,Lewis County,WA,360
+98544,Po Box,Galvin,Lewis County,WA,360
+98546,Standard,Grapeview,Mason County,WA,360
+98547,Standard,Grayland,Pacific County,WA,360
+98548,Standard,Hoodsport,Mason County,WA,360
+98550,Standard,Hoquiam,Grays Harbor County,WA,360
+98552,Standard,Humptulips,Grays Harbor County,WA,360
+98554,Po Box,Lebam,Pacific County,WA,360
+98555,Standard,Lilliwaup,Mason County,WA,360
+98556,Po Box,Littlerock,Thurston County,WA,360
+98557,Standard,Mccleary,Grays Harbor County,WA,360
+98558,Po Box,Mckenna,Pierce County,WA,360
+98559,Po Box,Malone,Grays Harbor County,WA,360
+98560,Standard,Matlock,Mason County,WA,
+98561,Po Box,Menlo,Pacific County,WA,360
+98562,Po Box,Moclips,Grays Harbor County,WA,360
+98563,Standard,Montesano,Grays Harbor County,WA,360
+98564,Standard,Mossyrock,Lewis County,WA,360
+98565,Po Box,Napavine,Lewis County,WA,360
+98566,Po Box,Neilton,Grays Harbor County,WA,360
+98568,Standard,Oakville,Grays Harbor County,WA,360
+98569,Standard,Ocean Shores,Grays Harbor County,WA,360
+98570,Standard,Onalaska,Lewis County,WA,360
+98571,Po Box,Pacific Beach,Grays Harbor County,WA,360
+98572,Standard,Pe Ell,Lewis County,WA,360
+98575,Standard,Quinault,Grays Harbor County,WA,360
+98576,Standard,Rainier,Thurston County,WA,360
+98577,Standard,Raymond,Pacific County,WA,360
+98579,Standard,Rochester,Thurston County,WA,360
+98580,Standard,Roy,Pierce County,WA,253-36
+98581,Standard,Ryderwood,Cowlitz County,WA,360
+98582,Standard,Salkum,Lewis County,WA,360
+98583,Po Box,Satsop,Grays Harbor County,WA,360
+98584,Standard,Shelton,Mason County,WA,360
+98585,Standard,Silver Creek,Lewis County,WA,360
+98586,Standard,South Bend,Pacific County,WA,360
+98587,Po Box,Taholah,Grays Harbor County,WA,360
+98588,Standard,Tahuya,Mason County,WA,360
+98589,Standard,Tenino,Thurston County,WA,360
+98590,Standard,Tokeland,Pacific County,WA,360
+98591,Standard,Toledo,Lewis County,WA,360
+98592,Standard,Union,Mason County,WA,360
+98593,Standard,Vader,Lewis County,WA,360
+98595,Standard,Westport,Grays Harbor County,WA,360
+98596,Standard,Winlock,Lewis County,WA,360
+98597,Standard,Yelm,Thurston County,WA,360
+98599,Unique,Olympia,Thurston County,WA,360
+98601,Standard,Amboy,Clark County,WA,360
+98602,Standard,Appleton,Klickitat County,WA,509
+98603,Standard,Ariel,Cowlitz County,WA,360
+98604,Standard,Battle Ground,Clark County,WA,360
+98605,Standard,Bingen,Klickitat County,WA,509
+98606,Standard,Brush Prairie,Clark County,WA,360
+98607,Standard,Camas,Clark County,WA,360
+98609,Standard,Carrolls,Cowlitz County,WA,360
+98610,Standard,Carson,Skamania County,WA,509
+98611,Standard,Castle Rock,Cowlitz County,WA,360
+98612,Standard,Cathlamet,Wahkiakum County,WA,360
+98613,Standard,Centerville,Klickitat County,WA,509
+98614,Po Box,Chinook,Pacific County,WA,360
+98616,Standard,Cougar,Cowlitz County,WA,360
+98617,Po Box,Dallesport,Klickitat County,WA,509
+98619,Standard,Glenwood,Klickitat County,WA,509
+98620,Standard,Goldendale,Klickitat County,WA,509
+98621,Standard,Grays River,Wahkiakum County,WA,360
+98622,Po Box,Heisson,Clark County,WA,360
+98623,Po Box,Husum,Klickitat County,WA,509
+98624,Standard,Ilwaco,Pacific County,WA,360
+98625,Standard,Kalama,Cowlitz County,WA,360
+98626,Standard,Kelso,Cowlitz County,WA,360
+98628,Standard,Klickitat,Klickitat County,WA,509
+98629,Standard,La Center,Clark County,WA,360
+98631,Standard,Long Beach,Pacific County,WA,360
+98632,Standard,Longview,Cowlitz County,WA,360
+98635,Standard,Lyle,Klickitat County,WA,509
+98637,Po Box,Nahcotta,Pacific County,WA,360
+98638,Standard,Naselle,Pacific County,WA,360
+98639,Po Box,North Bonneville,Skamania County,WA,509
+98640,Standard,Ocean Park,Pacific County,WA,360
+98641,Po Box,Oysterville,Pacific County,WA,360
+98642,Standard,Ridgefield,Clark County,WA,360
+98643,Standard,Rosburg,Wahkiakum County,WA,360
+98644,Po Box,Seaview,Pacific County,WA,360
+98645,Standard,Silverlake,Cowlitz County,WA,360
+98647,Standard,Skamokawa,Wahkiakum County,WA,360
+98648,Standard,Stevenson,Skamania County,WA,509
+98649,Standard,Toutle,Cowlitz County,WA,360
+98650,Standard,Trout Lake,Klickitat County,WA,509
+98651,Standard,Underwood,Skamania County,WA,509
+98660,Standard,Vancouver,Clark County,WA,360
+98661,Standard,Vancouver,Clark County,WA,360
+98662,Standard,Vancouver,Clark County,WA,360
+98663,Standard,Vancouver,Clark County,WA,360
+98664,Standard,Vancouver,Clark County,WA,360
+98665,Standard,Vancouver,Clark County,WA,360
+98666,Po Box,Vancouver,Clark County,WA,360-503
+98667,Unique,Vancouver,Clark County,WA,360
+98668,Po Box,Vancouver,Clark County,WA,360
+98670,Standard,Wahkiacus,Klickitat County,WA,509
+98671,Standard,Washougal,Clark County,WA,360
+98672,Standard,White Salmon,Klickitat County,WA,509
+98673,Po Box,Wishram,Klickitat County,WA,509
+98674,Standard,Woodland,Clark County,WA,360
+98675,Standard,Yacolt,Clark County,WA,360
+98682,Standard,Vancouver,Clark County,WA,360
+98683,Standard,Vancouver,Clark County,WA,360
+98684,Standard,Vancouver,Clark County,WA,360
+98685,Standard,Vancouver,Clark County,WA,360
+98686,Standard,Vancouver,Clark County,WA,360
+98687,Po Box,Vancouver,Clark County,WA,360
+98801,Standard,Wenatchee,Chelan County,WA,509
+98802,Standard,East Wenatchee,Douglas County,WA,509
+98807,Po Box,Wenatchee,Chelan County,WA,509
+98811,Po Box,Ardenvoir,Chelan County,WA,509
+98812,Standard,Brewster,Okanogan County,WA,509
+98813,Standard,Bridgeport,Douglas County,WA,509
+98814,Standard,Carlton,Okanogan County,WA,509
+98815,Standard,Cashmere,Chelan County,WA,509
+98816,Standard,Chelan,Chelan County,WA,509
+98817,Po Box,Chelan Falls,Chelan County,WA,509
+98819,Po Box,Conconully,Okanogan County,WA,509
+98821,Po Box,Dryden,Chelan County,WA,509
+98822,Standard,Entiat,Chelan County,WA,509
+98823,Standard,Ephrata,Grant County,WA,509
+98824,Po Box,George,Grant County,WA,509
+98826,Standard,Leavenworth,Chelan County,WA,509-36
+98827,Standard,Loomis,Okanogan County,WA,509
+98828,Standard,Malaga,Chelan County,WA,509
+98829,Po Box,Malott,Okanogan County,WA,509
+98830,Standard,Mansfield,Douglas County,WA,509
+98831,Standard,Manson,Chelan County,WA,509
+98832,Standard,Marlin,Grant County,WA,509
+98833,Standard,Mazama,Okanogan County,WA,509
+98834,Standard,Methow,Okanogan County,WA,509
+98836,Po Box,Monitor,Chelan County,WA,509
+98837,Standard,Moses Lake,Grant County,WA,509
+98840,Standard,Okanogan,Okanogan County,WA,509
+98841,Standard,Omak,Okanogan County,WA,509
+98843,Standard,Orondo,Douglas County,WA,509
+98844,Standard,Oroville,Okanogan County,WA,509
+98845,Standard,Palisades,Douglas County,WA,509
+98846,Standard,Pateros,Okanogan County,WA,509
+98847,Standard,Peshastin,Chelan County,WA,509
+98848,Standard,Quincy,Grant County,WA,509
+98849,Standard,Riverside,Okanogan County,WA,509
+98850,Standard,Rock Island,Douglas County,WA,509
+98851,Standard,Soap Lake,Grant County,WA,509
+98852,Po Box,Stehekin,Chelan County,WA,509
+98853,Po Box,Stratford,Grant County,WA,509
+98855,Standard,Tonasket,Okanogan County,WA,509
+98856,Standard,Twisp,Okanogan County,WA,509
+98857,Standard,Warden,Grant County,WA,509
+98858,Standard,Waterville,Douglas County,WA,509
+98859,Standard,Wauconda,Okanogan County,WA,509
+98860,Po Box,Wilson Creek,Grant County,WA,509
+98862,Standard,Winthrop,Okanogan County,WA,509
+98901,Standard,Yakima,Yakima County,WA,509
+98902,Standard,Yakima,Yakima County,WA,509
+98903,Standard,Yakima,Yakima County,WA,509
+98904,Po Box,Yakima,Yakima County,WA,509
+98907,Po Box,Yakima,Yakima County,WA,509
+98908,Standard,Yakima,Yakima County,WA,509
+98909,Po Box,Yakima,Yakima County,WA,509
+98920,Po Box,Brownstown,Yakima County,WA,509
+98921,Po Box,Buena,Yakima County,WA,509
+98922,Standard,Cle Elum,Kittitas County,WA,509
+98923,Standard,Cowiche,Yakima County,WA,509
+98925,Po Box,Easton,Kittitas County,WA,509
+98926,Standard,Ellensburg,Kittitas County,WA,509
+98929,Standard,Naches,Yakima County,WA,509
+98930,Standard,Grandview,Yakima County,WA,509
+98932,Standard,Granger,Yakima County,WA,509
+98933,Standard,Harrah,Yakima County,WA,509
+98934,Po Box,Kittitas,Kittitas County,WA,509
+98935,Standard,Mabton,Yakima County,WA,509
+98936,Standard,Moxee,Yakima County,WA,509
+98937,Standard,Naches,Yakima County,WA,509
+98938,Standard,Outlook,Yakima County,WA,509
+98939,Po Box,Parker,Yakima County,WA,509
+98940,Po Box,Ronald,Kittitas County,WA,509
+98941,Po Box,Roslyn,Kittitas County,WA,509
+98942,Standard,Selah,Yakima County,WA,509
+98943,Po Box,South Cle Elum,Kittitas County,WA,509
+98944,Standard,Sunnyside,Yakima County,WA,509
+98946,Standard,Thorp,Kittitas County,WA,509
+98947,Standard,Tieton,Yakima County,WA,509
+98948,Standard,Toppenish,Yakima County,WA,509
+98950,Po Box,Vantage,Kittitas County,WA,509
+98951,Standard,Wapato,Yakima County,WA,509
+98952,Standard,White Swan,Yakima County,WA,509
+98953,Standard,Zillah,Yakima County,WA,509
+99001,Standard,Airway Heights,Spokane County,WA,509
+99003,Standard,Chattaroy,Spokane County,WA,509
+99004,Standard,Cheney,Spokane County,WA,509
+99005,Standard,Colbert,Spokane County,WA,509
+99006,Standard,Deer Park,Spokane County,WA,509
+99008,Standard,Edwall,Lincoln County,WA,509
+99009,Standard,Elk,Spokane County,WA,509
+99011,Standard,Fairchild Air Force Base,Spokane County,WA,509
+99012,Standard,Fairfield,Spokane County,WA,509
+99013,Standard,Ford,Stevens County,WA,509
+99014,Po Box,Four Lakes,Spokane County,WA,509
+99016,Standard,Greenacres,Spokane County,WA,509
+99017,Standard,Lamont,Whitman County,WA,509
+99018,Standard,Latah,Spokane County,WA,509
+99019,Standard,Liberty Lake,Spokane County,WA,509
+99020,Po Box,Marshall,Spokane County,WA,509
+99021,Standard,Mead,Spokane County,WA,509
+99022,Standard,Medical Lake,Spokane County,WA,509
+99023,Standard,Mica,Spokane County,WA,509
+99025,Standard,Newman Lake,Spokane County,WA,509
+99026,Standard,Nine Mile Falls,Stevens County,WA,509
+99027,Standard,Otis Orchards,Spokane County,WA,509
+99029,Standard,Reardan,Lincoln County,WA,509
+99030,Standard,Rockford,Spokane County,WA,509-208
+99031,Standard,Spangle,Spokane County,WA,509
+99032,Standard,Sprague,Lincoln County,WA,509
+99033,Standard,Tekoa,Whitman County,WA,509
+99034,Standard,Tumtum,Stevens County,WA,509
+99036,Standard,Valleyford,Spokane County,WA,509
+99037,Standard,Veradale,Spokane County,WA,509
+99039,Po Box,Waverly,Spokane County,WA,509
+99040,Standard,Wellpinit,Stevens County,WA,509
+99101,Standard,Addy,Stevens County,WA,509
+99102,Po Box,Albion,Whitman County,WA,509
+99103,Standard,Almira,Lincoln County,WA,509
+99104,Standard,Belmont,Whitman County,WA,509
+99105,Standard,Benge,Adams County,WA,509
+99107,Standard,Boyds,Ferry County,WA,509
+99109,Standard,Chewelah,Stevens County,WA,509
+99110,Standard,Clayton,Stevens County,WA,509
+99111,Standard,Colfax,Whitman County,WA,509
+99113,Standard,Colton,Whitman County,WA,509
+99114,Standard,Colville,Stevens County,WA,509
+99115,Standard,Coulee City,Grant County,WA,509
+99116,Standard,Coulee Dam,Okanogan County,WA,509
+99117,Standard,Creston,Lincoln County,WA,509
+99118,Standard,Curlew,Ferry County,WA,509
+99119,Standard,Cusick,Pend Oreille County,WA,509
+99121,Standard,Danville,Ferry County,WA,509
+99122,Standard,Davenport,Lincoln County,WA,509
+99123,Standard,Electric City,Grant County,WA,509
+99124,Po Box,Elmer City,Okanogan County,WA,509
+99125,Standard,Endicott,Whitman County,WA,509
+99126,Standard,Evans,Stevens County,WA,509
+99128,Standard,Farmington,Whitman County,WA,509-208
+99129,Standard,Fruitland,Stevens County,WA,509
+99130,Standard,Garfield,Whitman County,WA,509
+99131,Standard,Gifford,Stevens County,WA,509
+99133,Standard,Grand Coulee,Grant County,WA,509
+99134,Standard,Harrington,Lincoln County,WA,509
+99135,Standard,Hartline,Grant County,WA,509
+99136,Standard,Hay,Whitman County,WA,509
+99137,Standard,Hunters,Stevens County,WA,509
+99138,Standard,Inchelium,Ferry County,WA,509
+99139,Standard,Ione,Pend Oreille County,WA,509
+99140,Standard,Keller,Ferry County,WA,509
+99141,Standard,Kettle Falls,Stevens County,WA,509
+99143,Standard,Lacrosse,Whitman County,WA,509
+99144,Standard,Lamona,Lincoln County,WA,509
+99146,Po Box,Laurier,Ferry County,WA,509
+99147,Standard,Lincoln,Lincoln County,WA,509
+99148,Standard,Loon Lake,Stevens County,WA,509
+99149,Po Box,Malden,Whitman County,WA,509
+99150,Standard,Malo,Ferry County,WA,509
+99151,Po Box,Marcus,Stevens County,WA,509
+99152,Po Box,Metaline,Pend Oreille County,WA,509
+99153,Standard,Metaline Falls,Pend Oreille County,WA,509
+99154,Standard,Mohler,Lincoln County,WA,509
+99155,Po Box,Nespelem,Okanogan County,WA,509
+99156,Standard,Newport,Pend Oreille County,WA,509
+99157,Standard,Northport,Stevens County,WA,509
+99158,Standard,Oakesdale,Whitman County,WA,509
+99159,Standard,Odessa,Lincoln County,WA,509
+99160,Standard,Orient,Ferry County,WA,509
+99161,Standard,Palouse,Whitman County,WA,509
+99163,Standard,Pullman,Whitman County,WA,509
+99164,Unique,Pullman,Whitman County,WA,509
+99165,Standard,Pullman,Whitman County,WA,509
+99166,Standard,Republic,Ferry County,WA,509
+99167,Standard,Rice,Stevens County,WA,509
+99169,Standard,Ritzville,Adams County,WA,509
+99170,Standard,Rosalia,Whitman County,WA,509
+99171,Standard,Saint John,Whitman County,WA,509
+99173,Standard,Springdale,Stevens County,WA,509
+99174,Po Box,Steptoe,Whitman County,WA,509
+99176,Standard,Thornton,Whitman County,WA,509
+99179,Standard,Uniontown,Whitman County,WA,509
+99180,Standard,Usk,Pend Oreille County,WA,509
+99181,Standard,Valley,Stevens County,WA,509
+99185,Standard,Wilbur,Lincoln County,WA,509
+99201,Standard,Spokane,Spokane County,WA,509
+99202,Standard,Spokane,Spokane County,WA,509
+99203,Standard,Spokane,Spokane County,WA,509
+99204,Standard,Spokane,Spokane County,WA,509
+99205,Standard,Spokane,Spokane County,WA,509
+99206,Standard,Spokane,Spokane County,WA,509
+99207,Standard,Spokane,Spokane County,WA,509
+99208,Standard,Spokane,Spokane County,WA,509
+99209,Po Box,Spokane,Spokane County,WA,509
+99210,Po Box,Spokane,Spokane County,WA,509
+99211,Po Box,Spokane,Spokane County,WA,509
+99212,Standard,Spokane,Spokane County,WA,509
+99213,Po Box,Spokane,Spokane County,WA,509
+99214,Po Box,Spokane,Spokane County,WA,509
+99215,Po Box,Spokane,Spokane County,WA,509
+99216,Standard,Spokane,Spokane County,WA,509
+99217,Standard,Spokane,Spokane County,WA,509
+99218,Standard,Spokane,Spokane County,WA,509
+99219,Po Box,Spokane,Spokane County,WA,509
+99220,Po Box,Spokane,Spokane County,WA,509
+99223,Standard,Spokane,Spokane County,WA,509
+99224,Standard,Spokane,Spokane County,WA,509
+99228,Po Box,Spokane,Spokane County,WA,509
+99251,Unique,Spokane,Spokane County,WA,509
+99252,Unique,Spokane,Spokane County,WA,509
+99256,Unique,Spokane,Spokane County,WA,509
+99258,Unique,Spokane,Spokane County,WA,509
+99260,Unique,Spokane,Spokane County,WA,509
+99299,Unique,Spokane,Spokane County,WA,509
+99301,Standard,Pasco,Franklin County,WA,509
+99302,Po Box,Pasco,Franklin County,WA,509
+99320,Standard,Benton City,Benton County,WA,509
+99321,Standard,Beverly,Grant County,WA,509
+99322,Standard,Bickleton,Klickitat County,WA,509
+99323,Standard,Burbank,Walla Walla County,WA,509
+99324,Standard,College Place,Walla Walla County,WA,509
+99326,Standard,Connell,Franklin County,WA,509
+99328,Standard,Dayton,Columbia County,WA,509
+99329,Standard,Dixie,Walla Walla County,WA,509
+99330,Standard,Eltopia,Franklin County,WA,509
+99333,Po Box,Hooper,Whitman County,WA,509
+99335,Po Box,Kahlotus,Franklin County,WA,509
+99336,Standard,Kennewick,Benton County,WA,509
+99337,Standard,Kennewick,Benton County,WA,509
+99338,Standard,Kennewick,Benton County,WA,509
+99341,Standard,Lind,Adams County,WA,509
+99343,Standard,Mesa,Franklin County,WA,509
+99344,Standard,Othello,Adams County,WA,509
+99345,Po Box,Paterson,Benton County,WA,509
+99346,Po Box,Plymouth,Benton County,WA,509
+99347,Standard,Pomeroy,Garfield County,WA,509
+99348,Standard,Prescott,Walla Walla County,WA,509
+99349,Standard,Mattawa,Grant County,WA,509
+99350,Standard,Prosser,Benton County,WA,509
+99352,Standard,Richland,Benton County,WA,509
+99353,Standard,West Richland,Benton County,WA,509
+99354,Standard,Richland,Benton County,WA,509
+99356,Standard,Roosevelt,Klickitat County,WA,509
+99357,Standard,Royal City,Grant County,WA,509
+99359,Po Box,Starbuck,Columbia County,WA,509
+99360,Standard,Touchet,Walla Walla County,WA,509
+99361,Standard,Waitsburg,Walla Walla County,WA,509
+99362,Standard,Walla Walla,Walla Walla County,WA,509
+99363,Po Box,Wallula,Walla Walla County,WA,509
+99371,Standard,Washtucna,Adams County,WA,509
+99401,Standard,Anatone,Asotin County,WA,509
+99402,Standard,Asotin,Asotin County,WA,509
+99403,Standard,Clarkston,Asotin County,WA,509
