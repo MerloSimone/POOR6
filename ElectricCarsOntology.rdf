@@ -321,6 +321,22 @@
     
 
 
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#PrivateStation -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#PrivateStation">
+        <rdfs:subClassOf rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#PublicStation -->
+
+    <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#PublicStation">
+        <rdfs:subClassOf rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station -->
 
     <owl:Class rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station">
