@@ -1,0 +1,114 @@
+UNIVERSITÀ DEGLI STUDI DI PADOVA - DATABASE 2 COURSE - 2023/24
+GROUP PROJECT BY THE POOR6 GROUP: MERLO SIMONE, GOBBO RICCARDO, SPINOSA DIEGO.
+BELOW ARE THE QUERIES TO BE RUN ON THE INGESTED DATA, ALONG WITH THEIR TYPICAL USE.
+Selected columns may vary due to different usages (es. computation vs graph visualization)
+
+* 	LEGENDA:
+* AGI = Adjusted Gross Income, represents average family income for families residing in a certain ZIP.
+* ZIP = Postal code, here intended as a 5-digit code identifying the smallest territorial subdivision (of the state of Washington, US).
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 1: counts how many clean cars and how many not-clean cars are for every ZIP, showing also the ZIP's AGI to highlight an eventual correlation.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?zip ?agi ?clc ?nclc WHERE{
+    ?zip elec:hasAgi ?agi.
+    # Code below computes clean car count for each zipcode.
+    {
+        SELECT ?zip (COUNT(?car) AS ?clc) WHERE{
+            ?car elec:isRegisteredIn ?zip .
+            ?car rdf:type elec:CleanCar .
+        }
+        GROUP BY ?zip
+    }
+    # Code below computes non-clean car count for each zipcode.
+    {
+        SELECT ?zip (COUNT(?car) AS ?nclc) WHERE{
+            ?car elec:isRegisteredIn ?zip .
+            ?car rdf:type elec:NotCleanCar .
+        }
+        GROUP BY ?zip
+    }
+}
+ORDER BY DESC(?agi)
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 2: shows clean/not clean status for each model year found among registered cars. This is to eventually highlight a trend over time towards a broader share of clean cars, influenced both by maker's and customer's choices.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?year ?clc ?nclc WHERE{
+    # Below, the amount of registered clean "model years" is queried.
+    {
+        SELECT ?year (COUNT(?car) AS ?clc) WHERE{
+            ?moye elec:hasYear ?year .
+            ?car elec:hasModelYear ?moye .
+            ?car rdf:type elec:CleanCar .
+        }
+        GROUP BY ?year
+    }
+    # Below, the amount of registered non-clean "model years" is queried.
+    {
+        SELECT ?year (COUNT(?car) AS ?nclc) WHERE{
+            ?moye elec:hasYear ?year .
+            ?car elec:hasModelYear ?moye .
+            ?car rdf:type elec:NotCleanCar .
+        }
+        GROUP BY ?year
+    }
+}
+ORDER BY DESC(?year)
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 3: Outputs, for each ZIP, the most frequent model year found among its registered vehicles, along with the ZIP's AGI and the amount of such vehicles. This query was intended to highlight a possibile correlation between a higher AGI and a newer average model year.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?zip ?oagi ?oyear ?ocars WHERE {
+    #Here I retrive all zips, as a base.
+    ?zip rdf:type elec:ZipCode .
+    
+    #Below I retrieve ALL tuples (ZIP, AGI, YEAR, #CARS). To be filtered...
+	{
+        SELECT ?zip ?oagi ?oyear (COUNT(?ocar) as ?ocars) WHERE{
+            ?omoye elec:hasYear ?oyear .
+            ?ocar elec:hasModelYear ?omoye .
+            ?ocar elec:isRegisteredIn ?zip .
+            ?zip elec:hasAgi ?oagi .
+            #FILTER(?ozip = elec:98226)
+        }
+        GROUP BY ?zip ?oagi ?oyear
+    }
+    {
+        #Below, I compute for each ZIP the aboslute maximum number of cars it has for any model year.
+		SELECT ?zip (MAX(?cars) as ?mc) WHERE{
+            { #Below I retrieve all (ZIP, YEAR, #CARS) tuples == how many cars per model year each ZIP has.
+                SELECT ?zip ?year (COUNT(?car) as ?cars) WHERE{
+                    ?moye elec:hasYear ?year .
+                    ?car elec:hasModelYear ?moye .
+                    ?car elec:isRegisteredIn ?zip .
+                }
+                GROUP BY ?zip ?year    
+            }
+        }
+        GROUP BY ?zip
+    }
+    #Below, I filter the (ZIP, AGI, YEAR, #CARS) tuples in order to keep only a tuple for each ZIP: the one for which the corresponding model year had the most registrations.
+    FILTER( ?ocars = ?mc)
+		
+}
+ORDER BY DESC(?oagi)
+
+
+-------------------------------------------------------------------------------------------------------
