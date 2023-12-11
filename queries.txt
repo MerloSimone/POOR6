@@ -69,7 +69,7 @@ ORDER BY DESC(?year)
 
 -------------------------------------------------------------------------------------------------------
 
-#Query 3: Outputs, for each ZIP, the most frequent model year found among its registered vehicles, along with the ZIP's AGI and the amount of such vehicles. This query was intended to highlight a possibile correlation between a higher AGI and a newer average model year.
+#Query 3: Outputs, for each ZIP, the most frequent model year found among its registered vehicles, along with the ZIP's AGI and the amount of such vehicles. This query was intended to highlight possible EV growth among different AGIs.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -109,6 +109,43 @@ SELECT ?zip ?oagi ?oyear ?ocars WHERE {
 		
 }
 ORDER BY DESC(?oagi)
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 4: Outputs the amount of cars registered per model year. It is an overall indicator of how EV adoption is growing over time.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?year (COUNT(?car) as ?amount) WHERE{
+    ?car elec:hasModelYear ?moye .
+    ?moye elec:hasYear ?year .
+}
+GROUP BY ?year
+ORDER BY DESC(?amount)
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 5: outputs the average range of the model years of every year.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+SELECT ?year (AVG(?myrange) as ?avgrange) WHERE{
+
+	#Here I obtain the avg. range that each model year has.
+	SELECT ?moye ?year (AVG(?range) as ?myrange) WHERE { 
+	?moye elec:hasYear ?year .
+	?car elec:hasModelYear ?moye .
+	?car elec:hasRange ?range .
+	}
+	GROUP BY ?moye ?year
+
+}
+GROUP BY ?year
+ORDER BY DESC(?avgrange)
 
 
 -------------------------------------------------------------------------------------------------------
