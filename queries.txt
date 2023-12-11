@@ -240,3 +240,333 @@ SELECT ?City (AVG(?Agi) AS ?Agi) (SUM(?PublicStation) AS ?PublicStation) (SUM(?P
 }
 GROUP BY (?City)
 ORDER BY DESC (?Agi)
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 10: this query outputs the average AGI and the number of cars for each County.
+#Question/Purpose: Do richest Counties have more cars?
+#Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the number of cars and to verify that it is ordered in a descendent way as well.
+
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+
+SELECT ?county (AVG(?avgagi) AS ?avgagi) (COUNT(?car) AS ?carcount) WHERE{
+	?car elec:isRegisteredIn ?zip;
+		a elec:BEV.
+	?zip a elec:ZipCode;
+		elec:ofCity ?city.
+	?city elec:belongsTo ?county.
+	?county a elec:County.
+
+    FILTER(?county=?agicounty)
+
+    {
+        select ?agicounty (AVG(?agi) AS ?avgagi) where {
+        	?agicounty a elec:County.
+        	?city elec:belongsTo ?agicounty.
+       		?zipcode elec:ofCity ?city;
+                  elec:hasAgi ?agi.
+
+    	}
+        GROUP BY ?agicounty
+        ORDER BY asc(?agicounty)
+    }
+}
+GROUP BY ?county
+ORDER BY desc(?avgagi)
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 11: this query outputs the average AGI, the most popular maker and the number of cars (for that maker) for each County.
+#Question/Purpose: Which is the most popular car maker for each County? Do richest Counties prefer some maker?
+#Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the makers and try to understand if the first Counties prefer a particular maker. Furthermore it is possible to compare the most popular car makers of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car brands chosen.
+#NOTE: In the U.S.A. Tesla's cars are very diffused, we proposed also another version of this query excluding Tesla.
+
+
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+
+select ?ccounty ?avgagi ?cmaker ?carnumber where{
+    FILTER(?ccounty=?county && ?carnumber=?maxcarnum && ?ccounty=?agicounty)
+    {
+        select ?county (MAX(?carnumber) AS ?maxcarnum) where {
+            {
+                select ?county ?maker (COUNT(?car) AS ?carnumber) where {
+                    ?county a elec:County.
+                    ?city elec:belongsTo ?county.
+                    ?zipcode elec:ofCity ?city.
+                    ?car elec:isRegisteredIn ?zipcode.
+                    ?car elec:hasModelYear ?my.
+                    ?my elec:ofModel ?model.
+                    ?model elec:madeBy ?maker.
+
+                }
+                GROUP BY ?county ?maker
+                ORDER BY asc(?county) desc(?carnumber)
+			}
+		}
+		GROUP BY ?county
+    }
+    {
+        select ?ccounty ?cmaker (COUNT(?car) AS ?carnumber) where {
+                    ?ccounty a elec:County.
+                    ?city elec:belongsTo ?ccounty.
+                    ?zipcode elec:ofCity ?city.
+                    ?car elec:isRegisteredIn ?zipcode.
+                    ?car elec:hasModelYear ?my.
+                    ?my elec:ofModel ?model.
+                    ?model elec:madeBy ?cmaker.
+
+    	}
+        GROUP BY ?ccounty ?cmaker
+        ORDER BY asc(?ccounty) desc(?carnumber)
+    }
+
+    {
+        select ?agicounty (AVG(?agi) AS ?avgagi) where {
+                    ?agicounty a elec:County.
+                    ?city elec:belongsTo ?agicounty.
+                    ?zipcode elec:ofCity ?city;
+                             elec:hasAgi ?agi.
+
+    	}
+        GROUP BY ?agicounty
+        ORDER BY asc(?agicounty)
+    }
+}
+ORDER BY desc(?avgagi)
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 12: this query outputs the average AGI, the most popular maker and the number of cars (for that maker) for each County (excluding the maker 'Tesla').
+#Question/Purpose: Which is the most popular car maker for each County? Do richest Counties prefer some maker?
+#Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the makers and try to understand if the first Counties prefer a particular maker. Furthermore it is possible to compare the most popular car makers of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car brands chosen.
+#NOTE: In the U.S.A. Tesla's cars are very diffused, this query EXCLUDES TESLA; we proposed also another version of this query  NOT excluding Tesla.
+
+
+
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+
+select ?ccounty ?avgagi ?cmaker ?carnumber where{
+    FILTER(?ccounty=?county && ?carnumber=?maxcarnum && ?ccounty=?agicounty)
+    {
+        select ?county (MAX(?carnumber) AS ?maxcarnum) where {
+            {
+                select ?county ?maker (COUNT(?car) AS ?carnumber) where {
+                    ?county a elec:County.
+                    ?city elec:belongsTo ?county.
+                    ?zipcode elec:ofCity ?city.
+                    ?car elec:isRegisteredIn ?zipcode.
+                    ?car elec:hasModelYear ?my.
+                    ?my elec:ofModel ?model.
+                    ?model elec:madeBy ?maker.
+                    FILTER(?maker!= elec:Tesla)
+                }
+                GROUP BY ?county ?maker
+                ORDER BY asc(?county) desc(?carnumber)
+			}
+		}
+		GROUP BY ?county
+    }
+    {
+        select ?ccounty ?cmaker (COUNT(?car) AS ?carnumber) where {
+                    ?ccounty a elec:County.
+                    ?city elec:belongsTo ?ccounty.
+                    ?zipcode elec:ofCity ?city.
+                    ?car elec:isRegisteredIn ?zipcode.
+                    ?car elec:hasModelYear ?my.
+                    ?my elec:ofModel ?model.
+                    ?model elec:madeBy ?cmaker.
+					FILTER(?cmaker!= elec:Tesla)
+    	}
+        GROUP BY ?ccounty ?cmaker
+        ORDER BY asc(?ccounty) desc(?carnumber)
+    }
+
+    {
+        select ?agicounty (AVG(?agi) AS ?avgagi) where {
+                    ?agicounty a elec:County.
+                    ?city elec:belongsTo ?agicounty.
+                    ?zipcode elec:ofCity ?city;
+                             elec:hasAgi ?agi.
+
+    	}
+        GROUP BY ?agicounty
+        ORDER BY asc(?agicounty)
+    }
+}
+ORDER BY desc(?avgagi)
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 13: this query outputs the average AGI and the average range of PLUG-IN (PHEV) cars for each County.
+#Question/Purpose: Do richest Counties have Plug-In cars with higher range?
+#Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the cars' range average and to verify that it is ordered in a descendent way as well.
+
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+
+select ?county (AVG(?avgagi) AS ?avgagi) (AVG(?range) AS ?avgrange) where {
+	?county a elec:County.
+	?city elec:belongsTo ?county.
+    ?zipcode elec:ofCity ?city.
+    ?car a elec:PHEV;
+         elec:isRegisteredIn ?zipcode;
+         elec:hasRange ?range.
+
+	FILTER(?county=?agicounty)
+
+    {
+        select ?agicounty (AVG(?agi) AS ?avgagi) where {
+        	?agicounty a elec:County.
+        	?city elec:belongsTo ?agicounty.
+       		?zipcode elec:ofCity ?city;
+                  elec:hasAgi ?agi.
+
+    	}
+        GROUP BY ?agicounty
+        ORDER BY asc(?agicounty)
+    }
+
+}
+GROUP BY ?county
+ORDER BY desc(?avgagi)
+
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 14: this query outputs the average AGI, the most popular car model and the number of cars (of that model) for each County.
+#Question/Purpose: Which is the most popular car model for each County? Do richest Counties prefer some models?
+#Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the car models and try to understand if the first Counties prefer a particular model. Furthermore it is possible to compare the most popular car models of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car models chosen.
+#NOTE: In the U.S.A. Tesla's cars are very diffused, we proposed also another version of this query excluding Tesla.
+
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+
+select ?ccounty ?avgagi ?cmaker ?cmodel ?carnumber where{
+    FILTER(?ccounty=?county && ?carnumber=?maxcarnum && ?ccounty=?agicounty)
+    {
+        select ?county (MAX(?carnumber) AS ?maxcarnum) where {
+            {
+                select ?county ?maker ?model (COUNT(?car) AS ?carnumber) where {
+                    ?county a elec:County.
+                    ?city elec:belongsTo ?county.
+                    ?zipcode elec:ofCity ?city.
+                    ?car elec:isRegisteredIn ?zipcode.
+                    ?car elec:hasModelYear ?my.
+                    ?my elec:ofModel ?model.
+					?model elec:madeBy ?maker.
+                }
+                GROUP BY ?county ?maker ?model
+                ORDER BY asc(?county) desc(?carnumber)
+			}
+		}
+		GROUP BY ?county
+    }
+    {
+        select ?ccounty ?cmaker ?cmodel (COUNT(?car) AS ?carnumber) where {
+                    ?ccounty a elec:County.
+                    ?city elec:belongsTo ?ccounty.
+                    ?zipcode elec:ofCity ?city.
+                    ?car elec:isRegisteredIn ?zipcode.
+                    ?car elec:hasModelYear ?my.
+                    ?my elec:ofModel ?cmodel.
+					?cmodel elec:madeBy ?cmaker.
+    	}
+        GROUP BY ?ccounty ?cmaker ?cmodel
+        ORDER BY asc(?ccounty) desc(?carnumber)
+    }
+
+    {
+        select ?agicounty (AVG(?agi) AS ?avgagi) where {
+                    ?agicounty a elec:County.
+                    ?city elec:belongsTo ?agicounty.
+                    ?zipcode elec:ofCity ?city;
+                             elec:hasAgi ?agi.
+
+    	}
+        GROUP BY ?agicounty
+        ORDER BY asc(?agicounty)
+    }
+}
+ORDER BY desc(?avgagi)
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 15: this query outputs the average AGI, the most popular car brand and the number of cars (of that model) for each County (excluding the maker 'Tesla' and the related models).
+#Question/Purpose: Which is the most popular car model for each County? Do richest Counties prefer some car models?
+#Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the car models and try to understand if the first Counties prefer a particular model. Furthermore it is possible to compare the most popular car models of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car models chosen.
+#NOTE: In the U.S.A. Tesla's cars are very diffused, this query EXCLUDES TESLA; we proposed also another version of this query  NOT excluding Tesla.
+
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+
+select ?ccounty ?avgagi ?cmaker ?cmodel ?carnumber where{
+    FILTER(?ccounty=?county && ?carnumber=?maxcarnum && ?ccounty=?agicounty)
+    {
+        select ?county (MAX(?carnumber) AS ?maxcarnum) where {
+            {
+                select ?county ?maker ?model (COUNT(?car) AS ?carnumber) where {
+                    ?county a elec:County.
+                    ?city elec:belongsTo ?county.
+                    ?zipcode elec:ofCity ?city.
+                    ?car elec:isRegisteredIn ?zipcode.
+                    ?car elec:hasModelYear ?my.
+                    ?my elec:ofModel ?model.
+					?model elec:madeBy ?maker.
+                    FILTER(?maker!= elec:Tesla)
+                }
+                GROUP BY ?county ?maker ?model
+                ORDER BY asc(?county) desc(?carnumber)
+			}
+		}
+		GROUP BY ?county
+    }
+    {
+        select ?ccounty ?cmaker ?cmodel (COUNT(?car) AS ?carnumber) where {
+                    ?ccounty a elec:County.
+                    ?city elec:belongsTo ?ccounty.
+                    ?zipcode elec:ofCity ?city.
+                    ?car elec:isRegisteredIn ?zipcode.
+                    ?car elec:hasModelYear ?my.
+                    ?my elec:ofModel ?cmodel.
+					?cmodel elec:madeBy ?cmaker.
+                    FILTER(?cmaker!= elec:Tesla)
+    	}
+        GROUP BY ?ccounty ?cmaker ?cmodel
+        ORDER BY asc(?ccounty) desc(?carnumber)
+    }
+
+    {
+        select ?agicounty (AVG(?agi) AS ?avgagi) where {
+                    ?agicounty a elec:County.
+                    ?city elec:belongsTo ?agicounty.
+                    ?zipcode elec:ofCity ?city;
+                             elec:hasAgi ?agi.
+
+    	}
+        GROUP BY ?agicounty
+        ORDER BY asc(?agicounty)
+    }
+}
+ORDER BY desc(?avgagi)
+
+
