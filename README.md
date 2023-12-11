@@ -11,6 +11,8 @@ More specifically, we have chosen to work on three tightly linked **datasets**:
 
 The project aims at linking these 3 data sources to discover whether there are some interesting correlations between EV diffusion, EV charging station density and average income in the scope of the territory of state of Washington. We are focusing on this region since we have found a particularly good data quality and availability, and also because its scenario can resemble the one found in most other US states or even other first world countries worldwide.
 
+In order to properly link these datasets we exploited a fourth data source that provided us data regarding the ZipCodes of the state of Washington.
+
 
 ### Repository Structure
 The following tree represents the repository structure:
