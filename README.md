@@ -11,7 +11,35 @@ More specifically, we have chosen to work on three tightly linked **datasets**:
 
 The project aims at linking these 3 data sources to discover whether there are some interesting correlations between EV diffusion, EV charging station density and average income in the scope of the territory of state of Washington. We are focusing on this region since we have found a particularly good data quality and availability, and also because its scenario can resemble the one found in most other US states or even other first world countries worldwide.
 
-### Technical information
+
+###Repository Structure
+The following tree represents the repository structure:
+```
+.
+├── src_data/
+│   ├── 20zpallnoagi-info.txt
+│   ├── 20zpallnoagi.csv
+│   ├── 20zpdoc.docx
+│   ├── Electric_Vehicle_Population_Data.csv
+│   ├── stations_pub+priv_open.csv
+│   └── wa_zips_cities_counties.csv
+├── clean_data/
+├── output/
+├── ElectricCarsOntology.drawio
+├── ElectricCarsOntology.rdf
+├── POOR6.ipynb
+└── queries.txt
+
+```
+src_data: contains all the source files from which we got the data.
+clean_data: will contain a cleaned version of the source data (if not present the folder will be created running the python notebook).
+output: will contain the output files of the python notebook (in turtle format), to be ingested in the graph database (if not present the folder will be created running the python notebook).
+ElectricCarsOntology.drawio: the schema of the ontology.
+ElectricCarsOntology.rdf: the ontology to be imported in the graph database.
+POOR6.ipynb: the python notebook that performs the cleaning and processing if the data.
+queries.txt: the file containing our proposed queries.
+
+### Technical Information
 Our workflow and elaboration pipeline is as follows:
 - Data was acquired: downloaded as CSV files from the abovementioned sources.
  Those files are also contained in the *src_data* folder of this repository.
@@ -22,3 +50,4 @@ Our workflow and elaboration pipeline is as follows:
 - Querying GraphDB for insights.
 
 The queries that we have selected for analysis can be found in the *queries.txt* file of this repository.
+
