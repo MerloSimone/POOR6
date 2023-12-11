@@ -31,13 +31,13 @@ The following tree represents the repository structure:
 └── queries.txt
 
 ```
--src_data: contains all the source files from which we got the data.
--clean_data: will contain a cleaned version of the source data (if not present the folder will be created running the python notebook).
--output: will contain the output files of the python notebook (in turtle format), to be ingested in the graph database (if not present the folder will be created running the python notebook).
--ElectricCarsOntology.drawio: the schema of the ontology.
--ElectricCarsOntology.rdf: the ontology to be imported in the graph database.
--POOR6.ipynb: the python notebook that performs the cleaning and processing if the data.
--queries.txt: the file containing our proposed queries.
+- src_data: contains all the source files from which we got the data.
+- clean_data: will contain a cleaned version of the source data (if not present the folder will be created running the python notebook).
+- output: will contain the output files of the python notebook (in turtle format), to be ingested in the graph database (if not present the folder will be created running the python notebook).
+- ElectricCarsOntology.drawio: the schema of the ontology.
+- ElectricCarsOntology.rdf: the ontology to be imported in the graph database.
+- POOR6.ipynb: the python notebook that performs the cleaning and processing if the data.
+- queries.txt: the file containing our proposed queries.
 
 ### Technical Information
 Our workflow and elaboration pipeline is as follows:
