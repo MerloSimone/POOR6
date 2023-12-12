@@ -40,7 +40,7 @@ The following tree represents the repository structure:
 - output: will contain the output files of the python notebook (in turtle format), to be ingested in the graph database (if not present the folder will be created running the python notebook).
 - ElectricCarsOntology.drawio: the schema of the ontology.
 - ElectricCarsOntology.pdf: pdf version of the schema of the ontology.
-- - ElectricCarsOntology.png: png version of the schema of the ontology.
+- ElectricCarsOntology.png: png version of the schema of the ontology.
 - ElectricCarsOntology.rdf: the ontology to be imported in the graph database.
 - POOR6.ipynb: the python notebook that performs the cleaning and processing if the data.
 - queries.txt: the file containing our proposed queries.
