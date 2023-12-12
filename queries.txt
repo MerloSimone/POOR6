@@ -137,9 +137,9 @@ SELECT ?year (AVG(?myrange) as ?avgrange) WHERE{
 
 	#Here I obtain the avg. range that each model year has.
 	SELECT ?moye ?year (AVG(?range) as ?myrange) WHERE { 
-	?moye elec:hasYear ?year .
-	?car elec:hasModelYear ?moye .
-	?car elec:hasRange ?range .
+        ?moye elec:hasYear ?year .
+        ?car elec:hasModelYear ?moye .
+        ?car elec:hasRange ?range .
 	}
 	GROUP BY ?moye ?year
 
@@ -218,29 +218,28 @@ ORDER BY ASC (?City)
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 
-SELECT ?City (AVG(?Agi) AS ?Agi) (SUM(?PublicStation) AS ?PublicStation) (SUM(?PrivateStation) AS ?PrivateStation){
-    ?ZipCode elec:ofCity ?City 
-    {
-        SELECT ?ZipCode (AVG(?Agi) AS ?Agi) 
-        (COUNT(?PublicStation) AS ?PublicStation) 
-        (COUNT(?PrivateStation) AS ?PrivateStation) WHERE {
-            ?ZipCode elec:hasAgi ?Agi;
-                     elec:ofCity ?City .
-            {
-                ?PublicStation a elec:PublicStation;
-                               elec:locatedIn ?ZipCode
-            }
-            UNION
-            {
-                ?PrivateStation a elec:PrivateStation;
-                                elec:locatedIn ?ZipCode
-            }
+SELECT ?City (AVG(?Agi) AS ?Agi) (COUNT(?PublicStation) AS ?PublicStation) (COUNT(?PrivateStation) AS ?PrivateStation) WHERE {
+    ?ZipCode a elec:ZipCode;
+             elec:ofCity ?City;
+             elec:hasAgi ?Agi
+
+    OPTIONAL {
+        SELECT ?ZipCode (COUNT(?public) AS ?PublicStation) WHERE {
+            ?public a elec:PublicStation; 
+                           elec:locatedIn ?ZipCode.
         }
-        GROUP BY (?ZipCode)
-        ORDER BY DESC (?City)   
+     	GROUP BY ?ZipCode
     }
+
+    OPTIONAL {
+        SELECT ?ZipCode (COUNT(?private) AS ?PrivateStation) WHERE {
+            ?private a elec:PrivateStation; 
+                           elec:locatedIn ?ZipCode.
+        }
+     	GROUP BY ?ZipCode 
+    } 
 }
-GROUP BY (?City)
+GROUP BY ?City
 ORDER BY DESC (?Agi)
 
 
