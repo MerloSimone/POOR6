@@ -238,36 +238,7 @@ ORDER BY DESC (?AvgWage)
 
 -------------------------------------------------------------------------------------------------------
 
-#Query 1: counts how many clean cars and how many not-clean cars are for every ZIP, showing also the ZIP's AGI to highlight an eventual correlation.
-
-PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-SELECT ?zip ?agi ?clc ?nclc WHERE{
-    ?zip elec:hasAgi ?agi.
-    # Code below computes clean car count for each zipcode.
-    {
-        SELECT ?zip (COUNT(?car) AS ?clc) WHERE{
-            ?car elec:isRegisteredIn ?zip .
-            ?car rdf:type elec:CleanCar .
-        }
-        GROUP BY ?zip
-    }
-    # Code below computes non-clean car count for each zipcode.
-    {
-        SELECT ?zip (COUNT(?car) AS ?nclc) WHERE{
-            ?car elec:isRegisteredIn ?zip .
-            ?car rdf:type elec:NotCleanCar .
-        }
-        GROUP BY ?zip
-    }
-}
-ORDER BY DESC(?agi)
-
-
--------------------------------------------------------------------------------------------------------
-
-#Query 2: shows clean/not clean status for each model year found among registered cars. This is to eventually highlight a trend over time towards a broader share of clean cars, influenced both by maker's and customer's choices.
+[7]#Query 2: shows clean/not clean car count for each model year's year. This is to eventually highlight a trend over time towards a broader share of clean cars, influenced both by maker's and customer's choices.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -294,6 +265,69 @@ SELECT ?year ?clc ?nclc WHERE{
     }
 }
 ORDER BY DESC(?year)
+
+
+-------------------------------------------------------------------------------------------------------
+
+[8]#Query 10: this query outputs the average AGI and the number of cars for each County.
+#Question/Purpose: Do richest Counties have more cars?
+#Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the number of cars and to verify that it is ordered in a descendent way as well.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+SELECT ?county (AVG(?avgagi) AS ?avgagi) (COUNT(?car) AS ?carcount) WHERE{
+	?car elec:isRegisteredIn ?zip;
+		a elec:BEV.
+	?zip a elec:ZipCode;
+		elec:ofCity ?city.
+	?city elec:belongsTo ?county.
+	?county a elec:County.
+
+    FILTER(?county=?agicounty)
+
+    {
+        select ?agicounty (AVG(?agi) AS ?avgagi) where {
+        	?agicounty a elec:County.
+        	?city elec:belongsTo ?agicounty.
+       		?zipcode elec:ofCity ?city;
+                  elec:hasAgi ?agi.
+
+    	}
+        GROUP BY ?agicounty
+        ORDER BY asc(?agicounty)
+    }
+}
+GROUP BY ?county
+ORDER BY desc(?avgagi)
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 1: counts how many clean cars and how many not-clean cars are for every ZIP, showing also the ZIP's AGI to highlight an eventual correlation.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+SELECT ?zip ?agi ?clc ?nclc WHERE{
+    ?zip elec:hasAgi ?agi.
+    # Code below computes clean car count for each zipcode.
+    {
+        SELECT ?zip (COUNT(?car) AS ?clc) WHERE{
+            ?car elec:isRegisteredIn ?zip .
+            ?car rdf:type elec:CleanCar .
+        }
+        GROUP BY ?zip
+    }
+    # Code below computes non-clean car count for each zipcode.
+    {
+        SELECT ?zip (COUNT(?car) AS ?nclc) WHERE{
+            ?car elec:isRegisteredIn ?zip .
+            ?car rdf:type elec:NotCleanCar .
+        }
+        GROUP BY ?zip
+    }
+}
+ORDER BY DESC(?agi)
 
 
 -------------------------------------------------------------------------------------------------------
@@ -362,40 +396,6 @@ SELECT ?County (COUNT(?battery) AS ?BatteryCar) (COUNT(?plugin) AS ?PluginCar) W
 }
 GROUP BY (?County)
 ORDER BY ASC (?County)
-
-
--------------------------------------------------------------------------------------------------------
-
-#Query 10: this query outputs the average AGI and the number of cars for each County.
-#Question/Purpose: Do richest Counties have more cars?
-#Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the number of cars and to verify that it is ordered in a descendent way as well.
-
-PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
-SELECT ?county (AVG(?avgagi) AS ?avgagi) (COUNT(?car) AS ?carcount) WHERE{
-	?car elec:isRegisteredIn ?zip;
-		a elec:BEV.
-	?zip a elec:ZipCode;
-		elec:ofCity ?city.
-	?city elec:belongsTo ?county.
-	?county a elec:County.
-
-    FILTER(?county=?agicounty)
-
-    {
-        select ?agicounty (AVG(?agi) AS ?avgagi) where {
-        	?agicounty a elec:County.
-        	?city elec:belongsTo ?agicounty.
-       		?zipcode elec:ofCity ?city;
-                  elec:hasAgi ?agi.
-
-    	}
-        GROUP BY ?agicounty
-        ORDER BY asc(?agicounty)
-    }
-}
-GROUP BY ?county
-ORDER BY desc(?avgagi)
 
 
 -------------------------------------------------------------------------------------------------------
