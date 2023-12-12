@@ -170,7 +170,7 @@ ORDER BY DESC(?avgrange)
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 
-SELECT ?City (AVG(?Agi) AS ?Agi) (COUNT(?PublicStation) AS ?PublicStation) (COUNT(?PrivateStation) AS ?PrivateStation) WHERE {
+SELECT ?City (AVG(?Agi) AS ?Agi) (SUM(?PublicStation) AS ?PublicStation) (SUM(?PrivateStation) AS ?PrivateStation) WHERE {
     ?ZipCode a elec:ZipCode;
              elec:ofCity ?City;
              elec:hasAgi ?Agi
