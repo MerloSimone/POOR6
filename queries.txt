@@ -153,6 +153,7 @@ ORDER BY DESC(?avgrange)
 #Query 6: shows which type of electric car (battery or plug-in) is purchased the most by county. The aim is to understand customer preferences and can be used to make sales or advertising campaigns more accurate
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
 SELECT ?County (COUNT(?battery) AS ?BatteryCar) (COUNT(?plugin) AS ?PluginCar) WHERE {
     ?ZipCode elec:ofCity ?City .
     ?City elec:belongsTo ?County
@@ -176,6 +177,7 @@ ORDER BY ASC (?County)
 #Query 7: shows the amount of electric stations and cars (both full electric and plug-in) registered in each county. This can be useful to understand a possible relation between the presence of electric cars and installed electric station. 
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
 SELECT ?County (COUNT(?Station) AS ?Station) (COUNT(?Car) as ?Car) WHERE { 
     ?ZipCode elec:ofCity ?City .
     ?City elec:belongsTo ?County .
@@ -248,9 +250,7 @@ ORDER BY DESC (?Agi)
 #Question/Purpose: Do richest Counties have more cars?
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the number of cars and to verify that it is ordered in a descendent way as well.
 
-
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
 
 SELECT ?county (AVG(?avgagi) AS ?avgagi) (COUNT(?car) AS ?carcount) WHERE{
 	?car elec:isRegisteredIn ?zip;
@@ -285,10 +285,7 @@ ORDER BY desc(?avgagi)
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the makers and try to understand if the first Counties prefer a particular maker. Furthermore it is possible to compare the most popular car makers of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car brands chosen.
 #NOTE: In the U.S.A. Tesla's cars are very diffused, we proposed also another version of this query excluding Tesla.
 
-
-
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
 
 select ?ccounty ?avgagi ?cmaker ?carnumber where{
     FILTER(?ccounty=?county && ?carnumber=?maxcarnum && ?ccounty=?agicounty)
@@ -341,7 +338,6 @@ select ?ccounty ?avgagi ?cmaker ?carnumber where{
 ORDER BY desc(?avgagi)
 
 
-
 -------------------------------------------------------------------------------------------------------
 
 #Query 12: this query outputs the average AGI, the most popular maker and the number of cars (for that maker) for each County (excluding the maker 'Tesla').
@@ -349,11 +345,7 @@ ORDER BY desc(?avgagi)
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the makers and try to understand if the first Counties prefer a particular maker. Furthermore it is possible to compare the most popular car makers of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car brands chosen.
 #NOTE: In the U.S.A. Tesla's cars are very diffused, this query EXCLUDES TESLA; we proposed also another version of this query  NOT excluding Tesla.
 
-
-
-
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
 
 select ?ccounty ?avgagi ?cmaker ?carnumber where{
     FILTER(?ccounty=?county && ?carnumber=?maxcarnum && ?ccounty=?agicounty)
@@ -406,17 +398,13 @@ select ?ccounty ?avgagi ?cmaker ?carnumber where{
 ORDER BY desc(?avgagi)
 
 
-
-
 -------------------------------------------------------------------------------------------------------
 
 #Query 13: this query outputs the average AGI and the average range of PLUG-IN (PHEV) cars for each County.
 #Question/Purpose: Do richest Counties have Plug-In cars with higher range?
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the cars' range average and to verify that it is ordered in a descendent way as well.
 
-
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
 
 select ?county (AVG(?avgagi) AS ?avgagi) (AVG(?range) AS ?avgrange) where {
 	?county a elec:County.
@@ -445,8 +433,6 @@ GROUP BY ?county
 ORDER BY desc(?avgagi)
 
 
-
-
 -------------------------------------------------------------------------------------------------------
 
 #Query 14: this query outputs the average AGI, the most popular car model and the number of cars (of that model) for each County.
@@ -454,9 +440,7 @@ ORDER BY desc(?avgagi)
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the car models and try to understand if the first Counties prefer a particular model. Furthermore it is possible to compare the most popular car models of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car models chosen.
 #NOTE: In the U.S.A. Tesla's cars are very diffused, we proposed also another version of this query excluding Tesla.
 
-
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
 
 select ?ccounty ?avgagi ?cmaker ?cmodel ?carnumber where{
     FILTER(?ccounty=?county && ?carnumber=?maxcarnum && ?ccounty=?agicounty)
@@ -507,7 +491,6 @@ select ?ccounty ?avgagi ?cmaker ?cmodel ?carnumber where{
 ORDER BY desc(?avgagi)
 
 
-
 -------------------------------------------------------------------------------------------------------
 
 #Query 15: this query outputs the average AGI, the most popular car brand and the number of cars (of that model) for each County (excluding the maker 'Tesla' and the related models).
@@ -515,9 +498,7 @@ ORDER BY desc(?avgagi)
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the car models and try to understand if the first Counties prefer a particular model. Furthermore it is possible to compare the most popular car models of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car models chosen.
 #NOTE: In the U.S.A. Tesla's cars are very diffused, this query EXCLUDES TESLA; we proposed also another version of this query  NOT excluding Tesla.
 
-
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
 
 select ?ccounty ?avgagi ?cmaker ?cmodel ?carnumber where{
     FILTER(?ccounty=?county && ?carnumber=?maxcarnum && ?ccounty=?agicounty)
@@ -568,5 +549,3 @@ select ?ccounty ?avgagi ?cmaker ?cmodel ?carnumber where{
     }
 }
 ORDER BY desc(?avgagi)
-
-
