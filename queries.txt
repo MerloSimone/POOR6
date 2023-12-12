@@ -197,6 +197,47 @@ ORDER BY DESC (?Agi)
 
 -------------------------------------------------------------------------------------------------------
 
+[5]#Query 7: shows the amount of electric stations and cars (both full electric and plug-in) registered in each county. This can be useful to understand a possible relation between the presence of electric cars and installed electric station. 
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+SELECT ?County (COUNT(?Station) AS ?Station) (COUNT(?Car) as ?Car) WHERE { 
+    ?ZipCode elec:ofCity ?City .
+    ?City elec:belongsTo ?County .
+    {
+        ?Station elec:locatedIn ?ZipCode .
+    }
+    UNION 
+    {
+        ?Car elec:isRegisteredIn ?ZipCode .
+    }
+}
+GROUP BY (?County)
+ORDER BY ASC (?City)
+
+
+-------------------------------------------------------------------------------------------------------
+
+[6]#Query 8: shows the Washington cities, their AGI and the number of cars registered in each city. The result can be used to estimate a trend on purchased cars considering the average family income living in a particular city. 
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+SELECT ?City (AVG(?wage) AS ?AvgWage) (COUNT(?Car) AS ?Car) WHERE { 
+    ?ZipCode elec:ofCity ?City
+    {
+    	?ZipCode elec:hasAgi ?wage .
+    } 
+    UNION {
+	    ?Car elec:isRegisteredIn ?ZipCode .
+    }
+} 
+GROUP BY (?City)
+HAVING(?AvgWage > 0)
+ORDER BY DESC (?AvgWage)
+
+
+-------------------------------------------------------------------------------------------------------
+
 #Query 1: counts how many clean cars and how many not-clean cars are for every ZIP, showing also the ZIP's AGI to highlight an eventual correlation.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
@@ -321,46 +362,6 @@ SELECT ?County (COUNT(?battery) AS ?BatteryCar) (COUNT(?plugin) AS ?PluginCar) W
 }
 GROUP BY (?County)
 ORDER BY ASC (?County)
-
-
--------------------------------------------------------------------------------------------------------
-
-#Query 7: shows the amount of electric stations and cars (both full electric and plug-in) registered in each county. This can be useful to understand a possible relation between the presence of electric cars and installed electric station. 
-
-PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
-SELECT ?County (COUNT(?Station) AS ?Station) (COUNT(?Car) as ?Car) WHERE { 
-    ?ZipCode elec:ofCity ?City .
-    ?City elec:belongsTo ?County .
-    {
-        ?Station elec:locatedIn ?ZipCode .
-    }
-    UNION 
-    {
-        ?Car elec:isRegisteredIn ?ZipCode .
-    }
-}
-GROUP BY (?County)
-ORDER BY ASC (?City)
-
-
--------------------------------------------------------------------------------------------------------
-
-#Query 8: shows the Washington cities, their AGI and the number of cars registered in each city. The result can be used to estimate a trend on purchased cars considering the average family income living in a particular city. 
-
-PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
-SELECT ?City (AVG(?wage) AS ?AvgWage) (COUNT(?Car) AS ?Car) WHERE { 
-    ?ZipCode elec:ofCity ?City
-    {
-    	?ZipCode elec:hasAgi ?wage .
-    } 
-    UNION {
-	    ?Car elec:isRegisteredIn ?ZipCode .
-    }
-} 
-GROUP BY (?City)
-ORDER BY ASC (?City)
 
 
 -------------------------------------------------------------------------------------------------------
