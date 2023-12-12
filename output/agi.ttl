@@ -1,0 +1,1001 @@
+@prefix elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+elec:98001 elec:hasAgi "40765"^^xsd:int .
+
+elec:98002 elec:hasAgi "27573"^^xsd:int .
+
+elec:98003 elec:hasAgi "32259"^^xsd:int .
+
+elec:98004 elec:hasAgi "239631"^^xsd:int .
+
+elec:98005 elec:hasAgi "117231"^^xsd:int .
+
+elec:98006 elec:hasAgi "111188"^^xsd:int .
+
+elec:98007 elec:hasAgi "69292"^^xsd:int .
+
+elec:98008 elec:hasAgi "93669"^^xsd:int .
+
+elec:98010 elec:hasAgi "62662"^^xsd:int .
+
+elec:98011 elec:hasAgi "69199"^^xsd:int .
+
+elec:98012 elec:hasAgi "60641"^^xsd:int .
+
+elec:98014 elec:hasAgi "77487"^^xsd:int .
+
+elec:98019 elec:hasAgi "68905"^^xsd:int .
+
+elec:98020 elec:hasAgi "100727"^^xsd:int .
+
+elec:98021 elec:hasAgi "70533"^^xsd:int .
+
+elec:98022 elec:hasAgi "48963"^^xsd:int .
+
+elec:98023 elec:hasAgi "41562"^^xsd:int .
+
+elec:98024 elec:hasAgi "83613"^^xsd:int .
+
+elec:98026 elec:hasAgi "59103"^^xsd:int .
+
+elec:98027 elec:hasAgi "91358"^^xsd:int .
+
+elec:98028 elec:hasAgi "71076"^^xsd:int .
+
+elec:98029 elec:hasAgi "92257"^^xsd:int .
+
+elec:98030 elec:hasAgi "32831"^^xsd:int .
+
+elec:98031 elec:hasAgi "36723"^^xsd:int .
+
+elec:98032 elec:hasAgi "33665"^^xsd:int .
+
+elec:98033 elec:hasAgi "187933"^^xsd:int .
+
+elec:98034 elec:hasAgi "81474"^^xsd:int .
+
+elec:98036 elec:hasAgi "47505"^^xsd:int .
+
+elec:98037 elec:hasAgi "43843"^^xsd:int .
+
+elec:98038 elec:hasAgi "55097"^^xsd:int .
+
+elec:98039 elec:hasAgi "748893"^^xsd:int .
+
+elec:98040 elec:hasAgi "206897"^^xsd:int .
+
+elec:98042 elec:hasAgi "46214"^^xsd:int .
+
+elec:98043 elec:hasAgi "44319"^^xsd:int .
+
+elec:98045 elec:hasAgi "74622"^^xsd:int .
+
+elec:98047 elec:hasAgi "30237"^^xsd:int .
+
+elec:98051 elec:hasAgi "63829"^^xsd:int .
+
+elec:98052 elec:hasAgi "104401"^^xsd:int .
+
+elec:98053 elec:hasAgi "113543"^^xsd:int .
+
+elec:98055 elec:hasAgi "42796"^^xsd:int .
+
+elec:98056 elec:hasAgi "65018"^^xsd:int .
+
+elec:98057 elec:hasAgi "45670"^^xsd:int .
+
+elec:98058 elec:hasAgi "48364"^^xsd:int .
+
+elec:98059 elec:hasAgi "67338"^^xsd:int .
+
+elec:98065 elec:hasAgi "81073"^^xsd:int .
+
+elec:98070 elec:hasAgi "65917"^^xsd:int .
+
+elec:98072 elec:hasAgi "91062"^^xsd:int .
+
+elec:98074 elec:hasAgi "124931"^^xsd:int .
+
+elec:98075 elec:hasAgi "124724"^^xsd:int .
+
+elec:98077 elec:hasAgi "123713"^^xsd:int .
+
+elec:98087 elec:hasAgi "42817"^^xsd:int .
+
+elec:98092 elec:hasAgi "42918"^^xsd:int .
+
+elec:98101 elec:hasAgi "257397"^^xsd:int .
+
+elec:98102 elec:hasAgi "134395"^^xsd:int .
+
+elec:98103 elec:hasAgi "98316"^^xsd:int .
+
+elec:98104 elec:hasAgi "98639"^^xsd:int .
+
+elec:98105 elec:hasAgi "127182"^^xsd:int .
+
+elec:98106 elec:hasAgi "49607"^^xsd:int .
+
+elec:98107 elec:hasAgi "95249"^^xsd:int .
+
+elec:98108 elec:hasAgi "45088"^^xsd:int .
+
+elec:98109 elec:hasAgi "130936"^^xsd:int .
+
+elec:98110 elec:hasAgi "118406"^^xsd:int .
+
+elec:98112 elec:hasAgi "206447"^^xsd:int .
+
+elec:98115 elec:hasAgi "92722"^^xsd:int .
+
+elec:98116 elec:hasAgi "90928"^^xsd:int .
+
+elec:98117 elec:hasAgi "89744"^^xsd:int .
+
+elec:98118 elec:hasAgi "52144"^^xsd:int .
+
+elec:98119 elec:hasAgi "121779"^^xsd:int .
+
+elec:98121 elec:hasAgi "150993"^^xsd:int .
+
+elec:98122 elec:hasAgi "98592"^^xsd:int .
+
+elec:98125 elec:hasAgi "61215"^^xsd:int .
+
+elec:98126 elec:hasAgi "65226"^^xsd:int .
+
+elec:98133 elec:hasAgi "52359"^^xsd:int .
+
+elec:98134 elec:hasAgi "161615"^^xsd:int .
+
+elec:98136 elec:hasAgi "93512"^^xsd:int .
+
+elec:98144 elec:hasAgi "80600"^^xsd:int .
+
+elec:98146 elec:hasAgi "46338"^^xsd:int .
+
+elec:98148 elec:hasAgi "37400"^^xsd:int .
+
+elec:98155 elec:hasAgi "61477"^^xsd:int .
+
+elec:98164 elec:hasAgi "203437"^^xsd:int .
+
+elec:98166 elec:hasAgi "63968"^^xsd:int .
+
+elec:98168 elec:hasAgi "32519"^^xsd:int .
+
+elec:98177 elec:hasAgi "100797"^^xsd:int .
+
+elec:98178 elec:hasAgi "41675"^^xsd:int .
+
+elec:98188 elec:hasAgi "35278"^^xsd:int .
+
+elec:98198 elec:hasAgi "39968"^^xsd:int .
+
+elec:98199 elec:hasAgi "122876"^^xsd:int .
+
+elec:98201 elec:hasAgi "40670"^^xsd:int .
+
+elec:98203 elec:hasAgi "42371"^^xsd:int .
+
+elec:98204 elec:hasAgi "29674"^^xsd:int .
+
+elec:98208 elec:hasAgi "42691"^^xsd:int .
+
+elec:98220 elec:hasAgi "35883"^^xsd:int .
+
+elec:98221 elec:hasAgi "60931"^^xsd:int .
+
+elec:98223 elec:hasAgi "41465"^^xsd:int .
+
+elec:98225 elec:hasAgi "48487"^^xsd:int .
+
+elec:98226 elec:hasAgi "44946"^^xsd:int .
+
+elec:98229 elec:hasAgi "49607"^^xsd:int .
+
+elec:98230 elec:hasAgi "44457"^^xsd:int .
+
+elec:98232 elec:hasAgi "56039"^^xsd:int .
+
+elec:98233 elec:hasAgi "35338"^^xsd:int .
+
+elec:98236 elec:hasAgi "61419"^^xsd:int .
+
+elec:98237 elec:hasAgi "30048"^^xsd:int .
+
+elec:98239 elec:hasAgi "47069"^^xsd:int .
+
+elec:98240 elec:hasAgi "37002"^^xsd:int .
+
+elec:98241 elec:hasAgi "30914"^^xsd:int .
+
+elec:98244 elec:hasAgi "38425"^^xsd:int .
+
+elec:98245 elec:hasAgi "64993"^^xsd:int .
+
+elec:98247 elec:hasAgi "34426"^^xsd:int .
+
+elec:98248 elec:hasAgi "38238"^^xsd:int .
+
+elec:98249 elec:hasAgi "62030"^^xsd:int .
+
+elec:98250 elec:hasAgi "70569"^^xsd:int .
+
+elec:98251 elec:hasAgi "34249"^^xsd:int .
+
+elec:98252 elec:hasAgi "38554"^^xsd:int .
+
+elec:98253 elec:hasAgi "63876"^^xsd:int .
+
+elec:98257 elec:hasAgi "50914"^^xsd:int .
+
+elec:98258 elec:hasAgi "45350"^^xsd:int .
+
+elec:98260 elec:hasAgi "58310"^^xsd:int .
+
+elec:98261 elec:hasAgi "67488"^^xsd:int .
+
+elec:98262 elec:hasAgi "55618"^^xsd:int .
+
+elec:98264 elec:hasAgi "39719"^^xsd:int .
+
+elec:98266 elec:hasAgi "27506"^^xsd:int .
+
+elec:98267 elec:hasAgi "31730"^^xsd:int .
+
+elec:98270 elec:hasAgi "37144"^^xsd:int .
+
+elec:98271 elec:hasAgi "37493"^^xsd:int .
+
+elec:98272 elec:hasAgi "45966"^^xsd:int .
+
+elec:98273 elec:hasAgi "34728"^^xsd:int .
+
+elec:98274 elec:hasAgi "41958"^^xsd:int .
+
+elec:98275 elec:hasAgi "63166"^^xsd:int .
+
+elec:98276 elec:hasAgi "28771"^^xsd:int .
+
+elec:98277 elec:hasAgi "33634"^^xsd:int .
+
+elec:98279 elec:hasAgi "77465"^^xsd:int .
+
+elec:98281 elec:hasAgi "58034"^^xsd:int .
+
+elec:98282 elec:hasAgi "54771"^^xsd:int .
+
+elec:98283 elec:hasAgi "33567"^^xsd:int .
+
+elec:98284 elec:hasAgi "34882"^^xsd:int .
+
+elec:98290 elec:hasAgi "53937"^^xsd:int .
+
+elec:98292 elec:hasAgi "47836"^^xsd:int .
+
+elec:98294 elec:hasAgi "34349"^^xsd:int .
+
+elec:98295 elec:hasAgi "29980"^^xsd:int .
+
+elec:98296 elec:hasAgi "65531"^^xsd:int .
+
+elec:98303 elec:hasAgi "53661"^^xsd:int .
+
+elec:98304 elec:hasAgi "30725"^^xsd:int .
+
+elec:98305 elec:hasAgi "32044"^^xsd:int .
+
+elec:98310 elec:hasAgi "35228"^^xsd:int .
+
+elec:98311 elec:hasAgi "37155"^^xsd:int .
+
+elec:98312 elec:hasAgi "38510"^^xsd:int .
+
+elec:98315 elec:hasAgi "20292"^^xsd:int .
+
+elec:98320 elec:hasAgi "37190"^^xsd:int .
+
+elec:98321 elec:hasAgi "46070"^^xsd:int .
+
+elec:98323 elec:hasAgi "36214"^^xsd:int .
+
+elec:98325 elec:hasAgi "35429"^^xsd:int .
+
+elec:98326 elec:hasAgi "21352"^^xsd:int .
+
+elec:98327 elec:hasAgi "37433"^^xsd:int .
+
+elec:98328 elec:hasAgi "41441"^^xsd:int .
+
+elec:98329 elec:hasAgi "44196"^^xsd:int .
+
+elec:98330 elec:hasAgi "27014"^^xsd:int .
+
+elec:98331 elec:hasAgi "28624"^^xsd:int .
+
+elec:98332 elec:hasAgi "70318"^^xsd:int .
+
+elec:98333 elec:hasAgi "85507"^^xsd:int .
+
+elec:98335 elec:hasAgi "71256"^^xsd:int .
+
+elec:98336 elec:hasAgi "25276"^^xsd:int .
+
+elec:98337 elec:hasAgi "37663"^^xsd:int .
+
+elec:98338 elec:hasAgi "38370"^^xsd:int .
+
+elec:98339 elec:hasAgi "36377"^^xsd:int .
+
+elec:98340 elec:hasAgi "61003"^^xsd:int .
+
+elec:98342 elec:hasAgi "63520"^^xsd:int .
+
+elec:98346 elec:hasAgi "49113"^^xsd:int .
+
+elec:98349 elec:hasAgi "37655"^^xsd:int .
+
+elec:98351 elec:hasAgi "40618"^^xsd:int .
+
+elec:98354 elec:hasAgi "42166"^^xsd:int .
+
+elec:98355 elec:hasAgi "35148"^^xsd:int .
+
+elec:98356 elec:hasAgi "30407"^^xsd:int .
+
+elec:98358 elec:hasAgi "53696"^^xsd:int .
+
+elec:98359 elec:hasAgi "45068"^^xsd:int .
+
+elec:98360 elec:hasAgi "39457"^^xsd:int .
+
+elec:98361 elec:hasAgi "34931"^^xsd:int .
+
+elec:98362 elec:hasAgi "38344"^^xsd:int .
+
+elec:98363 elec:hasAgi "33180"^^xsd:int .
+
+elec:98365 elec:hasAgi "62280"^^xsd:int .
+
+elec:98366 elec:hasAgi "37099"^^xsd:int .
+
+elec:98367 elec:hasAgi "41269"^^xsd:int .
+
+elec:98368 elec:hasAgi "47597"^^xsd:int .
+
+elec:98370 elec:hasAgi "49711"^^xsd:int .
+
+elec:98371 elec:hasAgi "46423"^^xsd:int .
+
+elec:98372 elec:hasAgi "46301"^^xsd:int .
+
+elec:98373 elec:hasAgi "39975"^^xsd:int .
+
+elec:98374 elec:hasAgi "39901"^^xsd:int .
+
+elec:98375 elec:hasAgi "34868"^^xsd:int .
+
+elec:98376 elec:hasAgi "51153"^^xsd:int .
+
+elec:98377 elec:hasAgi "30436"^^xsd:int .
+
+elec:98380 elec:hasAgi "49675"^^xsd:int .
+
+elec:98381 elec:hasAgi "37288"^^xsd:int .
+
+elec:98382 elec:hasAgi "44410"^^xsd:int .
+
+elec:98383 elec:hasAgi "45317"^^xsd:int .
+
+elec:98387 elec:hasAgi "30586"^^xsd:int .
+
+elec:98388 elec:hasAgi "50020"^^xsd:int .
+
+elec:98390 elec:hasAgi "43982"^^xsd:int .
+
+elec:98391 elec:hasAgi "50551"^^xsd:int .
+
+elec:98392 elec:hasAgi "39065"^^xsd:int .
+
+elec:98394 elec:hasAgi "48446"^^xsd:int .
+
+elec:98402 elec:hasAgi "59070"^^xsd:int .
+
+elec:98403 elec:hasAgi "67968"^^xsd:int .
+
+elec:98404 elec:hasAgi "26893"^^xsd:int .
+
+elec:98405 elec:hasAgi "34053"^^xsd:int .
+
+elec:98406 elec:hasAgi "53051"^^xsd:int .
+
+elec:98407 elec:hasAgi "62424"^^xsd:int .
+
+elec:98408 elec:hasAgi "30645"^^xsd:int .
+
+elec:98409 elec:hasAgi "28926"^^xsd:int .
+
+elec:98418 elec:hasAgi "32588"^^xsd:int .
+
+elec:98421 elec:hasAgi "36840"^^xsd:int .
+
+elec:98422 elec:hasAgi "53300"^^xsd:int .
+
+elec:98424 elec:hasAgi "39430"^^xsd:int .
+
+elec:98433 elec:hasAgi "17643"^^xsd:int .
+
+elec:98438 elec:hasAgi "25071"^^xsd:int .
+
+elec:98439 elec:hasAgi "16077"^^xsd:int .
+
+elec:98443 elec:hasAgi "46114"^^xsd:int .
+
+elec:98444 elec:hasAgi "25250"^^xsd:int .
+
+elec:98445 elec:hasAgi "30784"^^xsd:int .
+
+elec:98446 elec:hasAgi "38816"^^xsd:int .
+
+elec:98465 elec:hasAgi "45673"^^xsd:int .
+
+elec:98466 elec:hasAgi "45625"^^xsd:int .
+
+elec:98467 elec:hasAgi "46378"^^xsd:int .
+
+elec:98498 elec:hasAgi "42533"^^xsd:int .
+
+elec:98499 elec:hasAgi "33617"^^xsd:int .
+
+elec:98501 elec:hasAgi "45355"^^xsd:int .
+
+elec:98502 elec:hasAgi "50031"^^xsd:int .
+
+elec:98503 elec:hasAgi "34394"^^xsd:int .
+
+elec:98506 elec:hasAgi "45538"^^xsd:int .
+
+elec:98512 elec:hasAgi "41793"^^xsd:int .
+
+elec:98513 elec:hasAgi "37722"^^xsd:int .
+
+elec:98516 elec:hasAgi "43185"^^xsd:int .
+
+elec:98520 elec:hasAgi "28901"^^xsd:int .
+
+elec:98524 elec:hasAgi "43160"^^xsd:int .
+
+elec:98526 elec:hasAgi "22112"^^xsd:int .
+
+elec:98528 elec:hasAgi "37053"^^xsd:int .
+
+elec:98531 elec:hasAgi "28265"^^xsd:int .
+
+elec:98532 elec:hasAgi "36475"^^xsd:int .
+
+elec:98533 elec:hasAgi "26718"^^xsd:int .
+
+elec:98535 elec:hasAgi "24236"^^xsd:int .
+
+elec:98537 elec:hasAgi "30510"^^xsd:int .
+
+elec:98538 elec:hasAgi "31653"^^xsd:int .
+
+elec:98541 elec:hasAgi "31545"^^xsd:int .
+
+elec:98542 elec:hasAgi "31372"^^xsd:int .
+
+elec:98546 elec:hasAgi "46951"^^xsd:int .
+
+elec:98547 elec:hasAgi "34030"^^xsd:int .
+
+elec:98548 elec:hasAgi "36595"^^xsd:int .
+
+elec:98550 elec:hasAgi "27375"^^xsd:int .
+
+elec:98552 elec:hasAgi "19048"^^xsd:int .
+
+elec:98555 elec:hasAgi "42846"^^xsd:int .
+
+elec:98557 elec:hasAgi "33109"^^xsd:int .
+
+elec:98560 elec:hasAgi "25662"^^xsd:int .
+
+elec:98563 elec:hasAgi "36466"^^xsd:int .
+
+elec:98564 elec:hasAgi "33107"^^xsd:int .
+
+elec:98568 elec:hasAgi "28483"^^xsd:int .
+
+elec:98569 elec:hasAgi "37169"^^xsd:int .
+
+elec:98570 elec:hasAgi "29963"^^xsd:int .
+
+elec:98572 elec:hasAgi "25376"^^xsd:int .
+
+elec:98576 elec:hasAgi "34191"^^xsd:int .
+
+elec:98577 elec:hasAgi "29580"^^xsd:int .
+
+elec:98579 elec:hasAgi "35773"^^xsd:int .
+
+elec:98580 elec:hasAgi "37829"^^xsd:int .
+
+elec:98581 elec:hasAgi "24586"^^xsd:int .
+
+elec:98582 elec:hasAgi "40421"^^xsd:int .
+
+elec:98584 elec:hasAgi "32504"^^xsd:int .
+
+elec:98585 elec:hasAgi "39485"^^xsd:int .
+
+elec:98586 elec:hasAgi "29128"^^xsd:int .
+
+elec:98588 elec:hasAgi "38846"^^xsd:int .
+
+elec:98589 elec:hasAgi "37630"^^xsd:int .
+
+elec:98590 elec:hasAgi "31505"^^xsd:int .
+
+elec:98591 elec:hasAgi "34589"^^xsd:int .
+
+elec:98592 elec:hasAgi "47327"^^xsd:int .
+
+elec:98593 elec:hasAgi "25604"^^xsd:int .
+
+elec:98595 elec:hasAgi "32858"^^xsd:int .
+
+elec:98596 elec:hasAgi "30333"^^xsd:int .
+
+elec:98597 elec:hasAgi "31191"^^xsd:int .
+
+elec:98601 elec:hasAgi "36328"^^xsd:int .
+
+elec:98602 elec:hasAgi "30478"^^xsd:int .
+
+elec:98603 elec:hasAgi "38543"^^xsd:int .
+
+elec:98604 elec:hasAgi "44046"^^xsd:int .
+
+elec:98605 elec:hasAgi "33926"^^xsd:int .
+
+elec:98606 elec:hasAgi "56993"^^xsd:int .
+
+elec:98607 elec:hasAgi "69648"^^xsd:int .
+
+elec:98610 elec:hasAgi "55666"^^xsd:int .
+
+elec:98611 elec:hasAgi "35994"^^xsd:int .
+
+elec:98612 elec:hasAgi "40464"^^xsd:int .
+
+elec:98613 elec:hasAgi "31912"^^xsd:int .
+
+elec:98616 elec:hasAgi "37407"^^xsd:int .
+
+elec:98619 elec:hasAgi "27797"^^xsd:int .
+
+elec:98620 elec:hasAgi "31507"^^xsd:int .
+
+elec:98624 elec:hasAgi "34691"^^xsd:int .
+
+elec:98625 elec:hasAgi "46866"^^xsd:int .
+
+elec:98626 elec:hasAgi "35326"^^xsd:int .
+
+elec:98628 elec:hasAgi "22541"^^xsd:int .
+
+elec:98629 elec:hasAgi "43623"^^xsd:int .
+
+elec:98631 elec:hasAgi "39020"^^xsd:int .
+
+elec:98632 elec:hasAgi "32571"^^xsd:int .
+
+elec:98635 elec:hasAgi "43833"^^xsd:int .
+
+elec:98638 elec:hasAgi "32151"^^xsd:int .
+
+elec:98640 elec:hasAgi "33956"^^xsd:int .
+
+elec:98642 elec:hasAgi "57400"^^xsd:int .
+
+elec:98643 elec:hasAgi "29408"^^xsd:int .
+
+elec:98645 elec:hasAgi "37952"^^xsd:int .
+
+elec:98647 elec:hasAgi "25767"^^xsd:int .
+
+elec:98648 elec:hasAgi "47997"^^xsd:int .
+
+elec:98649 elec:hasAgi "36492"^^xsd:int .
+
+elec:98650 elec:hasAgi "40058"^^xsd:int .
+
+elec:98651 elec:hasAgi "98875"^^xsd:int .
+
+elec:98660 elec:hasAgi "56466"^^xsd:int .
+
+elec:98661 elec:hasAgi "39081"^^xsd:int .
+
+elec:98662 elec:hasAgi "34687"^^xsd:int .
+
+elec:98663 elec:hasAgi "38255"^^xsd:int .
+
+elec:98664 elec:hasAgi "55625"^^xsd:int .
+
+elec:98665 elec:hasAgi "38669"^^xsd:int .
+
+elec:98671 elec:hasAgi "46414"^^xsd:int .
+
+elec:98672 elec:hasAgi "52734"^^xsd:int .
+
+elec:98674 elec:hasAgi "39211"^^xsd:int .
+
+elec:98675 elec:hasAgi "35492"^^xsd:int .
+
+elec:98682 elec:hasAgi "35243"^^xsd:int .
+
+elec:98683 elec:hasAgi "48264"^^xsd:int .
+
+elec:98684 elec:hasAgi "35844"^^xsd:int .
+
+elec:98685 elec:hasAgi "51895"^^xsd:int .
+
+elec:98686 elec:hasAgi "47122"^^xsd:int .
+
+elec:98801 elec:hasAgi "37355"^^xsd:int .
+
+elec:98802 elec:hasAgi "35645"^^xsd:int .
+
+elec:98812 elec:hasAgi "23268"^^xsd:int .
+
+elec:98813 elec:hasAgi "12036"^^xsd:int .
+
+elec:98814 elec:hasAgi "39780"^^xsd:int .
+
+elec:98815 elec:hasAgi "33536"^^xsd:int .
+
+elec:98816 elec:hasAgi "44544"^^xsd:int .
+
+elec:98822 elec:hasAgi "33875"^^xsd:int .
+
+elec:98823 elec:hasAgi "30624"^^xsd:int .
+
+elec:98826 elec:hasAgi "53459"^^xsd:int .
+
+elec:98827 elec:hasAgi "25928"^^xsd:int .
+
+elec:98828 elec:hasAgi "32642"^^xsd:int .
+
+elec:98830 elec:hasAgi "30648"^^xsd:int .
+
+elec:98831 elec:hasAgi "45762"^^xsd:int .
+
+elec:98832 elec:hasAgi "26264"^^xsd:int .
+
+elec:98833 elec:hasAgi "80044"^^xsd:int .
+
+elec:98834 elec:hasAgi "36660"^^xsd:int .
+
+elec:98837 elec:hasAgi "31741"^^xsd:int .
+
+elec:98840 elec:hasAgi "27910"^^xsd:int .
+
+elec:98841 elec:hasAgi "25497"^^xsd:int .
+
+elec:98843 elec:hasAgi "42004"^^xsd:int .
+
+elec:98844 elec:hasAgi "27146"^^xsd:int .
+
+elec:98846 elec:hasAgi "30924"^^xsd:int .
+
+elec:98847 elec:hasAgi "33017"^^xsd:int .
+
+elec:98848 elec:hasAgi "25579"^^xsd:int .
+
+elec:98849 elec:hasAgi "27075"^^xsd:int .
+
+elec:98850 elec:hasAgi "28554"^^xsd:int .
+
+elec:98851 elec:hasAgi "26512"^^xsd:int .
+
+elec:98855 elec:hasAgi "24247"^^xsd:int .
+
+elec:98856 elec:hasAgi "37152"^^xsd:int .
+
+elec:98857 elec:hasAgi "26360"^^xsd:int .
+
+elec:98858 elec:hasAgi "29983"^^xsd:int .
+
+elec:98859 elec:hasAgi "22338"^^xsd:int .
+
+elec:98862 elec:hasAgi "54389"^^xsd:int .
+
+elec:98901 elec:hasAgi "25561"^^xsd:int .
+
+elec:98902 elec:hasAgi "23579"^^xsd:int .
+
+elec:98903 elec:hasAgi "31953"^^xsd:int .
+
+elec:98908 elec:hasAgi "44013"^^xsd:int .
+
+elec:98922 elec:hasAgi "67324"^^xsd:int .
+
+elec:98923 elec:hasAgi "26967"^^xsd:int .
+
+elec:98926 elec:hasAgi "38855"^^xsd:int .
+
+elec:98930 elec:hasAgi "21954"^^xsd:int .
+
+elec:98932 elec:hasAgi "18658"^^xsd:int .
+
+elec:98933 elec:hasAgi "23892"^^xsd:int .
+
+elec:98935 elec:hasAgi "19978"^^xsd:int .
+
+elec:98936 elec:hasAgi "30598"^^xsd:int .
+
+elec:98937 elec:hasAgi "38745"^^xsd:int .
+
+elec:98938 elec:hasAgi "22068"^^xsd:int .
+
+elec:98942 elec:hasAgi "36089"^^xsd:int .
+
+elec:98944 elec:hasAgi "20867"^^xsd:int .
+
+elec:98946 elec:hasAgi "33621"^^xsd:int .
+
+elec:98947 elec:hasAgi "24661"^^xsd:int .
+
+elec:98948 elec:hasAgi "18730"^^xsd:int .
+
+elec:98951 elec:hasAgi "19083"^^xsd:int .
+
+elec:98952 elec:hasAgi "16759"^^xsd:int .
+
+elec:98953 elec:hasAgi "30697"^^xsd:int .
+
+elec:99001 elec:hasAgi "22263"^^xsd:int .
+
+elec:99003 elec:hasAgi "37121"^^xsd:int .
+
+elec:99004 elec:hasAgi "33221"^^xsd:int .
+
+elec:99005 elec:hasAgi "55258"^^xsd:int .
+
+elec:99006 elec:hasAgi "33320"^^xsd:int .
+
+elec:99008 elec:hasAgi "33489"^^xsd:int .
+
+elec:99009 elec:hasAgi "31399"^^xsd:int .
+
+elec:99011 elec:hasAgi "18536"^^xsd:int .
+
+elec:99012 elec:hasAgi "31374"^^xsd:int .
+
+elec:99013 elec:hasAgi "22370"^^xsd:int .
+
+elec:99016 elec:hasAgi "42821"^^xsd:int .
+
+elec:99018 elec:hasAgi "25595"^^xsd:int .
+
+elec:99019 elec:hasAgi "61376"^^xsd:int .
+
+elec:99021 elec:hasAgi "38652"^^xsd:int .
+
+elec:99022 elec:hasAgi "33602"^^xsd:int .
+
+elec:99023 elec:hasAgi "46080"^^xsd:int .
+
+elec:99025 elec:hasAgi "42569"^^xsd:int .
+
+elec:99026 elec:hasAgi "42001"^^xsd:int .
+
+elec:99027 elec:hasAgi "39672"^^xsd:int .
+
+elec:99029 elec:hasAgi "30585"^^xsd:int .
+
+elec:99030 elec:hasAgi "37167"^^xsd:int .
+
+elec:99031 elec:hasAgi "38968"^^xsd:int .
+
+elec:99032 elec:hasAgi "27324"^^xsd:int .
+
+elec:99033 elec:hasAgi "25912"^^xsd:int .
+
+elec:99034 elec:hasAgi "25804"^^xsd:int .
+
+elec:99036 elec:hasAgi "52106"^^xsd:int .
+
+elec:99037 elec:hasAgi "39320"^^xsd:int .
+
+elec:99040 elec:hasAgi "20504"^^xsd:int .
+
+elec:99101 elec:hasAgi "24586"^^xsd:int .
+
+elec:99103 elec:hasAgi "34264"^^xsd:int .
+
+elec:99109 elec:hasAgi "31132"^^xsd:int .
+
+elec:99110 elec:hasAgi "26430"^^xsd:int .
+
+elec:99111 elec:hasAgi "36919"^^xsd:int .
+
+elec:99113 elec:hasAgi "39762"^^xsd:int .
+
+elec:99114 elec:hasAgi "30871"^^xsd:int .
+
+elec:99115 elec:hasAgi "38814"^^xsd:int .
+
+elec:99116 elec:hasAgi "34436"^^xsd:int .
+
+elec:99117 elec:hasAgi "33826"^^xsd:int .
+
+elec:99118 elec:hasAgi "28066"^^xsd:int .
+
+elec:99119 elec:hasAgi "33437"^^xsd:int .
+
+elec:99122 elec:hasAgi "35663"^^xsd:int .
+
+elec:99123 elec:hasAgi "39213"^^xsd:int .
+
+elec:99125 elec:hasAgi "28565"^^xsd:int .
+
+elec:99126 elec:hasAgi "23922"^^xsd:int .
+
+elec:99128 elec:hasAgi "40111"^^xsd:int .
+
+elec:99129 elec:hasAgi "23226"^^xsd:int .
+
+elec:99130 elec:hasAgi "30138"^^xsd:int .
+
+elec:99133 elec:hasAgi "33954"^^xsd:int .
+
+elec:99134 elec:hasAgi "32122"^^xsd:int .
+
+elec:99135 elec:hasAgi "30676"^^xsd:int .
+
+elec:99137 elec:hasAgi "23656"^^xsd:int .
+
+elec:99138 elec:hasAgi "24485"^^xsd:int .
+
+elec:99139 elec:hasAgi "29569"^^xsd:int .
+
+elec:99140 elec:hasAgi "19646"^^xsd:int .
+
+elec:99141 elec:hasAgi "29901"^^xsd:int .
+
+elec:99143 elec:hasAgi "32649"^^xsd:int .
+
+elec:99147 elec:hasAgi "42347"^^xsd:int .
+
+elec:99148 elec:hasAgi "36459"^^xsd:int .
+
+elec:99150 elec:hasAgi "26012"^^xsd:int .
+
+elec:99153 elec:hasAgi "30194"^^xsd:int .
+
+elec:99156 elec:hasAgi "31798"^^xsd:int .
+
+elec:99157 elec:hasAgi "24388"^^xsd:int .
+
+elec:99158 elec:hasAgi "32931"^^xsd:int .
+
+elec:99159 elec:hasAgi "39518"^^xsd:int .
+
+elec:99161 elec:hasAgi "36105"^^xsd:int .
+
+elec:99163 elec:hasAgi "41024"^^xsd:int .
+
+elec:99166 elec:hasAgi "29519"^^xsd:int .
+
+elec:99167 elec:hasAgi "28530"^^xsd:int .
+
+elec:99169 elec:hasAgi "34733"^^xsd:int .
+
+elec:99170 elec:hasAgi "32106"^^xsd:int .
+
+elec:99171 elec:hasAgi "34142"^^xsd:int .
+
+elec:99173 elec:hasAgi "24332"^^xsd:int .
+
+elec:99179 elec:hasAgi "31810"^^xsd:int .
+
+elec:99180 elec:hasAgi "30711"^^xsd:int .
+
+elec:99181 elec:hasAgi "27288"^^xsd:int .
+
+elec:99185 elec:hasAgi "36427"^^xsd:int .
+
+elec:99201 elec:hasAgi "53093"^^xsd:int .
+
+elec:99202 elec:hasAgi "29113"^^xsd:int .
+
+elec:99203 elec:hasAgi "57909"^^xsd:int .
+
+elec:99204 elec:hasAgi "38000"^^xsd:int .
+
+elec:99205 elec:hasAgi "28993"^^xsd:int .
+
+elec:99206 elec:hasAgi "34771"^^xsd:int .
+
+elec:99207 elec:hasAgi "23162"^^xsd:int .
+
+elec:99208 elec:hasAgi "39647"^^xsd:int .
+
+elec:99212 elec:hasAgi "35010"^^xsd:int .
+
+elec:99216 elec:hasAgi "29975"^^xsd:int .
+
+elec:99217 elec:hasAgi "35644"^^xsd:int .
+
+elec:99218 elec:hasAgi "38067"^^xsd:int .
+
+elec:99223 elec:hasAgi "53231"^^xsd:int .
+
+elec:99224 elec:hasAgi "47253"^^xsd:int .
+
+elec:99301 elec:hasAgi "28619"^^xsd:int .
+
+elec:99320 elec:hasAgi "32050"^^xsd:int .
+
+elec:99321 elec:hasAgi "14690"^^xsd:int .
+
+elec:99322 elec:hasAgi "36060"^^xsd:int .
+
+elec:99323 elec:hasAgi "34749"^^xsd:int .
+
+elec:99324 elec:hasAgi "30822"^^xsd:int .
+
+elec:99326 elec:hasAgi "21372"^^xsd:int .
+
+elec:99328 elec:hasAgi "36264"^^xsd:int .
+
+elec:99330 elec:hasAgi "24305"^^xsd:int .
+
+elec:99336 elec:hasAgi "27737"^^xsd:int .
+
+elec:99337 elec:hasAgi "35293"^^xsd:int .
+
+elec:99338 elec:hasAgi "51177"^^xsd:int .
+
+elec:99341 elec:hasAgi "30081"^^xsd:int .
+
+elec:99343 elec:hasAgi "23377"^^xsd:int .
+
+elec:99344 elec:hasAgi "22345"^^xsd:int .
+
+elec:99347 elec:hasAgi "29428"^^xsd:int .
+
+elec:99348 elec:hasAgi "21734"^^xsd:int .
+
+elec:99349 elec:hasAgi "18621"^^xsd:int .
+
+elec:99350 elec:hasAgi "34596"^^xsd:int .
+
+elec:99352 elec:hasAgi "49635"^^xsd:int .
+
+elec:99353 elec:hasAgi "44411"^^xsd:int .
+
+elec:99354 elec:hasAgi "40370"^^xsd:int .
+
+elec:99356 elec:hasAgi "21465"^^xsd:int .
+
+elec:99357 elec:hasAgi "19659"^^xsd:int .
+
+elec:99360 elec:hasAgi "36229"^^xsd:int .
+
+elec:99361 elec:hasAgi "33945"^^xsd:int .
+
+elec:99362 elec:hasAgi "38102"^^xsd:int .
+
+elec:99371 elec:hasAgi "25621"^^xsd:int .
+
+elec:99401 elec:hasAgi "33429"^^xsd:int .
+
+elec:99402 elec:hasAgi "40605"^^xsd:int .
+
+elec:99403 elec:hasAgi "34497"^^xsd:int .
+

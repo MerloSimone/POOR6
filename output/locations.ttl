@@ -1,0 +1,4289 @@
+@prefix elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+elec:98001 a elec:ZipCode ;
+    elec:ofCity elec:Auburn .
+
+elec:98002 a elec:ZipCode ;
+    elec:ofCity elec:Auburn .
+
+elec:98003 a elec:ZipCode ;
+    elec:ofCity elec:FederalWay .
+
+elec:98004 a elec:ZipCode ;
+    elec:ofCity elec:Bellevue .
+
+elec:98005 a elec:ZipCode ;
+    elec:ofCity elec:Bellevue .
+
+elec:98006 a elec:ZipCode ;
+    elec:ofCity elec:Bellevue .
+
+elec:98007 a elec:ZipCode ;
+    elec:ofCity elec:Bellevue .
+
+elec:98008 a elec:ZipCode ;
+    elec:ofCity elec:Bellevue .
+
+elec:98009 a elec:ZipCode ;
+    elec:ofCity elec:Bellevue .
+
+elec:98010 a elec:ZipCode ;
+    elec:ofCity elec:BlackDiamond .
+
+elec:98011 a elec:ZipCode ;
+    elec:ofCity elec:Bothell .
+
+elec:98012 a elec:ZipCode ;
+    elec:ofCity elec:Bothell .
+
+elec:98013 a elec:ZipCode ;
+    elec:ofCity elec:Burton .
+
+elec:98014 a elec:ZipCode ;
+    elec:ofCity elec:Carnation .
+
+elec:98015 a elec:ZipCode ;
+    elec:ofCity elec:Bellevue .
+
+elec:98019 a elec:ZipCode ;
+    elec:ofCity elec:Duvall .
+
+elec:98020 a elec:ZipCode ;
+    elec:ofCity elec:Edmonds .
+
+elec:98021 a elec:ZipCode ;
+    elec:ofCity elec:Bothell .
+
+elec:98022 a elec:ZipCode ;
+    elec:ofCity elec:Enumclaw .
+
+elec:98023 a elec:ZipCode ;
+    elec:ofCity elec:FederalWay .
+
+elec:98024 a elec:ZipCode ;
+    elec:ofCity elec:FallCity .
+
+elec:98025 a elec:ZipCode ;
+    elec:ofCity elec:Hobart .
+
+elec:98026 a elec:ZipCode ;
+    elec:ofCity elec:Edmonds .
+
+elec:98027 a elec:ZipCode ;
+    elec:ofCity elec:Issaquah .
+
+elec:98028 a elec:ZipCode ;
+    elec:ofCity elec:Kenmore .
+
+elec:98029 a elec:ZipCode ;
+    elec:ofCity elec:Issaquah .
+
+elec:98030 a elec:ZipCode ;
+    elec:ofCity elec:Kent .
+
+elec:98031 a elec:ZipCode ;
+    elec:ofCity elec:Kent .
+
+elec:98032 a elec:ZipCode ;
+    elec:ofCity elec:Kent .
+
+elec:98033 a elec:ZipCode ;
+    elec:ofCity elec:Kirkland .
+
+elec:98034 a elec:ZipCode ;
+    elec:ofCity elec:Kirkland .
+
+elec:98035 a elec:ZipCode ;
+    elec:ofCity elec:Kent .
+
+elec:98036 a elec:ZipCode ;
+    elec:ofCity elec:Lynnwood .
+
+elec:98037 a elec:ZipCode ;
+    elec:ofCity elec:Lynnwood .
+
+elec:98038 a elec:ZipCode ;
+    elec:ofCity elec:MapleValley .
+
+elec:98039 a elec:ZipCode ;
+    elec:ofCity elec:Medina .
+
+elec:98040 a elec:ZipCode ;
+    elec:ofCity elec:MercerIsland .
+
+elec:98041 a elec:ZipCode ;
+    elec:ofCity elec:Bothell .
+
+elec:98042 a elec:ZipCode ;
+    elec:ofCity elec:Kent .
+
+elec:98043 a elec:ZipCode ;
+    elec:ofCity elec:MountlakeTerrace .
+
+elec:98045 a elec:ZipCode ;
+    elec:ofCity elec:NorthBend .
+
+elec:98046 a elec:ZipCode ;
+    elec:ofCity elec:Lynnwood .
+
+elec:98047 a elec:ZipCode ;
+    elec:ofCity elec:Pacific .
+
+elec:98050 a elec:ZipCode ;
+    elec:ofCity elec:Preston .
+
+elec:98051 a elec:ZipCode ;
+    elec:ofCity elec:Ravensdale .
+
+elec:98052 a elec:ZipCode ;
+    elec:ofCity elec:Redmond .
+
+elec:98053 a elec:ZipCode ;
+    elec:ofCity elec:Redmond .
+
+elec:98054 a elec:ZipCode ;
+    elec:ofCity elec:Redondo .
+
+elec:98055 a elec:ZipCode ;
+    elec:ofCity elec:Renton .
+
+elec:98056 a elec:ZipCode ;
+    elec:ofCity elec:Renton .
+
+elec:98057 a elec:ZipCode ;
+    elec:ofCity elec:Renton .
+
+elec:98058 a elec:ZipCode ;
+    elec:ofCity elec:Renton .
+
+elec:98059 a elec:ZipCode ;
+    elec:ofCity elec:Renton .
+
+elec:98061 a elec:ZipCode ;
+    elec:ofCity elec:Rollingbay .
+
+elec:98062 a elec:ZipCode ;
+    elec:ofCity elec:Seahurst .
+
+elec:98063 a elec:ZipCode ;
+    elec:ofCity elec:FederalWay .
+
+elec:98064 a elec:ZipCode ;
+    elec:ofCity elec:Kent .
+
+elec:98065 a elec:ZipCode ;
+    elec:ofCity elec:Snoqualmie .
+
+elec:98068 a elec:ZipCode ;
+    elec:ofCity elec:SnoqualmiePass .
+
+elec:98070 a elec:ZipCode ;
+    elec:ofCity elec:Vashon .
+
+elec:98071 a elec:ZipCode ;
+    elec:ofCity elec:Auburn .
+
+elec:98072 a elec:ZipCode ;
+    elec:ofCity elec:Woodinville .
+
+elec:98073 a elec:ZipCode ;
+    elec:ofCity elec:Redmond .
+
+elec:98074 a elec:ZipCode ;
+    elec:ofCity elec:Sammamish .
+
+elec:98075 a elec:ZipCode ;
+    elec:ofCity elec:Sammamish .
+
+elec:98077 a elec:ZipCode ;
+    elec:ofCity elec:Woodinville .
+
+elec:98082 a elec:ZipCode ;
+    elec:ofCity elec:MillCreek .
+
+elec:98083 a elec:ZipCode ;
+    elec:ofCity elec:Kirkland .
+
+elec:98087 a elec:ZipCode ;
+    elec:ofCity elec:Lynnwood .
+
+elec:98089 a elec:ZipCode ;
+    elec:ofCity elec:Kent .
+
+elec:98092 a elec:ZipCode ;
+    elec:ofCity elec:Auburn .
+
+elec:98093 a elec:ZipCode ;
+    elec:ofCity elec:FederalWay .
+
+elec:98101 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98102 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98103 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98104 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98105 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98106 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98107 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98108 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98109 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98110 a elec:ZipCode ;
+    elec:ofCity elec:BainbridgeIsland .
+
+elec:98111 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98112 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98113 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98114 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98115 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98116 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98117 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98118 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98119 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98121 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98122 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98124 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98125 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98126 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98127 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98129 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98131 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98132 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98133 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98134 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98136 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98138 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98139 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98141 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98144 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98145 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98146 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98148 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98151 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98154 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98155 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98158 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98160 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98161 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98164 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98165 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98166 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98168 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98170 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98171 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98174 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98175 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98177 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98178 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98181 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98184 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98185 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98188 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98189 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98190 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98191 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98194 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98195 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98198 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98199 a elec:ZipCode ;
+    elec:ofCity elec:Seattle .
+
+elec:98201 a elec:ZipCode ;
+    elec:ofCity elec:Everett .
+
+elec:98203 a elec:ZipCode ;
+    elec:ofCity elec:Everett .
+
+elec:98204 a elec:ZipCode ;
+    elec:ofCity elec:Everett .
+
+elec:98205 a elec:ZipCode ;
+    elec:ofCity elec:Everett .
+
+elec:98206 a elec:ZipCode ;
+    elec:ofCity elec:Everett .
+
+elec:98207 a elec:ZipCode ;
+    elec:ofCity elec:Everett .
+
+elec:98208 a elec:ZipCode ;
+    elec:ofCity elec:Everett .
+
+elec:98213 a elec:ZipCode ;
+    elec:ofCity elec:Everett .
+
+elec:98220 a elec:ZipCode ;
+    elec:ofCity elec:Acme .
+
+elec:98221 a elec:ZipCode ;
+    elec:ofCity elec:Anacortes .
+
+elec:98222 a elec:ZipCode ;
+    elec:ofCity elec:BlakelyIsland .
+
+elec:98223 a elec:ZipCode ;
+    elec:ofCity elec:Arlington .
+
+elec:98224 a elec:ZipCode ;
+    elec:ofCity elec:Baring .
+
+elec:98225 a elec:ZipCode ;
+    elec:ofCity elec:Bellingham .
+
+elec:98226 a elec:ZipCode ;
+    elec:ofCity elec:Bellingham .
+
+elec:98227 a elec:ZipCode ;
+    elec:ofCity elec:Bellingham .
+
+elec:98228 a elec:ZipCode ;
+    elec:ofCity elec:Bellingham .
+
+elec:98229 a elec:ZipCode ;
+    elec:ofCity elec:Bellingham .
+
+elec:98230 a elec:ZipCode ;
+    elec:ofCity elec:Blaine .
+
+elec:98231 a elec:ZipCode ;
+    elec:ofCity elec:Blaine .
+
+elec:98232 a elec:ZipCode ;
+    elec:ofCity elec:Bow .
+
+elec:98233 a elec:ZipCode ;
+    elec:ofCity elec:Burlington .
+
+elec:98235 a elec:ZipCode ;
+    elec:ofCity elec:Clearlake .
+
+elec:98236 a elec:ZipCode ;
+    elec:ofCity elec:Clinton .
+
+elec:98237 a elec:ZipCode ;
+    elec:ofCity elec:Concrete .
+
+elec:98238 a elec:ZipCode ;
+    elec:ofCity elec:Conway .
+
+elec:98239 a elec:ZipCode ;
+    elec:ofCity elec:Coupeville .
+
+elec:98240 a elec:ZipCode ;
+    elec:ofCity elec:Custer .
+
+elec:98241 a elec:ZipCode ;
+    elec:ofCity elec:Darrington .
+
+elec:98243 a elec:ZipCode ;
+    elec:ofCity elec:DeerHarbor .
+
+elec:98244 a elec:ZipCode ;
+    elec:ofCity elec:Deming .
+
+elec:98245 a elec:ZipCode ;
+    elec:ofCity elec:Eastsound .
+
+elec:98247 a elec:ZipCode ;
+    elec:ofCity elec:Everson .
+
+elec:98248 a elec:ZipCode ;
+    elec:ofCity elec:Ferndale .
+
+elec:98249 a elec:ZipCode ;
+    elec:ofCity elec:Freeland .
+
+elec:98250 a elec:ZipCode ;
+    elec:ofCity elec:FridayHarbor .
+
+elec:98251 a elec:ZipCode ;
+    elec:ofCity elec:GoldBar .
+
+elec:98252 a elec:ZipCode ;
+    elec:ofCity elec:GraniteFalls .
+
+elec:98253 a elec:ZipCode ;
+    elec:ofCity elec:Greenbank .
+
+elec:98255 a elec:ZipCode ;
+    elec:ofCity elec:Hamilton .
+
+elec:98256 a elec:ZipCode ;
+    elec:ofCity elec:Index .
+
+elec:98257 a elec:ZipCode ;
+    elec:ofCity elec:LaConner .
+
+elec:98258 a elec:ZipCode ;
+    elec:ofCity elec:LakeStevens .
+
+elec:98259 a elec:ZipCode ;
+    elec:ofCity elec:NorthLakewood .
+
+elec:98260 a elec:ZipCode ;
+    elec:ofCity elec:Langley .
+
+elec:98261 a elec:ZipCode ;
+    elec:ofCity elec:LopezIsland .
+
+elec:98262 a elec:ZipCode ;
+    elec:ofCity elec:LummiIsland .
+
+elec:98263 a elec:ZipCode ;
+    elec:ofCity elec:Lyman .
+
+elec:98264 a elec:ZipCode ;
+    elec:ofCity elec:Lynden .
+
+elec:98266 a elec:ZipCode ;
+    elec:ofCity elec:MapleFalls .
+
+elec:98267 a elec:ZipCode ;
+    elec:ofCity elec:Marblemount .
+
+elec:98270 a elec:ZipCode ;
+    elec:ofCity elec:Marysville .
+
+elec:98271 a elec:ZipCode ;
+    elec:ofCity elec:Marysville .
+
+elec:98272 a elec:ZipCode ;
+    elec:ofCity elec:Monroe .
+
+elec:98273 a elec:ZipCode ;
+    elec:ofCity elec:MountVernon .
+
+elec:98274 a elec:ZipCode ;
+    elec:ofCity elec:MountVernon .
+
+elec:98275 a elec:ZipCode ;
+    elec:ofCity elec:Mukilteo .
+
+elec:98276 a elec:ZipCode ;
+    elec:ofCity elec:Nooksack .
+
+elec:98277 a elec:ZipCode ;
+    elec:ofCity elec:OakHarbor .
+
+elec:98278 a elec:ZipCode ;
+    elec:ofCity elec:OakHarbor .
+
+elec:98279 a elec:ZipCode ;
+    elec:ofCity elec:Olga .
+
+elec:98280 a elec:ZipCode ;
+    elec:ofCity elec:Orcas .
+
+elec:98281 a elec:ZipCode ;
+    elec:ofCity elec:PointRoberts .
+
+elec:98282 a elec:ZipCode ;
+    elec:ofCity elec:CamanoIsland .
+
+elec:98283 a elec:ZipCode ;
+    elec:ofCity elec:Rockport .
+
+elec:98284 a elec:ZipCode ;
+    elec:ofCity elec:SedroWoolley .
+
+elec:98286 a elec:ZipCode ;
+    elec:ofCity elec:ShawIsland .
+
+elec:98287 a elec:ZipCode ;
+    elec:ofCity elec:Silvana .
+
+elec:98288 a elec:ZipCode ;
+    elec:ofCity elec:Skykomish .
+
+elec:98290 a elec:ZipCode ;
+    elec:ofCity elec:Snohomish .
+
+elec:98291 a elec:ZipCode ;
+    elec:ofCity elec:Snohomish .
+
+elec:98292 a elec:ZipCode ;
+    elec:ofCity elec:Stanwood .
+
+elec:98293 a elec:ZipCode ;
+    elec:ofCity elec:Startup .
+
+elec:98294 a elec:ZipCode ;
+    elec:ofCity elec:Sultan .
+
+elec:98295 a elec:ZipCode ;
+    elec:ofCity elec:Sumas .
+
+elec:98296 a elec:ZipCode ;
+    elec:ofCity elec:Snohomish .
+
+elec:98297 a elec:ZipCode ;
+    elec:ofCity elec:Waldron .
+
+elec:98303 a elec:ZipCode ;
+    elec:ofCity elec:AndersonIsland .
+
+elec:98304 a elec:ZipCode ;
+    elec:ofCity elec:Ashford .
+
+elec:98305 a elec:ZipCode ;
+    elec:ofCity elec:Beaver .
+
+elec:98310 a elec:ZipCode ;
+    elec:ofCity elec:Bremerton .
+
+elec:98311 a elec:ZipCode ;
+    elec:ofCity elec:Bremerton .
+
+elec:98312 a elec:ZipCode ;
+    elec:ofCity elec:Bremerton .
+
+elec:98314 a elec:ZipCode ;
+    elec:ofCity elec:Bremerton .
+
+elec:98315 a elec:ZipCode ;
+    elec:ofCity elec:Silverdale .
+
+elec:98320 a elec:ZipCode ;
+    elec:ofCity elec:Brinnon .
+
+elec:98321 a elec:ZipCode ;
+    elec:ofCity elec:Buckley .
+
+elec:98322 a elec:ZipCode ;
+    elec:ofCity elec:Burley .
+
+elec:98323 a elec:ZipCode ;
+    elec:ofCity elec:Carbonado .
+
+elec:98324 a elec:ZipCode ;
+    elec:ofCity elec:Carlsborg .
+
+elec:98325 a elec:ZipCode ;
+    elec:ofCity elec:Chimacum .
+
+elec:98326 a elec:ZipCode ;
+    elec:ofCity elec:ClallamBay .
+
+elec:98327 a elec:ZipCode ;
+    elec:ofCity elec:Dupont .
+
+elec:98328 a elec:ZipCode ;
+    elec:ofCity elec:Eatonville .
+
+elec:98329 a elec:ZipCode ;
+    elec:ofCity elec:GigHarbor .
+
+elec:98330 a elec:ZipCode ;
+    elec:ofCity elec:Elbe .
+
+elec:98331 a elec:ZipCode ;
+    elec:ofCity elec:Forks .
+
+elec:98332 a elec:ZipCode ;
+    elec:ofCity elec:GigHarbor .
+
+elec:98333 a elec:ZipCode ;
+    elec:ofCity elec:FoxIsland .
+
+elec:98335 a elec:ZipCode ;
+    elec:ofCity elec:GigHarbor .
+
+elec:98336 a elec:ZipCode ;
+    elec:ofCity elec:Glenoma .
+
+elec:98337 a elec:ZipCode ;
+    elec:ofCity elec:Bremerton .
+
+elec:98338 a elec:ZipCode ;
+    elec:ofCity elec:Graham .
+
+elec:98339 a elec:ZipCode ;
+    elec:ofCity elec:PortHadlock .
+
+elec:98340 a elec:ZipCode ;
+    elec:ofCity elec:Hansville .
+
+elec:98342 a elec:ZipCode ;
+    elec:ofCity elec:Indianola .
+
+elec:98343 a elec:ZipCode ;
+    elec:ofCity elec:Joyce .
+
+elec:98344 a elec:ZipCode ;
+    elec:ofCity elec:Kapowsin .
+
+elec:98345 a elec:ZipCode ;
+    elec:ofCity elec:Keyport .
+
+elec:98346 a elec:ZipCode ;
+    elec:ofCity elec:Kingston .
+
+elec:98348 a elec:ZipCode ;
+    elec:ofCity elec:LaGrande .
+
+elec:98349 a elec:ZipCode ;
+    elec:ofCity elec:Lakebay .
+
+elec:98350 a elec:ZipCode ;
+    elec:ofCity elec:LaPush .
+
+elec:98351 a elec:ZipCode ;
+    elec:ofCity elec:Longbranch .
+
+elec:98352 a elec:ZipCode ;
+    elec:ofCity elec:Sumner .
+
+elec:98353 a elec:ZipCode ;
+    elec:ofCity elec:Manchester .
+
+elec:98354 a elec:ZipCode ;
+    elec:ofCity elec:Milton .
+
+elec:98355 a elec:ZipCode ;
+    elec:ofCity elec:Mineral .
+
+elec:98356 a elec:ZipCode ;
+    elec:ofCity elec:Morton .
+
+elec:98357 a elec:ZipCode ;
+    elec:ofCity elec:NeahBay .
+
+elec:98358 a elec:ZipCode ;
+    elec:ofCity elec:Nordland .
+
+elec:98359 a elec:ZipCode ;
+    elec:ofCity elec:Olalla .
+
+elec:98360 a elec:ZipCode ;
+    elec:ofCity elec:Orting .
+
+elec:98361 a elec:ZipCode ;
+    elec:ofCity elec:Packwood .
+
+elec:98362 a elec:ZipCode ;
+    elec:ofCity elec:PortAngeles .
+
+elec:98363 a elec:ZipCode ;
+    elec:ofCity elec:PortAngeles .
+
+elec:98364 a elec:ZipCode ;
+    elec:ofCity elec:PortGamble .
+
+elec:98365 a elec:ZipCode ;
+    elec:ofCity elec:PortLudlow .
+
+elec:98366 a elec:ZipCode ;
+    elec:ofCity elec:PortOrchard .
+
+elec:98367 a elec:ZipCode ;
+    elec:ofCity elec:PortOrchard .
+
+elec:98368 a elec:ZipCode ;
+    elec:ofCity elec:PortTownsend .
+
+elec:98370 a elec:ZipCode ;
+    elec:ofCity elec:Poulsbo .
+
+elec:98371 a elec:ZipCode ;
+    elec:ofCity elec:Puyallup .
+
+elec:98372 a elec:ZipCode ;
+    elec:ofCity elec:Puyallup .
+
+elec:98373 a elec:ZipCode ;
+    elec:ofCity elec:Puyallup .
+
+elec:98374 a elec:ZipCode ;
+    elec:ofCity elec:Puyallup .
+
+elec:98375 a elec:ZipCode ;
+    elec:ofCity elec:Puyallup .
+
+elec:98376 a elec:ZipCode ;
+    elec:ofCity elec:Quilcene .
+
+elec:98377 a elec:ZipCode ;
+    elec:ofCity elec:Randle .
+
+elec:98378 a elec:ZipCode ;
+    elec:ofCity elec:Retsil .
+
+elec:98380 a elec:ZipCode ;
+    elec:ofCity elec:Seabeck .
+
+elec:98381 a elec:ZipCode ;
+    elec:ofCity elec:Sekiu .
+
+elec:98382 a elec:ZipCode ;
+    elec:ofCity elec:Sequim .
+
+elec:98383 a elec:ZipCode ;
+    elec:ofCity elec:Silverdale .
+
+elec:98384 a elec:ZipCode ;
+    elec:ofCity elec:SouthColby .
+
+elec:98385 a elec:ZipCode ;
+    elec:ofCity elec:SouthPrairie .
+
+elec:98386 a elec:ZipCode ;
+    elec:ofCity elec:Southworth .
+
+elec:98387 a elec:ZipCode ;
+    elec:ofCity elec:Spanaway .
+
+elec:98388 a elec:ZipCode ;
+    elec:ofCity elec:Steilacoom .
+
+elec:98390 a elec:ZipCode ;
+    elec:ofCity elec:Sumner .
+
+elec:98391 a elec:ZipCode ;
+    elec:ofCity elec:BonneyLake .
+
+elec:98392 a elec:ZipCode ;
+    elec:ofCity elec:Suquamish .
+
+elec:98393 a elec:ZipCode ;
+    elec:ofCity elec:Tracyton .
+
+elec:98394 a elec:ZipCode ;
+    elec:ofCity elec:Vaughn .
+
+elec:98395 a elec:ZipCode ;
+    elec:ofCity elec:Wauna .
+
+elec:98396 a elec:ZipCode ;
+    elec:ofCity elec:Wilkeson .
+
+elec:98397 a elec:ZipCode ;
+    elec:ofCity elec:Longmire .
+
+elec:98398 a elec:ZipCode ;
+    elec:ofCity elec:ParadiseInn .
+
+elec:98401 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98402 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98403 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98404 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98405 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98406 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98407 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98408 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98409 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98411 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98412 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98413 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98415 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98416 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98417 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98418 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98419 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98421 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98422 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98424 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98430 a elec:ZipCode ;
+    elec:ofCity elec:CampMurray .
+
+elec:98431 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98433 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98438 a elec:ZipCode ;
+    elec:ofCity elec:McchordAfb .
+
+elec:98439 a elec:ZipCode ;
+    elec:ofCity elec:Lakewood .
+
+elec:98442 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98443 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98444 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98445 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98446 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98447 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98448 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98450 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98455 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98460 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98464 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98465 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98466 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98467 a elec:ZipCode ;
+    elec:ofCity elec:UniversityPlace .
+
+elec:98471 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98477 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98481 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98490 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98492 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98493 a elec:ZipCode ;
+    elec:ofCity elec:Tacoma .
+
+elec:98496 a elec:ZipCode ;
+    elec:ofCity elec:Lakewood .
+
+elec:98497 a elec:ZipCode ;
+    elec:ofCity elec:Lakewood .
+
+elec:98498 a elec:ZipCode ;
+    elec:ofCity elec:Lakewood .
+
+elec:98499 a elec:ZipCode ;
+    elec:ofCity elec:Lakewood .
+
+elec:98501 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98502 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98503 a elec:ZipCode ;
+    elec:ofCity elec:Lacey .
+
+elec:98504 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98505 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98506 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98507 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98508 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98509 a elec:ZipCode ;
+    elec:ofCity elec:Lacey .
+
+elec:98511 a elec:ZipCode ;
+    elec:ofCity elec:Tumwater .
+
+elec:98512 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98513 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98516 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98520 a elec:ZipCode ;
+    elec:ofCity elec:Aberdeen .
+
+elec:98522 a elec:ZipCode ;
+    elec:ofCity elec:Adna .
+
+elec:98524 a elec:ZipCode ;
+    elec:ofCity elec:Allyn .
+
+elec:98526 a elec:ZipCode ;
+    elec:ofCity elec:AmandaPark .
+
+elec:98527 a elec:ZipCode ;
+    elec:ofCity elec:BayCenter .
+
+elec:98528 a elec:ZipCode ;
+    elec:ofCity elec:Belfair .
+
+elec:98530 a elec:ZipCode ;
+    elec:ofCity elec:Bucoda .
+
+elec:98531 a elec:ZipCode ;
+    elec:ofCity elec:Centralia .
+
+elec:98532 a elec:ZipCode ;
+    elec:ofCity elec:Chehalis .
+
+elec:98533 a elec:ZipCode ;
+    elec:ofCity elec:Cinebar .
+
+elec:98535 a elec:ZipCode ;
+    elec:ofCity elec:CopalisBeach .
+
+elec:98536 a elec:ZipCode ;
+    elec:ofCity elec:CopalisCrossing .
+
+elec:98537 a elec:ZipCode ;
+    elec:ofCity elec:Cosmopolis .
+
+elec:98538 a elec:ZipCode ;
+    elec:ofCity elec:Curtis .
+
+elec:98539 a elec:ZipCode ;
+    elec:ofCity elec:Doty .
+
+elec:98540 a elec:ZipCode ;
+    elec:ofCity elec:EastOlympia .
+
+elec:98541 a elec:ZipCode ;
+    elec:ofCity elec:Elma .
+
+elec:98542 a elec:ZipCode ;
+    elec:ofCity elec:Ethel .
+
+elec:98544 a elec:ZipCode ;
+    elec:ofCity elec:Galvin .
+
+elec:98546 a elec:ZipCode ;
+    elec:ofCity elec:Grapeview .
+
+elec:98547 a elec:ZipCode ;
+    elec:ofCity elec:Grayland .
+
+elec:98548 a elec:ZipCode ;
+    elec:ofCity elec:Hoodsport .
+
+elec:98550 a elec:ZipCode ;
+    elec:ofCity elec:Hoquiam .
+
+elec:98552 a elec:ZipCode ;
+    elec:ofCity elec:Humptulips .
+
+elec:98554 a elec:ZipCode ;
+    elec:ofCity elec:Lebam .
+
+elec:98555 a elec:ZipCode ;
+    elec:ofCity elec:Lilliwaup .
+
+elec:98556 a elec:ZipCode ;
+    elec:ofCity elec:Littlerock .
+
+elec:98557 a elec:ZipCode ;
+    elec:ofCity elec:Mccleary .
+
+elec:98558 a elec:ZipCode ;
+    elec:ofCity elec:Mckenna .
+
+elec:98559 a elec:ZipCode ;
+    elec:ofCity elec:Malone .
+
+elec:98560 a elec:ZipCode ;
+    elec:ofCity elec:Matlock .
+
+elec:98561 a elec:ZipCode ;
+    elec:ofCity elec:Menlo .
+
+elec:98562 a elec:ZipCode ;
+    elec:ofCity elec:Moclips .
+
+elec:98563 a elec:ZipCode ;
+    elec:ofCity elec:Montesano .
+
+elec:98564 a elec:ZipCode ;
+    elec:ofCity elec:Mossyrock .
+
+elec:98565 a elec:ZipCode ;
+    elec:ofCity elec:Napavine .
+
+elec:98566 a elec:ZipCode ;
+    elec:ofCity elec:Neilton .
+
+elec:98568 a elec:ZipCode ;
+    elec:ofCity elec:Oakville .
+
+elec:98569 a elec:ZipCode ;
+    elec:ofCity elec:OceanShores .
+
+elec:98570 a elec:ZipCode ;
+    elec:ofCity elec:Onalaska .
+
+elec:98571 a elec:ZipCode ;
+    elec:ofCity elec:PacificBeach .
+
+elec:98572 a elec:ZipCode ;
+    elec:ofCity elec:PeEll .
+
+elec:98575 a elec:ZipCode ;
+    elec:ofCity elec:Quinault .
+
+elec:98576 a elec:ZipCode ;
+    elec:ofCity elec:Rainier .
+
+elec:98577 a elec:ZipCode ;
+    elec:ofCity elec:Raymond .
+
+elec:98579 a elec:ZipCode ;
+    elec:ofCity elec:Rochester .
+
+elec:98580 a elec:ZipCode ;
+    elec:ofCity elec:Roy .
+
+elec:98581 a elec:ZipCode ;
+    elec:ofCity elec:Ryderwood .
+
+elec:98582 a elec:ZipCode ;
+    elec:ofCity elec:Salkum .
+
+elec:98583 a elec:ZipCode ;
+    elec:ofCity elec:Satsop .
+
+elec:98584 a elec:ZipCode ;
+    elec:ofCity elec:Shelton .
+
+elec:98585 a elec:ZipCode ;
+    elec:ofCity elec:SilverCreek .
+
+elec:98586 a elec:ZipCode ;
+    elec:ofCity elec:SouthBend .
+
+elec:98587 a elec:ZipCode ;
+    elec:ofCity elec:Taholah .
+
+elec:98588 a elec:ZipCode ;
+    elec:ofCity elec:Tahuya .
+
+elec:98589 a elec:ZipCode ;
+    elec:ofCity elec:Tenino .
+
+elec:98590 a elec:ZipCode ;
+    elec:ofCity elec:Tokeland .
+
+elec:98591 a elec:ZipCode ;
+    elec:ofCity elec:Toledo .
+
+elec:98592 a elec:ZipCode ;
+    elec:ofCity elec:Union .
+
+elec:98593 a elec:ZipCode ;
+    elec:ofCity elec:Vader .
+
+elec:98595 a elec:ZipCode ;
+    elec:ofCity elec:Westport .
+
+elec:98596 a elec:ZipCode ;
+    elec:ofCity elec:Winlock .
+
+elec:98597 a elec:ZipCode ;
+    elec:ofCity elec:Yelm .
+
+elec:98599 a elec:ZipCode ;
+    elec:ofCity elec:Olympia .
+
+elec:98601 a elec:ZipCode ;
+    elec:ofCity elec:Amboy .
+
+elec:98602 a elec:ZipCode ;
+    elec:ofCity elec:Appleton .
+
+elec:98603 a elec:ZipCode ;
+    elec:ofCity elec:Ariel .
+
+elec:98604 a elec:ZipCode ;
+    elec:ofCity elec:BattleGround .
+
+elec:98605 a elec:ZipCode ;
+    elec:ofCity elec:Bingen .
+
+elec:98606 a elec:ZipCode ;
+    elec:ofCity elec:BrushPrairie .
+
+elec:98607 a elec:ZipCode ;
+    elec:ofCity elec:Camas .
+
+elec:98609 a elec:ZipCode ;
+    elec:ofCity elec:Carrolls .
+
+elec:98610 a elec:ZipCode ;
+    elec:ofCity elec:Carson .
+
+elec:98611 a elec:ZipCode ;
+    elec:ofCity elec:CastleRock .
+
+elec:98612 a elec:ZipCode ;
+    elec:ofCity elec:Cathlamet .
+
+elec:98613 a elec:ZipCode ;
+    elec:ofCity elec:Centerville .
+
+elec:98614 a elec:ZipCode ;
+    elec:ofCity elec:Chinook .
+
+elec:98616 a elec:ZipCode ;
+    elec:ofCity elec:Cougar .
+
+elec:98617 a elec:ZipCode ;
+    elec:ofCity elec:Dallesport .
+
+elec:98619 a elec:ZipCode ;
+    elec:ofCity elec:Glenwood .
+
+elec:98620 a elec:ZipCode ;
+    elec:ofCity elec:Goldendale .
+
+elec:98621 a elec:ZipCode ;
+    elec:ofCity elec:GraysRiver .
+
+elec:98622 a elec:ZipCode ;
+    elec:ofCity elec:Heisson .
+
+elec:98623 a elec:ZipCode ;
+    elec:ofCity elec:Husum .
+
+elec:98624 a elec:ZipCode ;
+    elec:ofCity elec:Ilwaco .
+
+elec:98625 a elec:ZipCode ;
+    elec:ofCity elec:Kalama .
+
+elec:98626 a elec:ZipCode ;
+    elec:ofCity elec:Kelso .
+
+elec:98628 a elec:ZipCode ;
+    elec:ofCity elec:Klickitat .
+
+elec:98629 a elec:ZipCode ;
+    elec:ofCity elec:LaCenter .
+
+elec:98631 a elec:ZipCode ;
+    elec:ofCity elec:LongBeach .
+
+elec:98632 a elec:ZipCode ;
+    elec:ofCity elec:Longview .
+
+elec:98635 a elec:ZipCode ;
+    elec:ofCity elec:Lyle .
+
+elec:98637 a elec:ZipCode ;
+    elec:ofCity elec:Nahcotta .
+
+elec:98638 a elec:ZipCode ;
+    elec:ofCity elec:Naselle .
+
+elec:98639 a elec:ZipCode ;
+    elec:ofCity elec:NorthBonneville .
+
+elec:98640 a elec:ZipCode ;
+    elec:ofCity elec:OceanPark .
+
+elec:98641 a elec:ZipCode ;
+    elec:ofCity elec:Oysterville .
+
+elec:98642 a elec:ZipCode ;
+    elec:ofCity elec:Ridgefield .
+
+elec:98643 a elec:ZipCode ;
+    elec:ofCity elec:Rosburg .
+
+elec:98644 a elec:ZipCode ;
+    elec:ofCity elec:Seaview .
+
+elec:98645 a elec:ZipCode ;
+    elec:ofCity elec:Silverlake .
+
+elec:98647 a elec:ZipCode ;
+    elec:ofCity elec:Skamokawa .
+
+elec:98648 a elec:ZipCode ;
+    elec:ofCity elec:Stevenson .
+
+elec:98649 a elec:ZipCode ;
+    elec:ofCity elec:Toutle .
+
+elec:98650 a elec:ZipCode ;
+    elec:ofCity elec:TroutLake .
+
+elec:98651 a elec:ZipCode ;
+    elec:ofCity elec:Underwood .
+
+elec:98660 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98661 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98662 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98663 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98664 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98665 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98666 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98667 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98668 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98670 a elec:ZipCode ;
+    elec:ofCity elec:Wahkiacus .
+
+elec:98671 a elec:ZipCode ;
+    elec:ofCity elec:Washougal .
+
+elec:98672 a elec:ZipCode ;
+    elec:ofCity elec:WhiteSalmon .
+
+elec:98673 a elec:ZipCode ;
+    elec:ofCity elec:Wishram .
+
+elec:98674 a elec:ZipCode ;
+    elec:ofCity elec:Woodland .
+
+elec:98675 a elec:ZipCode ;
+    elec:ofCity elec:Yacolt .
+
+elec:98682 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98683 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98684 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98685 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98686 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98687 a elec:ZipCode ;
+    elec:ofCity elec:Vancouver .
+
+elec:98801 a elec:ZipCode ;
+    elec:ofCity elec:Wenatchee .
+
+elec:98802 a elec:ZipCode ;
+    elec:ofCity elec:EastWenatchee .
+
+elec:98807 a elec:ZipCode ;
+    elec:ofCity elec:Wenatchee .
+
+elec:98811 a elec:ZipCode ;
+    elec:ofCity elec:Ardenvoir .
+
+elec:98812 a elec:ZipCode ;
+    elec:ofCity elec:Brewster .
+
+elec:98813 a elec:ZipCode ;
+    elec:ofCity elec:Bridgeport .
+
+elec:98814 a elec:ZipCode ;
+    elec:ofCity elec:Carlton .
+
+elec:98815 a elec:ZipCode ;
+    elec:ofCity elec:Cashmere .
+
+elec:98816 a elec:ZipCode ;
+    elec:ofCity elec:Chelan .
+
+elec:98817 a elec:ZipCode ;
+    elec:ofCity elec:ChelanFalls .
+
+elec:98819 a elec:ZipCode ;
+    elec:ofCity elec:Conconully .
+
+elec:98821 a elec:ZipCode ;
+    elec:ofCity elec:Dryden .
+
+elec:98822 a elec:ZipCode ;
+    elec:ofCity elec:Entiat .
+
+elec:98823 a elec:ZipCode ;
+    elec:ofCity elec:Ephrata .
+
+elec:98824 a elec:ZipCode ;
+    elec:ofCity elec:George .
+
+elec:98826 a elec:ZipCode ;
+    elec:ofCity elec:Leavenworth .
+
+elec:98827 a elec:ZipCode ;
+    elec:ofCity elec:Loomis .
+
+elec:98828 a elec:ZipCode ;
+    elec:ofCity elec:Malaga .
+
+elec:98829 a elec:ZipCode ;
+    elec:ofCity elec:Malott .
+
+elec:98830 a elec:ZipCode ;
+    elec:ofCity elec:Mansfield .
+
+elec:98831 a elec:ZipCode ;
+    elec:ofCity elec:Manson .
+
+elec:98832 a elec:ZipCode ;
+    elec:ofCity elec:Marlin .
+
+elec:98833 a elec:ZipCode ;
+    elec:ofCity elec:Mazama .
+
+elec:98834 a elec:ZipCode ;
+    elec:ofCity elec:Methow .
+
+elec:98836 a elec:ZipCode ;
+    elec:ofCity elec:Monitor .
+
+elec:98837 a elec:ZipCode ;
+    elec:ofCity elec:MosesLake .
+
+elec:98840 a elec:ZipCode ;
+    elec:ofCity elec:Okanogan .
+
+elec:98841 a elec:ZipCode ;
+    elec:ofCity elec:Omak .
+
+elec:98843 a elec:ZipCode ;
+    elec:ofCity elec:Orondo .
+
+elec:98844 a elec:ZipCode ;
+    elec:ofCity elec:Oroville .
+
+elec:98845 a elec:ZipCode ;
+    elec:ofCity elec:Palisades .
+
+elec:98846 a elec:ZipCode ;
+    elec:ofCity elec:Pateros .
+
+elec:98847 a elec:ZipCode ;
+    elec:ofCity elec:Peshastin .
+
+elec:98848 a elec:ZipCode ;
+    elec:ofCity elec:Quincy .
+
+elec:98849 a elec:ZipCode ;
+    elec:ofCity elec:Riverside .
+
+elec:98850 a elec:ZipCode ;
+    elec:ofCity elec:RockIsland .
+
+elec:98851 a elec:ZipCode ;
+    elec:ofCity elec:SoapLake .
+
+elec:98852 a elec:ZipCode ;
+    elec:ofCity elec:Stehekin .
+
+elec:98853 a elec:ZipCode ;
+    elec:ofCity elec:Stratford .
+
+elec:98855 a elec:ZipCode ;
+    elec:ofCity elec:Tonasket .
+
+elec:98856 a elec:ZipCode ;
+    elec:ofCity elec:Twisp .
+
+elec:98857 a elec:ZipCode ;
+    elec:ofCity elec:Warden .
+
+elec:98858 a elec:ZipCode ;
+    elec:ofCity elec:Waterville .
+
+elec:98859 a elec:ZipCode ;
+    elec:ofCity elec:Wauconda .
+
+elec:98860 a elec:ZipCode ;
+    elec:ofCity elec:WilsonCreek .
+
+elec:98862 a elec:ZipCode ;
+    elec:ofCity elec:Winthrop .
+
+elec:98901 a elec:ZipCode ;
+    elec:ofCity elec:Yakima .
+
+elec:98902 a elec:ZipCode ;
+    elec:ofCity elec:Yakima .
+
+elec:98903 a elec:ZipCode ;
+    elec:ofCity elec:Yakima .
+
+elec:98904 a elec:ZipCode ;
+    elec:ofCity elec:Yakima .
+
+elec:98907 a elec:ZipCode ;
+    elec:ofCity elec:Yakima .
+
+elec:98908 a elec:ZipCode ;
+    elec:ofCity elec:Yakima .
+
+elec:98909 a elec:ZipCode ;
+    elec:ofCity elec:Yakima .
+
+elec:98920 a elec:ZipCode ;
+    elec:ofCity elec:Brownstown .
+
+elec:98921 a elec:ZipCode ;
+    elec:ofCity elec:Buena .
+
+elec:98922 a elec:ZipCode ;
+    elec:ofCity elec:CleElum .
+
+elec:98923 a elec:ZipCode ;
+    elec:ofCity elec:Cowiche .
+
+elec:98925 a elec:ZipCode ;
+    elec:ofCity elec:Easton .
+
+elec:98926 a elec:ZipCode ;
+    elec:ofCity elec:Ellensburg .
+
+elec:98929 a elec:ZipCode ;
+    elec:ofCity elec:Naches .
+
+elec:98930 a elec:ZipCode ;
+    elec:ofCity elec:Grandview .
+
+elec:98932 a elec:ZipCode ;
+    elec:ofCity elec:Granger .
+
+elec:98933 a elec:ZipCode ;
+    elec:ofCity elec:Harrah .
+
+elec:98934 a elec:ZipCode ;
+    elec:ofCity elec:Kittitas .
+
+elec:98935 a elec:ZipCode ;
+    elec:ofCity elec:Mabton .
+
+elec:98936 a elec:ZipCode ;
+    elec:ofCity elec:Moxee .
+
+elec:98937 a elec:ZipCode ;
+    elec:ofCity elec:Naches .
+
+elec:98938 a elec:ZipCode ;
+    elec:ofCity elec:Outlook .
+
+elec:98939 a elec:ZipCode ;
+    elec:ofCity elec:Parker .
+
+elec:98940 a elec:ZipCode ;
+    elec:ofCity elec:Ronald .
+
+elec:98941 a elec:ZipCode ;
+    elec:ofCity elec:Roslyn .
+
+elec:98942 a elec:ZipCode ;
+    elec:ofCity elec:Selah .
+
+elec:98943 a elec:ZipCode ;
+    elec:ofCity elec:SouthCleElum .
+
+elec:98944 a elec:ZipCode ;
+    elec:ofCity elec:Sunnyside .
+
+elec:98946 a elec:ZipCode ;
+    elec:ofCity elec:Thorp .
+
+elec:98947 a elec:ZipCode ;
+    elec:ofCity elec:Tieton .
+
+elec:98948 a elec:ZipCode ;
+    elec:ofCity elec:Toppenish .
+
+elec:98950 a elec:ZipCode ;
+    elec:ofCity elec:Vantage .
+
+elec:98951 a elec:ZipCode ;
+    elec:ofCity elec:Wapato .
+
+elec:98952 a elec:ZipCode ;
+    elec:ofCity elec:WhiteSwan .
+
+elec:98953 a elec:ZipCode ;
+    elec:ofCity elec:Zillah .
+
+elec:99001 a elec:ZipCode ;
+    elec:ofCity elec:AirwayHeights .
+
+elec:99003 a elec:ZipCode ;
+    elec:ofCity elec:Chattaroy .
+
+elec:99004 a elec:ZipCode ;
+    elec:ofCity elec:Cheney .
+
+elec:99005 a elec:ZipCode ;
+    elec:ofCity elec:Colbert .
+
+elec:99006 a elec:ZipCode ;
+    elec:ofCity elec:DeerPark .
+
+elec:99008 a elec:ZipCode ;
+    elec:ofCity elec:Edwall .
+
+elec:99009 a elec:ZipCode ;
+    elec:ofCity elec:Elk .
+
+elec:99011 a elec:ZipCode ;
+    elec:ofCity elec:FairchildAirForceBase .
+
+elec:99012 a elec:ZipCode ;
+    elec:ofCity elec:Fairfield .
+
+elec:99013 a elec:ZipCode ;
+    elec:ofCity elec:Ford .
+
+elec:99014 a elec:ZipCode ;
+    elec:ofCity elec:FourLakes .
+
+elec:99016 a elec:ZipCode ;
+    elec:ofCity elec:Greenacres .
+
+elec:99017 a elec:ZipCode ;
+    elec:ofCity elec:Lamont .
+
+elec:99018 a elec:ZipCode ;
+    elec:ofCity elec:Latah .
+
+elec:99019 a elec:ZipCode ;
+    elec:ofCity elec:LibertyLake .
+
+elec:99020 a elec:ZipCode ;
+    elec:ofCity elec:Marshall .
+
+elec:99021 a elec:ZipCode ;
+    elec:ofCity elec:Mead .
+
+elec:99022 a elec:ZipCode ;
+    elec:ofCity elec:MedicalLake .
+
+elec:99023 a elec:ZipCode ;
+    elec:ofCity elec:Mica .
+
+elec:99025 a elec:ZipCode ;
+    elec:ofCity elec:NewmanLake .
+
+elec:99026 a elec:ZipCode ;
+    elec:ofCity elec:NineMileFalls .
+
+elec:99027 a elec:ZipCode ;
+    elec:ofCity elec:OtisOrchards .
+
+elec:99029 a elec:ZipCode ;
+    elec:ofCity elec:Reardan .
+
+elec:99030 a elec:ZipCode ;
+    elec:ofCity elec:Rockford .
+
+elec:99031 a elec:ZipCode ;
+    elec:ofCity elec:Spangle .
+
+elec:99032 a elec:ZipCode ;
+    elec:ofCity elec:Sprague .
+
+elec:99033 a elec:ZipCode ;
+    elec:ofCity elec:Tekoa .
+
+elec:99034 a elec:ZipCode ;
+    elec:ofCity elec:Tumtum .
+
+elec:99036 a elec:ZipCode ;
+    elec:ofCity elec:Valleyford .
+
+elec:99037 a elec:ZipCode ;
+    elec:ofCity elec:Veradale .
+
+elec:99039 a elec:ZipCode ;
+    elec:ofCity elec:Waverly .
+
+elec:99040 a elec:ZipCode ;
+    elec:ofCity elec:Wellpinit .
+
+elec:99101 a elec:ZipCode ;
+    elec:ofCity elec:Addy .
+
+elec:99102 a elec:ZipCode ;
+    elec:ofCity elec:Albion .
+
+elec:99103 a elec:ZipCode ;
+    elec:ofCity elec:Almira .
+
+elec:99104 a elec:ZipCode ;
+    elec:ofCity elec:Belmont .
+
+elec:99105 a elec:ZipCode ;
+    elec:ofCity elec:Benge .
+
+elec:99107 a elec:ZipCode ;
+    elec:ofCity elec:Boyds .
+
+elec:99109 a elec:ZipCode ;
+    elec:ofCity elec:Chewelah .
+
+elec:99110 a elec:ZipCode ;
+    elec:ofCity elec:Clayton .
+
+elec:99111 a elec:ZipCode ;
+    elec:ofCity elec:Colfax .
+
+elec:99113 a elec:ZipCode ;
+    elec:ofCity elec:Colton .
+
+elec:99114 a elec:ZipCode ;
+    elec:ofCity elec:Colville .
+
+elec:99115 a elec:ZipCode ;
+    elec:ofCity elec:CouleeCity .
+
+elec:99116 a elec:ZipCode ;
+    elec:ofCity elec:CouleeDam .
+
+elec:99117 a elec:ZipCode ;
+    elec:ofCity elec:Creston .
+
+elec:99118 a elec:ZipCode ;
+    elec:ofCity elec:Curlew .
+
+elec:99119 a elec:ZipCode ;
+    elec:ofCity elec:Cusick .
+
+elec:99121 a elec:ZipCode ;
+    elec:ofCity elec:Danville .
+
+elec:99122 a elec:ZipCode ;
+    elec:ofCity elec:Davenport .
+
+elec:99123 a elec:ZipCode ;
+    elec:ofCity elec:ElectricCity .
+
+elec:99124 a elec:ZipCode ;
+    elec:ofCity elec:ElmerCity .
+
+elec:99125 a elec:ZipCode ;
+    elec:ofCity elec:Endicott .
+
+elec:99126 a elec:ZipCode ;
+    elec:ofCity elec:Evans .
+
+elec:99128 a elec:ZipCode ;
+    elec:ofCity elec:Farmington .
+
+elec:99129 a elec:ZipCode ;
+    elec:ofCity elec:Fruitland .
+
+elec:99130 a elec:ZipCode ;
+    elec:ofCity elec:Garfield .
+
+elec:99131 a elec:ZipCode ;
+    elec:ofCity elec:Gifford .
+
+elec:99133 a elec:ZipCode ;
+    elec:ofCity elec:GrandCoulee .
+
+elec:99134 a elec:ZipCode ;
+    elec:ofCity elec:Harrington .
+
+elec:99135 a elec:ZipCode ;
+    elec:ofCity elec:Hartline .
+
+elec:99136 a elec:ZipCode ;
+    elec:ofCity elec:Hay .
+
+elec:99137 a elec:ZipCode ;
+    elec:ofCity elec:Hunters .
+
+elec:99138 a elec:ZipCode ;
+    elec:ofCity elec:Inchelium .
+
+elec:99139 a elec:ZipCode ;
+    elec:ofCity elec:Ione .
+
+elec:99140 a elec:ZipCode ;
+    elec:ofCity elec:Keller .
+
+elec:99141 a elec:ZipCode ;
+    elec:ofCity elec:KettleFalls .
+
+elec:99143 a elec:ZipCode ;
+    elec:ofCity elec:Lacrosse .
+
+elec:99144 a elec:ZipCode ;
+    elec:ofCity elec:Lamona .
+
+elec:99146 a elec:ZipCode ;
+    elec:ofCity elec:Laurier .
+
+elec:99147 a elec:ZipCode ;
+    elec:ofCity elec:Lincoln .
+
+elec:99148 a elec:ZipCode ;
+    elec:ofCity elec:LoonLake .
+
+elec:99149 a elec:ZipCode ;
+    elec:ofCity elec:Malden .
+
+elec:99150 a elec:ZipCode ;
+    elec:ofCity elec:Malo .
+
+elec:99151 a elec:ZipCode ;
+    elec:ofCity elec:Marcus .
+
+elec:99152 a elec:ZipCode ;
+    elec:ofCity elec:Metaline .
+
+elec:99153 a elec:ZipCode ;
+    elec:ofCity elec:MetalineFalls .
+
+elec:99154 a elec:ZipCode ;
+    elec:ofCity elec:Mohler .
+
+elec:99155 a elec:ZipCode ;
+    elec:ofCity elec:Nespelem .
+
+elec:99156 a elec:ZipCode ;
+    elec:ofCity elec:Newport .
+
+elec:99157 a elec:ZipCode ;
+    elec:ofCity elec:Northport .
+
+elec:99158 a elec:ZipCode ;
+    elec:ofCity elec:Oakesdale .
+
+elec:99159 a elec:ZipCode ;
+    elec:ofCity elec:Odessa .
+
+elec:99160 a elec:ZipCode ;
+    elec:ofCity elec:Orient .
+
+elec:99161 a elec:ZipCode ;
+    elec:ofCity elec:Palouse .
+
+elec:99163 a elec:ZipCode ;
+    elec:ofCity elec:Pullman .
+
+elec:99164 a elec:ZipCode ;
+    elec:ofCity elec:Pullman .
+
+elec:99165 a elec:ZipCode ;
+    elec:ofCity elec:Pullman .
+
+elec:99166 a elec:ZipCode ;
+    elec:ofCity elec:Republic .
+
+elec:99167 a elec:ZipCode ;
+    elec:ofCity elec:Rice .
+
+elec:99169 a elec:ZipCode ;
+    elec:ofCity elec:Ritzville .
+
+elec:99170 a elec:ZipCode ;
+    elec:ofCity elec:Rosalia .
+
+elec:99171 a elec:ZipCode ;
+    elec:ofCity elec:SaintJohn .
+
+elec:99173 a elec:ZipCode ;
+    elec:ofCity elec:Springdale .
+
+elec:99174 a elec:ZipCode ;
+    elec:ofCity elec:Steptoe .
+
+elec:99176 a elec:ZipCode ;
+    elec:ofCity elec:Thornton .
+
+elec:99179 a elec:ZipCode ;
+    elec:ofCity elec:Uniontown .
+
+elec:99180 a elec:ZipCode ;
+    elec:ofCity elec:Usk .
+
+elec:99181 a elec:ZipCode ;
+    elec:ofCity elec:Valley .
+
+elec:99185 a elec:ZipCode ;
+    elec:ofCity elec:Wilbur .
+
+elec:99201 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99202 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99203 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99204 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99205 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99206 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99207 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99208 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99209 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99210 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99211 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99212 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99213 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99214 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99215 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99216 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99217 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99218 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99219 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99220 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99223 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99224 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99228 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99251 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99252 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99256 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99258 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99260 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99299 a elec:ZipCode ;
+    elec:ofCity elec:Spokane .
+
+elec:99301 a elec:ZipCode ;
+    elec:ofCity elec:Pasco .
+
+elec:99302 a elec:ZipCode ;
+    elec:ofCity elec:Pasco .
+
+elec:99320 a elec:ZipCode ;
+    elec:ofCity elec:BentonCity .
+
+elec:99321 a elec:ZipCode ;
+    elec:ofCity elec:Beverly .
+
+elec:99322 a elec:ZipCode ;
+    elec:ofCity elec:Bickleton .
+
+elec:99323 a elec:ZipCode ;
+    elec:ofCity elec:Burbank .
+
+elec:99324 a elec:ZipCode ;
+    elec:ofCity elec:CollegePlace .
+
+elec:99326 a elec:ZipCode ;
+    elec:ofCity elec:Connell .
+
+elec:99328 a elec:ZipCode ;
+    elec:ofCity elec:Dayton .
+
+elec:99329 a elec:ZipCode ;
+    elec:ofCity elec:Dixie .
+
+elec:99330 a elec:ZipCode ;
+    elec:ofCity elec:Eltopia .
+
+elec:99333 a elec:ZipCode ;
+    elec:ofCity elec:Hooper .
+
+elec:99335 a elec:ZipCode ;
+    elec:ofCity elec:Kahlotus .
+
+elec:99336 a elec:ZipCode ;
+    elec:ofCity elec:Kennewick .
+
+elec:99337 a elec:ZipCode ;
+    elec:ofCity elec:Kennewick .
+
+elec:99338 a elec:ZipCode ;
+    elec:ofCity elec:Kennewick .
+
+elec:99341 a elec:ZipCode ;
+    elec:ofCity elec:Lind .
+
+elec:99343 a elec:ZipCode ;
+    elec:ofCity elec:Mesa .
+
+elec:99344 a elec:ZipCode ;
+    elec:ofCity elec:Othello .
+
+elec:99345 a elec:ZipCode ;
+    elec:ofCity elec:Paterson .
+
+elec:99346 a elec:ZipCode ;
+    elec:ofCity elec:Plymouth .
+
+elec:99347 a elec:ZipCode ;
+    elec:ofCity elec:Pomeroy .
+
+elec:99348 a elec:ZipCode ;
+    elec:ofCity elec:Prescott .
+
+elec:99349 a elec:ZipCode ;
+    elec:ofCity elec:Mattawa .
+
+elec:99350 a elec:ZipCode ;
+    elec:ofCity elec:Prosser .
+
+elec:99352 a elec:ZipCode ;
+    elec:ofCity elec:Richland .
+
+elec:99353 a elec:ZipCode ;
+    elec:ofCity elec:WestRichland .
+
+elec:99354 a elec:ZipCode ;
+    elec:ofCity elec:Richland .
+
+elec:99356 a elec:ZipCode ;
+    elec:ofCity elec:Roosevelt .
+
+elec:99357 a elec:ZipCode ;
+    elec:ofCity elec:RoyalCity .
+
+elec:99359 a elec:ZipCode ;
+    elec:ofCity elec:Starbuck .
+
+elec:99360 a elec:ZipCode ;
+    elec:ofCity elec:Touchet .
+
+elec:99361 a elec:ZipCode ;
+    elec:ofCity elec:Waitsburg .
+
+elec:99362 a elec:ZipCode ;
+    elec:ofCity elec:WallaWalla .
+
+elec:99363 a elec:ZipCode ;
+    elec:ofCity elec:Wallula .
+
+elec:99371 a elec:ZipCode ;
+    elec:ofCity elec:Washtucna .
+
+elec:99401 a elec:ZipCode ;
+    elec:ofCity elec:Anatone .
+
+elec:99402 a elec:ZipCode ;
+    elec:ofCity elec:Asotin .
+
+elec:99403 a elec:ZipCode ;
+    elec:ofCity elec:Clarkston .
+
+elec:Aberdeen a elec:City ;
+    rdfs:label "Aberdeen"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Acme a elec:City ;
+    rdfs:label "Acme"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Addy a elec:City ;
+    rdfs:label "Addy"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Adna a elec:City ;
+    rdfs:label "Adna"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:AirwayHeights a elec:City ;
+    rdfs:label "Airway Heights"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Albion a elec:City ;
+    rdfs:label "Albion"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Allyn a elec:City ;
+    rdfs:label "Allyn"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Almira a elec:City ;
+    rdfs:label "Almira"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:AmandaPark a elec:City ;
+    rdfs:label "Amanda Park"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Amboy a elec:City ;
+    rdfs:label "Amboy"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:Anacortes a elec:City ;
+    rdfs:label "Anacortes"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Anatone a elec:City ;
+    rdfs:label "Anatone"^^xsd:string ;
+    elec:belongsTo elec:AsotinCounty .
+
+elec:AndersonIsland a elec:City ;
+    rdfs:label "Anderson Island"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Appleton a elec:City ;
+    rdfs:label "Appleton"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Ardenvoir a elec:City ;
+    rdfs:label "Ardenvoir"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Ariel a elec:City ;
+    rdfs:label "Ariel"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:Arlington a elec:City ;
+    rdfs:label "Arlington"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Ashford a elec:City ;
+    rdfs:label "Ashford"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Asotin a elec:City ;
+    rdfs:label "Asotin"^^xsd:string ;
+    elec:belongsTo elec:AsotinCounty .
+
+elec:BainbridgeIsland a elec:City ;
+    rdfs:label "Bainbridge Island"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Baring a elec:City ;
+    rdfs:label "Baring"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:BattleGround a elec:City ;
+    rdfs:label "Battle Ground"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:BayCenter a elec:City ;
+    rdfs:label "Bay Center"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:Beaver a elec:City ;
+    rdfs:label "Beaver"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:Belfair a elec:City ;
+    rdfs:label "Belfair"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Belmont a elec:City ;
+    rdfs:label "Belmont"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Benge a elec:City ;
+    rdfs:label "Benge"^^xsd:string ;
+    elec:belongsTo elec:AdamsCounty .
+
+elec:BentonCity a elec:City ;
+    rdfs:label "Benton City"^^xsd:string ;
+    elec:belongsTo elec:BentonCounty .
+
+elec:Beverly a elec:City ;
+    rdfs:label "Beverly"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Bickleton a elec:City ;
+    rdfs:label "Bickleton"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Bingen a elec:City ;
+    rdfs:label "Bingen"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:BlackDiamond a elec:City ;
+    rdfs:label "Black Diamond"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:BlakelyIsland a elec:City ;
+    rdfs:label "Blakely Island"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:BonneyLake a elec:City ;
+    rdfs:label "Bonney Lake"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Bow a elec:City ;
+    rdfs:label "Bow"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Boyds a elec:City ;
+    rdfs:label "Boyds"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Brewster a elec:City ;
+    rdfs:label "Brewster"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Bridgeport a elec:City ;
+    rdfs:label "Bridgeport"^^xsd:string ;
+    elec:belongsTo elec:DouglasCounty .
+
+elec:Brinnon a elec:City ;
+    rdfs:label "Brinnon"^^xsd:string ;
+    elec:belongsTo elec:JeffersonCounty .
+
+elec:Brownstown a elec:City ;
+    rdfs:label "Brownstown"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:BrushPrairie a elec:City ;
+    rdfs:label "Brush Prairie"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:Buckley a elec:City ;
+    rdfs:label "Buckley"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Bucoda a elec:City ;
+    rdfs:label "Bucoda"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:Buena a elec:City ;
+    rdfs:label "Buena"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Burbank a elec:City ;
+    rdfs:label "Burbank"^^xsd:string ;
+    elec:belongsTo elec:WallaWallaCounty .
+
+elec:Burley a elec:City ;
+    rdfs:label "Burley"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Burlington a elec:City ;
+    rdfs:label "Burlington"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Burton a elec:City ;
+    rdfs:label "Burton"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:CamanoIsland a elec:City ;
+    rdfs:label "Camano Island"^^xsd:string ;
+    elec:belongsTo elec:IslandCounty .
+
+elec:Camas a elec:City ;
+    rdfs:label "Camas"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:CampMurray a elec:City ;
+    rdfs:label "Camp Murray"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Carbonado a elec:City ;
+    rdfs:label "Carbonado"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Carlsborg a elec:City ;
+    rdfs:label "Carlsborg"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:Carlton a elec:City ;
+    rdfs:label "Carlton"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Carnation a elec:City ;
+    rdfs:label "Carnation"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Carrolls a elec:City ;
+    rdfs:label "Carrolls"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:Carson a elec:City ;
+    rdfs:label "Carson"^^xsd:string ;
+    elec:belongsTo elec:SkamaniaCounty .
+
+elec:Cashmere a elec:City ;
+    rdfs:label "Cashmere"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:CastleRock a elec:City ;
+    rdfs:label "Castle Rock"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:Cathlamet a elec:City ;
+    rdfs:label "Cathlamet"^^xsd:string ;
+    elec:belongsTo elec:WahkiakumCounty .
+
+elec:Centerville a elec:City ;
+    rdfs:label "Centerville"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Centralia a elec:City ;
+    rdfs:label "Centralia"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Chattaroy a elec:City ;
+    rdfs:label "Chattaroy"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Chehalis a elec:City ;
+    rdfs:label "Chehalis"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Chelan a elec:City ;
+    rdfs:label "Chelan"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:ChelanFalls a elec:City ;
+    rdfs:label "Chelan Falls"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Cheney a elec:City ;
+    rdfs:label "Cheney"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Chewelah a elec:City ;
+    rdfs:label "Chewelah"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Chimacum a elec:City ;
+    rdfs:label "Chimacum"^^xsd:string ;
+    elec:belongsTo elec:JeffersonCounty .
+
+elec:Chinook a elec:City ;
+    rdfs:label "Chinook"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:Cinebar a elec:City ;
+    rdfs:label "Cinebar"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:ClallamBay a elec:City ;
+    rdfs:label "Clallam Bay"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:Clarkston a elec:City ;
+    rdfs:label "Clarkston"^^xsd:string ;
+    elec:belongsTo elec:AsotinCounty .
+
+elec:Clayton a elec:City ;
+    rdfs:label "Clayton"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:CleElum a elec:City ;
+    rdfs:label "Cle Elum"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:Clearlake a elec:City ;
+    rdfs:label "Clearlake"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Clinton a elec:City ;
+    rdfs:label "Clinton"^^xsd:string ;
+    elec:belongsTo elec:IslandCounty .
+
+elec:Colbert a elec:City ;
+    rdfs:label "Colbert"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Colfax a elec:City ;
+    rdfs:label "Colfax"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:CollegePlace a elec:City ;
+    rdfs:label "College Place"^^xsd:string ;
+    elec:belongsTo elec:WallaWallaCounty .
+
+elec:Colton a elec:City ;
+    rdfs:label "Colton"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Colville a elec:City ;
+    rdfs:label "Colville"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Conconully a elec:City ;
+    rdfs:label "Conconully"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Concrete a elec:City ;
+    rdfs:label "Concrete"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Connell a elec:City ;
+    rdfs:label "Connell"^^xsd:string ;
+    elec:belongsTo elec:FranklinCounty .
+
+elec:Conway a elec:City ;
+    rdfs:label "Conway"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:CopalisBeach a elec:City ;
+    rdfs:label "Copalis Beach"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:CopalisCrossing a elec:City ;
+    rdfs:label "Copalis Crossing"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Cosmopolis a elec:City ;
+    rdfs:label "Cosmopolis"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Cougar a elec:City ;
+    rdfs:label "Cougar"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:CouleeCity a elec:City ;
+    rdfs:label "Coulee City"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:CouleeDam a elec:City ;
+    rdfs:label "Coulee Dam"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Coupeville a elec:City ;
+    rdfs:label "Coupeville"^^xsd:string ;
+    elec:belongsTo elec:IslandCounty .
+
+elec:Cowiche a elec:City ;
+    rdfs:label "Cowiche"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Creston a elec:City ;
+    rdfs:label "Creston"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Curlew a elec:City ;
+    rdfs:label "Curlew"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Curtis a elec:City ;
+    rdfs:label "Curtis"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Cusick a elec:City ;
+    rdfs:label "Cusick"^^xsd:string ;
+    elec:belongsTo elec:PendOreilleCounty .
+
+elec:Custer a elec:City ;
+    rdfs:label "Custer"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Dallesport a elec:City ;
+    rdfs:label "Dallesport"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Danville a elec:City ;
+    rdfs:label "Danville"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Darrington a elec:City ;
+    rdfs:label "Darrington"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Davenport a elec:City ;
+    rdfs:label "Davenport"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Dayton a elec:City ;
+    rdfs:label "Dayton"^^xsd:string ;
+    elec:belongsTo elec:ColumbiaCounty .
+
+elec:DeerHarbor a elec:City ;
+    rdfs:label "Deer Harbor"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:DeerPark a elec:City ;
+    rdfs:label "Deer Park"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Deming a elec:City ;
+    rdfs:label "Deming"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Dixie a elec:City ;
+    rdfs:label "Dixie"^^xsd:string ;
+    elec:belongsTo elec:WallaWallaCounty .
+
+elec:Doty a elec:City ;
+    rdfs:label "Doty"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Dryden a elec:City ;
+    rdfs:label "Dryden"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Dupont a elec:City ;
+    rdfs:label "Dupont"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Duvall a elec:City ;
+    rdfs:label "Duvall"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:EastOlympia a elec:City ;
+    rdfs:label "East Olympia"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:EastWenatchee a elec:City ;
+    rdfs:label "East Wenatchee"^^xsd:string ;
+    elec:belongsTo elec:DouglasCounty .
+
+elec:Easton a elec:City ;
+    rdfs:label "Easton"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:Eastsound a elec:City ;
+    rdfs:label "Eastsound"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:Eatonville a elec:City ;
+    rdfs:label "Eatonville"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Edwall a elec:City ;
+    rdfs:label "Edwall"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Elbe a elec:City ;
+    rdfs:label "Elbe"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:ElectricCity a elec:City ;
+    rdfs:label "Electric City"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Elk a elec:City ;
+    rdfs:label "Elk"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Ellensburg a elec:City ;
+    rdfs:label "Ellensburg"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:Elma a elec:City ;
+    rdfs:label "Elma"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:ElmerCity a elec:City ;
+    rdfs:label "Elmer City"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Eltopia a elec:City ;
+    rdfs:label "Eltopia"^^xsd:string ;
+    elec:belongsTo elec:FranklinCounty .
+
+elec:Endicott a elec:City ;
+    rdfs:label "Endicott"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Entiat a elec:City ;
+    rdfs:label "Entiat"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Enumclaw a elec:City ;
+    rdfs:label "Enumclaw"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Ephrata a elec:City ;
+    rdfs:label "Ephrata"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Ethel a elec:City ;
+    rdfs:label "Ethel"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Evans a elec:City ;
+    rdfs:label "Evans"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Everson a elec:City ;
+    rdfs:label "Everson"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:FairchildAirForceBase a elec:City ;
+    rdfs:label "Fairchild Air Force Base"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Fairfield a elec:City ;
+    rdfs:label "Fairfield"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:FallCity a elec:City ;
+    rdfs:label "Fall City"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Farmington a elec:City ;
+    rdfs:label "Farmington"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Ferndale a elec:City ;
+    rdfs:label "Ferndale"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Ford a elec:City ;
+    rdfs:label "Ford"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Forks a elec:City ;
+    rdfs:label "Forks"^^xsd:string ;
+    elec:belongsTo elec:JeffersonCounty .
+
+elec:FourLakes a elec:City ;
+    rdfs:label "Four Lakes"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:FoxIsland a elec:City ;
+    rdfs:label "Fox Island"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Freeland a elec:City ;
+    rdfs:label "Freeland"^^xsd:string ;
+    elec:belongsTo elec:IslandCounty .
+
+elec:FridayHarbor a elec:City ;
+    rdfs:label "Friday Harbor"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:Fruitland a elec:City ;
+    rdfs:label "Fruitland"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Galvin a elec:City ;
+    rdfs:label "Galvin"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Garfield a elec:City ;
+    rdfs:label "Garfield"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:GarfieldCounty a elec:County ;
+    rdfs:label "Garfield County"^^xsd:string .
+
+elec:George a elec:City ;
+    rdfs:label "George"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Gifford a elec:City ;
+    rdfs:label "Gifford"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Glenoma a elec:City ;
+    rdfs:label "Glenoma"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Glenwood a elec:City ;
+    rdfs:label "Glenwood"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:GoldBar a elec:City ;
+    rdfs:label "Gold Bar"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Goldendale a elec:City ;
+    rdfs:label "Goldendale"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Graham a elec:City ;
+    rdfs:label "Graham"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:GrandCoulee a elec:City ;
+    rdfs:label "Grand Coulee"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Grandview a elec:City ;
+    rdfs:label "Grandview"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Granger a elec:City ;
+    rdfs:label "Granger"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:GraniteFalls a elec:City ;
+    rdfs:label "Granite Falls"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Grapeview a elec:City ;
+    rdfs:label "Grapeview"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Grayland a elec:City ;
+    rdfs:label "Grayland"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:GraysRiver a elec:City ;
+    rdfs:label "Grays River"^^xsd:string ;
+    elec:belongsTo elec:WahkiakumCounty .
+
+elec:Greenacres a elec:City ;
+    rdfs:label "Greenacres"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Greenbank a elec:City ;
+    rdfs:label "Greenbank"^^xsd:string ;
+    elec:belongsTo elec:IslandCounty .
+
+elec:Hamilton a elec:City ;
+    rdfs:label "Hamilton"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Hansville a elec:City ;
+    rdfs:label "Hansville"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Harrah a elec:City ;
+    rdfs:label "Harrah"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Harrington a elec:City ;
+    rdfs:label "Harrington"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Hartline a elec:City ;
+    rdfs:label "Hartline"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Hay a elec:City ;
+    rdfs:label "Hay"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Heisson a elec:City ;
+    rdfs:label "Heisson"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:Hobart a elec:City ;
+    rdfs:label "Hobart"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Hoodsport a elec:City ;
+    rdfs:label "Hoodsport"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Hooper a elec:City ;
+    rdfs:label "Hooper"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Hoquiam a elec:City ;
+    rdfs:label "Hoquiam"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Humptulips a elec:City ;
+    rdfs:label "Humptulips"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Hunters a elec:City ;
+    rdfs:label "Hunters"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Husum a elec:City ;
+    rdfs:label "Husum"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Ilwaco a elec:City ;
+    rdfs:label "Ilwaco"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:Inchelium a elec:City ;
+    rdfs:label "Inchelium"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Index a elec:City ;
+    rdfs:label "Index"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Indianola a elec:City ;
+    rdfs:label "Indianola"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Ione a elec:City ;
+    rdfs:label "Ione"^^xsd:string ;
+    elec:belongsTo elec:PendOreilleCounty .
+
+elec:Joyce a elec:City ;
+    rdfs:label "Joyce"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:Kahlotus a elec:City ;
+    rdfs:label "Kahlotus"^^xsd:string ;
+    elec:belongsTo elec:FranklinCounty .
+
+elec:Kalama a elec:City ;
+    rdfs:label "Kalama"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:Kapowsin a elec:City ;
+    rdfs:label "Kapowsin"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Keller a elec:City ;
+    rdfs:label "Keller"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Kelso a elec:City ;
+    rdfs:label "Kelso"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:Kenmore a elec:City ;
+    rdfs:label "Kenmore"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:KettleFalls a elec:City ;
+    rdfs:label "Kettle Falls"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Keyport a elec:City ;
+    rdfs:label "Keyport"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Kingston a elec:City ;
+    rdfs:label "Kingston"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Kittitas a elec:City ;
+    rdfs:label "Kittitas"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:Klickitat a elec:City ;
+    rdfs:label "Klickitat"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:LaCenter a elec:City ;
+    rdfs:label "La Center"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:LaConner a elec:City ;
+    rdfs:label "La Conner"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:LaGrande a elec:City ;
+    rdfs:label "La Grande"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:LaPush a elec:City ;
+    rdfs:label "La Push"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:Lacrosse a elec:City ;
+    rdfs:label "Lacrosse"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:LakeStevens a elec:City ;
+    rdfs:label "Lake Stevens"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Lakebay a elec:City ;
+    rdfs:label "Lakebay"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Lamona a elec:City ;
+    rdfs:label "Lamona"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Lamont a elec:City ;
+    rdfs:label "Lamont"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Langley a elec:City ;
+    rdfs:label "Langley"^^xsd:string ;
+    elec:belongsTo elec:IslandCounty .
+
+elec:Latah a elec:City ;
+    rdfs:label "Latah"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Laurier a elec:City ;
+    rdfs:label "Laurier"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Leavenworth a elec:City ;
+    rdfs:label "Leavenworth"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Lebam a elec:City ;
+    rdfs:label "Lebam"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:LibertyLake a elec:City ;
+    rdfs:label "Liberty Lake"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Lilliwaup a elec:City ;
+    rdfs:label "Lilliwaup"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Lincoln a elec:City ;
+    rdfs:label "Lincoln"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Lind a elec:City ;
+    rdfs:label "Lind"^^xsd:string ;
+    elec:belongsTo elec:AdamsCounty .
+
+elec:Littlerock a elec:City ;
+    rdfs:label "Littlerock"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:LongBeach a elec:City ;
+    rdfs:label "Long Beach"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:Longbranch a elec:City ;
+    rdfs:label "Longbranch"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Longmire a elec:City ;
+    rdfs:label "Longmire"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Longview a elec:City ;
+    rdfs:label "Longview"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:Loomis a elec:City ;
+    rdfs:label "Loomis"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:LoonLake a elec:City ;
+    rdfs:label "Loon Lake"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:LopezIsland a elec:City ;
+    rdfs:label "Lopez Island"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:LummiIsland a elec:City ;
+    rdfs:label "Lummi Island"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Lyle a elec:City ;
+    rdfs:label "Lyle"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Lyman a elec:City ;
+    rdfs:label "Lyman"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Lynden a elec:City ;
+    rdfs:label "Lynden"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Mabton a elec:City ;
+    rdfs:label "Mabton"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Malaga a elec:City ;
+    rdfs:label "Malaga"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Malden a elec:City ;
+    rdfs:label "Malden"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Malo a elec:City ;
+    rdfs:label "Malo"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Malone a elec:City ;
+    rdfs:label "Malone"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Malott a elec:City ;
+    rdfs:label "Malott"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Manchester a elec:City ;
+    rdfs:label "Manchester"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Mansfield a elec:City ;
+    rdfs:label "Mansfield"^^xsd:string ;
+    elec:belongsTo elec:DouglasCounty .
+
+elec:Manson a elec:City ;
+    rdfs:label "Manson"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:MapleFalls a elec:City ;
+    rdfs:label "Maple Falls"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:MapleValley a elec:City ;
+    rdfs:label "Maple Valley"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Marblemount a elec:City ;
+    rdfs:label "Marblemount"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Marcus a elec:City ;
+    rdfs:label "Marcus"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Marlin a elec:City ;
+    rdfs:label "Marlin"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Marshall a elec:City ;
+    rdfs:label "Marshall"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Matlock a elec:City ;
+    rdfs:label "Matlock"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Mattawa a elec:City ;
+    rdfs:label "Mattawa"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Mazama a elec:City ;
+    rdfs:label "Mazama"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:McchordAfb a elec:City ;
+    rdfs:label "Mcchord Afb"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Mccleary a elec:City ;
+    rdfs:label "Mccleary"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Mckenna a elec:City ;
+    rdfs:label "Mckenna"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Mead a elec:City ;
+    rdfs:label "Mead"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:MedicalLake a elec:City ;
+    rdfs:label "Medical Lake"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Medina a elec:City ;
+    rdfs:label "Medina"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Menlo a elec:City ;
+    rdfs:label "Menlo"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:MercerIsland a elec:City ;
+    rdfs:label "Mercer Island"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Mesa a elec:City ;
+    rdfs:label "Mesa"^^xsd:string ;
+    elec:belongsTo elec:FranklinCounty .
+
+elec:Metaline a elec:City ;
+    rdfs:label "Metaline"^^xsd:string ;
+    elec:belongsTo elec:PendOreilleCounty .
+
+elec:MetalineFalls a elec:City ;
+    rdfs:label "Metaline Falls"^^xsd:string ;
+    elec:belongsTo elec:PendOreilleCounty .
+
+elec:Methow a elec:City ;
+    rdfs:label "Methow"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Mica a elec:City ;
+    rdfs:label "Mica"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:MillCreek a elec:City ;
+    rdfs:label "Mill Creek"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Milton a elec:City ;
+    rdfs:label "Milton"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Mineral a elec:City ;
+    rdfs:label "Mineral"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Moclips a elec:City ;
+    rdfs:label "Moclips"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Mohler a elec:City ;
+    rdfs:label "Mohler"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Monitor a elec:City ;
+    rdfs:label "Monitor"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Monroe a elec:City ;
+    rdfs:label "Monroe"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Montesano a elec:City ;
+    rdfs:label "Montesano"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Morton a elec:City ;
+    rdfs:label "Morton"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:MosesLake a elec:City ;
+    rdfs:label "Moses Lake"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Mossyrock a elec:City ;
+    rdfs:label "Mossyrock"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:MountlakeTerrace a elec:City ;
+    rdfs:label "Mountlake Terrace"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Moxee a elec:City ;
+    rdfs:label "Moxee"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Mukilteo a elec:City ;
+    rdfs:label "Mukilteo"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Nahcotta a elec:City ;
+    rdfs:label "Nahcotta"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:Napavine a elec:City ;
+    rdfs:label "Napavine"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Naselle a elec:City ;
+    rdfs:label "Naselle"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:NeahBay a elec:City ;
+    rdfs:label "Neah Bay"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:Neilton a elec:City ;
+    rdfs:label "Neilton"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Nespelem a elec:City ;
+    rdfs:label "Nespelem"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:NewmanLake a elec:City ;
+    rdfs:label "Newman Lake"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Newport a elec:City ;
+    rdfs:label "Newport"^^xsd:string ;
+    elec:belongsTo elec:PendOreilleCounty .
+
+elec:NineMileFalls a elec:City ;
+    rdfs:label "Nine Mile Falls"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Nooksack a elec:City ;
+    rdfs:label "Nooksack"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Nordland a elec:City ;
+    rdfs:label "Nordland"^^xsd:string ;
+    elec:belongsTo elec:JeffersonCounty .
+
+elec:NorthBend a elec:City ;
+    rdfs:label "North Bend"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:NorthBonneville a elec:City ;
+    rdfs:label "North Bonneville"^^xsd:string ;
+    elec:belongsTo elec:SkamaniaCounty .
+
+elec:NorthLakewood a elec:City ;
+    rdfs:label "North Lakewood"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Northport a elec:City ;
+    rdfs:label "Northport"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Oakesdale a elec:City ;
+    rdfs:label "Oakesdale"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Oakville a elec:City ;
+    rdfs:label "Oakville"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:OceanPark a elec:City ;
+    rdfs:label "Ocean Park"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:OceanShores a elec:City ;
+    rdfs:label "Ocean Shores"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Odessa a elec:City ;
+    rdfs:label "Odessa"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Okanogan a elec:City ;
+    rdfs:label "Okanogan"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Olalla a elec:City ;
+    rdfs:label "Olalla"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Olga a elec:City ;
+    rdfs:label "Olga"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:Omak a elec:City ;
+    rdfs:label "Omak"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Onalaska a elec:City ;
+    rdfs:label "Onalaska"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Orcas a elec:City ;
+    rdfs:label "Orcas"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:Orient a elec:City ;
+    rdfs:label "Orient"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Orondo a elec:City ;
+    rdfs:label "Orondo"^^xsd:string ;
+    elec:belongsTo elec:DouglasCounty .
+
+elec:Oroville a elec:City ;
+    rdfs:label "Oroville"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Orting a elec:City ;
+    rdfs:label "Orting"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Othello a elec:City ;
+    rdfs:label "Othello"^^xsd:string ;
+    elec:belongsTo elec:AdamsCounty .
+
+elec:OtisOrchards a elec:City ;
+    rdfs:label "Otis Orchards"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Outlook a elec:City ;
+    rdfs:label "Outlook"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Oysterville a elec:City ;
+    rdfs:label "Oysterville"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:Pacific a elec:City ;
+    rdfs:label "Pacific"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:PacificBeach a elec:City ;
+    rdfs:label "Pacific Beach"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Packwood a elec:City ;
+    rdfs:label "Packwood"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Palisades a elec:City ;
+    rdfs:label "Palisades"^^xsd:string ;
+    elec:belongsTo elec:DouglasCounty .
+
+elec:Palouse a elec:City ;
+    rdfs:label "Palouse"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:ParadiseInn a elec:City ;
+    rdfs:label "Paradise Inn"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Parker a elec:City ;
+    rdfs:label "Parker"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Pateros a elec:City ;
+    rdfs:label "Pateros"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Paterson a elec:City ;
+    rdfs:label "Paterson"^^xsd:string ;
+    elec:belongsTo elec:BentonCounty .
+
+elec:PeEll a elec:City ;
+    rdfs:label "Pe Ell"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Peshastin a elec:City ;
+    rdfs:label "Peshastin"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Plymouth a elec:City ;
+    rdfs:label "Plymouth"^^xsd:string ;
+    elec:belongsTo elec:BentonCounty .
+
+elec:PointRoberts a elec:City ;
+    rdfs:label "Point Roberts"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Pomeroy a elec:City ;
+    rdfs:label "Pomeroy"^^xsd:string ;
+    elec:belongsTo elec:GarfieldCounty .
+
+elec:PortGamble a elec:City ;
+    rdfs:label "Port Gamble"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:PortHadlock a elec:City ;
+    rdfs:label "Port Hadlock"^^xsd:string ;
+    elec:belongsTo elec:JeffersonCounty .
+
+elec:PortLudlow a elec:City ;
+    rdfs:label "Port Ludlow"^^xsd:string ;
+    elec:belongsTo elec:JeffersonCounty .
+
+elec:PortTownsend a elec:City ;
+    rdfs:label "Port Townsend"^^xsd:string ;
+    elec:belongsTo elec:JeffersonCounty .
+
+elec:Poulsbo a elec:City ;
+    rdfs:label "Poulsbo"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Prescott a elec:City ;
+    rdfs:label "Prescott"^^xsd:string ;
+    elec:belongsTo elec:WallaWallaCounty .
+
+elec:Preston a elec:City ;
+    rdfs:label "Preston"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Prosser a elec:City ;
+    rdfs:label "Prosser"^^xsd:string ;
+    elec:belongsTo elec:BentonCounty .
+
+elec:Quilcene a elec:City ;
+    rdfs:label "Quilcene"^^xsd:string ;
+    elec:belongsTo elec:JeffersonCounty .
+
+elec:Quinault a elec:City ;
+    rdfs:label "Quinault"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Quincy a elec:City ;
+    rdfs:label "Quincy"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Rainier a elec:City ;
+    rdfs:label "Rainier"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:Randle a elec:City ;
+    rdfs:label "Randle"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Ravensdale a elec:City ;
+    rdfs:label "Ravensdale"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Raymond a elec:City ;
+    rdfs:label "Raymond"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:Reardan a elec:City ;
+    rdfs:label "Reardan"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Redondo a elec:City ;
+    rdfs:label "Redondo"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Republic a elec:City ;
+    rdfs:label "Republic"^^xsd:string ;
+    elec:belongsTo elec:FerryCounty .
+
+elec:Retsil a elec:City ;
+    rdfs:label "Retsil"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Rice a elec:City ;
+    rdfs:label "Rice"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Ridgefield a elec:City ;
+    rdfs:label "Ridgefield"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:Ritzville a elec:City ;
+    rdfs:label "Ritzville"^^xsd:string ;
+    elec:belongsTo elec:AdamsCounty .
+
+elec:Riverside a elec:City ;
+    rdfs:label "Riverside"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Rochester a elec:City ;
+    rdfs:label "Rochester"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:RockIsland a elec:City ;
+    rdfs:label "Rock Island"^^xsd:string ;
+    elec:belongsTo elec:DouglasCounty .
+
+elec:Rockford a elec:City ;
+    rdfs:label "Rockford"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Rockport a elec:City ;
+    rdfs:label "Rockport"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Rollingbay a elec:City ;
+    rdfs:label "Rollingbay"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Ronald a elec:City ;
+    rdfs:label "Ronald"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:Roosevelt a elec:City ;
+    rdfs:label "Roosevelt"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Rosalia a elec:City ;
+    rdfs:label "Rosalia"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Rosburg a elec:City ;
+    rdfs:label "Rosburg"^^xsd:string ;
+    elec:belongsTo elec:WahkiakumCounty .
+
+elec:Roslyn a elec:City ;
+    rdfs:label "Roslyn"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:Roy a elec:City ;
+    rdfs:label "Roy"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:RoyalCity a elec:City ;
+    rdfs:label "Royal City"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Ryderwood a elec:City ;
+    rdfs:label "Ryderwood"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:SaintJohn a elec:City ;
+    rdfs:label "Saint John"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Salkum a elec:City ;
+    rdfs:label "Salkum"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Satsop a elec:City ;
+    rdfs:label "Satsop"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Seabeck a elec:City ;
+    rdfs:label "Seabeck"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Seahurst a elec:City ;
+    rdfs:label "Seahurst"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Seaview a elec:City ;
+    rdfs:label "Seaview"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:SedroWoolley a elec:City ;
+    rdfs:label "Sedro Woolley"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Sekiu a elec:City ;
+    rdfs:label "Sekiu"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:Selah a elec:City ;
+    rdfs:label "Selah"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Sequim a elec:City ;
+    rdfs:label "Sequim"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:ShawIsland a elec:City ;
+    rdfs:label "Shaw Island"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:Shelton a elec:City ;
+    rdfs:label "Shelton"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Silvana a elec:City ;
+    rdfs:label "Silvana"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:SilverCreek a elec:City ;
+    rdfs:label "Silver Creek"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Silverlake a elec:City ;
+    rdfs:label "Silverlake"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:Skamokawa a elec:City ;
+    rdfs:label "Skamokawa"^^xsd:string ;
+    elec:belongsTo elec:WahkiakumCounty .
+
+elec:Skykomish a elec:City ;
+    rdfs:label "Skykomish"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Snoqualmie a elec:City ;
+    rdfs:label "Snoqualmie"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:SnoqualmiePass a elec:City ;
+    rdfs:label "Snoqualmie Pass"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:SoapLake a elec:City ;
+    rdfs:label "Soap Lake"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:SouthBend a elec:City ;
+    rdfs:label "South Bend"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:SouthCleElum a elec:City ;
+    rdfs:label "South Cle Elum"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:SouthColby a elec:City ;
+    rdfs:label "South Colby"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:SouthPrairie a elec:City ;
+    rdfs:label "South Prairie"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Southworth a elec:City ;
+    rdfs:label "Southworth"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Spanaway a elec:City ;
+    rdfs:label "Spanaway"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Spangle a elec:City ;
+    rdfs:label "Spangle"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Sprague a elec:City ;
+    rdfs:label "Sprague"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Springdale a elec:City ;
+    rdfs:label "Springdale"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Stanwood a elec:City ;
+    rdfs:label "Stanwood"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Starbuck a elec:City ;
+    rdfs:label "Starbuck"^^xsd:string ;
+    elec:belongsTo elec:ColumbiaCounty .
+
+elec:Startup a elec:City ;
+    rdfs:label "Startup"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Stehekin a elec:City ;
+    rdfs:label "Stehekin"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Steilacoom a elec:City ;
+    rdfs:label "Steilacoom"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Steptoe a elec:City ;
+    rdfs:label "Steptoe"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Stevenson a elec:City ;
+    rdfs:label "Stevenson"^^xsd:string ;
+    elec:belongsTo elec:SkamaniaCounty .
+
+elec:Stratford a elec:City ;
+    rdfs:label "Stratford"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Sultan a elec:City ;
+    rdfs:label "Sultan"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Sumas a elec:City ;
+    rdfs:label "Sumas"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Sunnyside a elec:City ;
+    rdfs:label "Sunnyside"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Suquamish a elec:City ;
+    rdfs:label "Suquamish"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Taholah a elec:City ;
+    rdfs:label "Taholah"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:Tahuya a elec:City ;
+    rdfs:label "Tahuya"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Tekoa a elec:City ;
+    rdfs:label "Tekoa"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Tenino a elec:City ;
+    rdfs:label "Tenino"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:Thornton a elec:City ;
+    rdfs:label "Thornton"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Thorp a elec:City ;
+    rdfs:label "Thorp"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:Tieton a elec:City ;
+    rdfs:label "Tieton"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Tokeland a elec:City ;
+    rdfs:label "Tokeland"^^xsd:string ;
+    elec:belongsTo elec:PacificCounty .
+
+elec:Toledo a elec:City ;
+    rdfs:label "Toledo"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Tonasket a elec:City ;
+    rdfs:label "Tonasket"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Toppenish a elec:City ;
+    rdfs:label "Toppenish"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Touchet a elec:City ;
+    rdfs:label "Touchet"^^xsd:string ;
+    elec:belongsTo elec:WallaWallaCounty .
+
+elec:Toutle a elec:City ;
+    rdfs:label "Toutle"^^xsd:string ;
+    elec:belongsTo elec:CowlitzCounty .
+
+elec:Tracyton a elec:City ;
+    rdfs:label "Tracyton"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:TroutLake a elec:City ;
+    rdfs:label "Trout Lake"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Tumtum a elec:City ;
+    rdfs:label "Tumtum"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Tumwater a elec:City ;
+    rdfs:label "Tumwater"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:Twisp a elec:City ;
+    rdfs:label "Twisp"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Underwood a elec:City ;
+    rdfs:label "Underwood"^^xsd:string ;
+    elec:belongsTo elec:SkamaniaCounty .
+
+elec:Union a elec:City ;
+    rdfs:label "Union"^^xsd:string ;
+    elec:belongsTo elec:MasonCounty .
+
+elec:Uniontown a elec:City ;
+    rdfs:label "Uniontown"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:UniversityPlace a elec:City ;
+    rdfs:label "University Place"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Usk a elec:City ;
+    rdfs:label "Usk"^^xsd:string ;
+    elec:belongsTo elec:PendOreilleCounty .
+
+elec:Vader a elec:City ;
+    rdfs:label "Vader"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Valley a elec:City ;
+    rdfs:label "Valley"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:Valleyford a elec:City ;
+    rdfs:label "Valleyford"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Vantage a elec:City ;
+    rdfs:label "Vantage"^^xsd:string ;
+    elec:belongsTo elec:KittitasCounty .
+
+elec:Vashon a elec:City ;
+    rdfs:label "Vashon"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Vaughn a elec:City ;
+    rdfs:label "Vaughn"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Veradale a elec:City ;
+    rdfs:label "Veradale"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Wahkiacus a elec:City ;
+    rdfs:label "Wahkiacus"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Waitsburg a elec:City ;
+    rdfs:label "Waitsburg"^^xsd:string ;
+    elec:belongsTo elec:WallaWallaCounty .
+
+elec:Waldron a elec:City ;
+    rdfs:label "Waldron"^^xsd:string ;
+    elec:belongsTo elec:SanJuanCounty .
+
+elec:WallaWalla a elec:City ;
+    rdfs:label "Walla Walla"^^xsd:string ;
+    elec:belongsTo elec:WallaWallaCounty .
+
+elec:Wallula a elec:City ;
+    rdfs:label "Wallula"^^xsd:string ;
+    elec:belongsTo elec:WallaWallaCounty .
+
+elec:Wapato a elec:City ;
+    rdfs:label "Wapato"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Warden a elec:City ;
+    rdfs:label "Warden"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Washougal a elec:City ;
+    rdfs:label "Washougal"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:Washtucna a elec:City ;
+    rdfs:label "Washtucna"^^xsd:string ;
+    elec:belongsTo elec:AdamsCounty .
+
+elec:Waterville a elec:City ;
+    rdfs:label "Waterville"^^xsd:string ;
+    elec:belongsTo elec:DouglasCounty .
+
+elec:Wauconda a elec:City ;
+    rdfs:label "Wauconda"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Wauna a elec:City ;
+    rdfs:label "Wauna"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Waverly a elec:City ;
+    rdfs:label "Waverly"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:Wellpinit a elec:City ;
+    rdfs:label "Wellpinit"^^xsd:string ;
+    elec:belongsTo elec:StevensCounty .
+
+elec:WestRichland a elec:City ;
+    rdfs:label "West Richland"^^xsd:string ;
+    elec:belongsTo elec:BentonCounty .
+
+elec:Westport a elec:City ;
+    rdfs:label "Westport"^^xsd:string ;
+    elec:belongsTo elec:GraysHarborCounty .
+
+elec:WhiteSalmon a elec:City ;
+    rdfs:label "White Salmon"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:WhiteSwan a elec:City ;
+    rdfs:label "White Swan"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Wilbur a elec:City ;
+    rdfs:label "Wilbur"^^xsd:string ;
+    elec:belongsTo elec:LincolnCounty .
+
+elec:Wilkeson a elec:City ;
+    rdfs:label "Wilkeson"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:WilsonCreek a elec:City ;
+    rdfs:label "Wilson Creek"^^xsd:string ;
+    elec:belongsTo elec:GrantCounty .
+
+elec:Winlock a elec:City ;
+    rdfs:label "Winlock"^^xsd:string ;
+    elec:belongsTo elec:LewisCounty .
+
+elec:Winthrop a elec:City ;
+    rdfs:label "Winthrop"^^xsd:string ;
+    elec:belongsTo elec:OkanoganCounty .
+
+elec:Wishram a elec:City ;
+    rdfs:label "Wishram"^^xsd:string ;
+    elec:belongsTo elec:KlickitatCounty .
+
+elec:Woodland a elec:City ;
+    rdfs:label "Woodland"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:Yacolt a elec:City ;
+    rdfs:label "Yacolt"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:Yelm a elec:City ;
+    rdfs:label "Yelm"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:Zillah a elec:City ;
+    rdfs:label "Zillah"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Blaine a elec:City ;
+    rdfs:label "Blaine"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:ColumbiaCounty a elec:County ;
+    rdfs:label "Columbia County"^^xsd:string .
+
+elec:Edmonds a elec:City ;
+    rdfs:label "Edmonds"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Issaquah a elec:City ;
+    rdfs:label "Issaquah"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Lacey a elec:City ;
+    rdfs:label "Lacey"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:Marysville a elec:City ;
+    rdfs:label "Marysville"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:MountVernon a elec:City ;
+    rdfs:label "Mount Vernon"^^xsd:string ;
+    elec:belongsTo elec:SkagitCounty .
+
+elec:Naches a elec:City ;
+    rdfs:label "Naches"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:OakHarbor a elec:City ;
+    rdfs:label "Oak Harbor"^^xsd:string ;
+    elec:belongsTo elec:IslandCounty .
+
+elec:Pasco a elec:City ;
+    rdfs:label "Pasco"^^xsd:string ;
+    elec:belongsTo elec:FranklinCounty .
+
+elec:PortAngeles a elec:City ;
+    rdfs:label "Port Angeles"^^xsd:string ;
+    elec:belongsTo elec:ClallamCounty .
+
+elec:PortOrchard a elec:City ;
+    rdfs:label "Port Orchard"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Richland a elec:City ;
+    rdfs:label "Richland"^^xsd:string ;
+    elec:belongsTo elec:BentonCounty .
+
+elec:Sammamish a elec:City ;
+    rdfs:label "Sammamish"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Silverdale a elec:City ;
+    rdfs:label "Silverdale"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:Sumner a elec:City ;
+    rdfs:label "Sumner"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Wenatchee a elec:City ;
+    rdfs:label "Wenatchee"^^xsd:string ;
+    elec:belongsTo elec:ChelanCounty .
+
+elec:Woodinville a elec:City ;
+    rdfs:label "Woodinville"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:AsotinCounty a elec:County ;
+    rdfs:label "Asotin County"^^xsd:string .
+
+elec:GigHarbor a elec:City ;
+    rdfs:label "Gig Harbor"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Kennewick a elec:City ;
+    rdfs:label "Kennewick"^^xsd:string ;
+    elec:belongsTo elec:BentonCounty .
+
+elec:Kirkland a elec:City ;
+    rdfs:label "Kirkland"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Pullman a elec:City ;
+    rdfs:label "Pullman"^^xsd:string ;
+    elec:belongsTo elec:WhitmanCounty .
+
+elec:Redmond a elec:City ;
+    rdfs:label "Redmond"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Snohomish a elec:City ;
+    rdfs:label "Snohomish"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:Auburn a elec:City ;
+    rdfs:label "Auburn"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Bothell a elec:City ;
+    rdfs:label "Bothell"^^xsd:string ;
+    elec:belongsTo elec:KingCounty,
+        elec:SnohomishCounty .
+
+elec:FederalWay a elec:City ;
+    rdfs:label "Federal Way"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Lynnwood a elec:City ;
+    rdfs:label "Lynnwood"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:SkamaniaCounty a elec:County ;
+    rdfs:label "Skamania County"^^xsd:string .
+
+elec:WahkiakumCounty a elec:County ;
+    rdfs:label "Wahkiakum County"^^xsd:string .
+
+elec:AdamsCounty a elec:County ;
+    rdfs:label "Adams County"^^xsd:string .
+
+elec:Bellingham a elec:City ;
+    rdfs:label "Bellingham"^^xsd:string ;
+    elec:belongsTo elec:WhatcomCounty .
+
+elec:Bremerton a elec:City ;
+    rdfs:label "Bremerton"^^xsd:string ;
+    elec:belongsTo elec:KitsapCounty .
+
+elec:FranklinCounty a elec:County ;
+    rdfs:label "Franklin County"^^xsd:string .
+
+elec:Lakewood a elec:City ;
+    rdfs:label "Lakewood"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Puyallup a elec:City ;
+    rdfs:label "Puyallup"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Renton a elec:City ;
+    rdfs:label "Renton"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:PendOreilleCounty a elec:County ;
+    rdfs:label "Pend Oreille County"^^xsd:string .
+
+elec:Bellevue a elec:City ;
+    rdfs:label "Bellevue"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:BentonCounty a elec:County ;
+    rdfs:label "Benton County"^^xsd:string .
+
+elec:DouglasCounty a elec:County ;
+    rdfs:label "Douglas County"^^xsd:string .
+
+elec:IslandCounty a elec:County ;
+    rdfs:label "Island County"^^xsd:string .
+
+elec:Kent a elec:City ;
+    rdfs:label "Kent"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
+elec:Yakima a elec:City ;
+    rdfs:label "Yakima"^^xsd:string ;
+    elec:belongsTo elec:YakimaCounty .
+
+elec:Everett a elec:City ;
+    rdfs:label "Everett"^^xsd:string ;
+    elec:belongsTo elec:SnohomishCounty .
+
+elec:JeffersonCounty a elec:County ;
+    rdfs:label "Jefferson County"^^xsd:string .
+
+elec:WallaWallaCounty a elec:County ;
+    rdfs:label "Walla Walla County"^^xsd:string .
+
+elec:ClallamCounty a elec:County ;
+    rdfs:label "Clallam County"^^xsd:string .
+
+elec:FerryCounty a elec:County ;
+    rdfs:label "Ferry County"^^xsd:string .
+
+elec:MasonCounty a elec:County ;
+    rdfs:label "Mason County"^^xsd:string .
+
+elec:SanJuanCounty a elec:County ;
+    rdfs:label "San Juan County"^^xsd:string .
+
+elec:CowlitzCounty a elec:County ;
+    rdfs:label "Cowlitz County"^^xsd:string .
+
+elec:KittitasCounty a elec:County ;
+    rdfs:label "Kittitas County"^^xsd:string .
+
+elec:ClarkCounty a elec:County ;
+    rdfs:label "Clark County"^^xsd:string .
+
+elec:Olympia a elec:City ;
+    rdfs:label "Olympia"^^xsd:string ;
+    elec:belongsTo elec:ThurstonCounty .
+
+elec:ThurstonCounty a elec:County ;
+    rdfs:label "Thurston County"^^xsd:string .
+
+elec:LincolnCounty a elec:County ;
+    rdfs:label "Lincoln County"^^xsd:string .
+
+elec:ChelanCounty a elec:County ;
+    rdfs:label "Chelan County"^^xsd:string .
+
+elec:SkagitCounty a elec:County ;
+    rdfs:label "Skagit County"^^xsd:string .
+
+elec:WhatcomCounty a elec:County ;
+    rdfs:label "Whatcom County"^^xsd:string .
+
+elec:KlickitatCounty a elec:County ;
+    rdfs:label "Klickitat County"^^xsd:string .
+
+elec:PacificCounty a elec:County ;
+    rdfs:label "Pacific County"^^xsd:string .
+
+elec:Vancouver a elec:City ;
+    rdfs:label "Vancouver"^^xsd:string ;
+    elec:belongsTo elec:ClarkCounty .
+
+elec:GrantCounty a elec:County ;
+    rdfs:label "Grant County"^^xsd:string .
+
+elec:OkanoganCounty a elec:County ;
+    rdfs:label "Okanogan County"^^xsd:string .
+
+elec:StevensCounty a elec:County ;
+    rdfs:label "Stevens County"^^xsd:string .
+
+elec:YakimaCounty a elec:County ;
+    rdfs:label "Yakima County"^^xsd:string .
+
+elec:GraysHarborCounty a elec:County ;
+    rdfs:label "Grays Harbor County"^^xsd:string .
+
+elec:KitsapCounty a elec:County ;
+    rdfs:label "Kitsap County"^^xsd:string .
+
+elec:SnohomishCounty a elec:County ;
+    rdfs:label "Snohomish County"^^xsd:string .
+
+elec:WhitmanCounty a elec:County ;
+    rdfs:label "Whitman County"^^xsd:string .
+
+elec:LewisCounty a elec:County ;
+    rdfs:label "Lewis County"^^xsd:string .
+
+elec:SpokaneCounty a elec:County ;
+    rdfs:label "Spokane County"^^xsd:string .
+
+elec:Spokane a elec:City ;
+    rdfs:label "Spokane"^^xsd:string ;
+    elec:belongsTo elec:SpokaneCounty .
+
+elec:PierceCounty a elec:County ;
+    rdfs:label "Pierce County"^^xsd:string .
+
+elec:KingCounty a elec:County ;
+    rdfs:label "King County"^^xsd:string .
+
+elec:Tacoma a elec:City ;
+    rdfs:label "Tacoma"^^xsd:string ;
+    elec:belongsTo elec:PierceCounty .
+
+elec:Seattle a elec:City ;
+    rdfs:label "Seattle"^^xsd:string ;
+    elec:belongsTo elec:KingCounty .
+
