@@ -9,7 +9,7 @@ Selected columns may vary due to different usages (es. computation vs graph visu
 
 -------------------------------------------------------------------------------------------------------
 
-[1A]#Query 11: this query outputs the average AGI, the most popular maker and the number of cars (for that maker) for each County.
+#Query 1A: this query outputs the average AGI, the most popular maker and the number of cars (for that maker) for each County.
 #Question/Purpose: Which is the most popular car maker for each County? Do richest Counties prefer some maker?
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the makers and try to understand if the first Counties prefer a particular maker. Furthermore it is possible to compare the most popular car makers of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car brands chosen.
 #NOTE: In the U.S.A. Tesla's cars are very diffused, we proposed also another version of this query excluding Tesla.
@@ -69,7 +69,7 @@ ORDER BY desc(?avgagi)
 
 -------------------------------------------------------------------------------------------------------
 
-[1B]#Query 12: this query outputs the average AGI, the most popular maker and the number of cars (for that maker) for each County (excluding the maker 'Tesla').
+#Query 1B: this query outputs the average AGI, the most popular maker and the number of cars (for that maker) for each County (excluding the maker 'Tesla').
 #Question/Purpose: Which is the most popular car maker for each County? Do richest Counties prefer some maker?
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the makers and try to understand if the first Counties prefer a particular maker. Furthermore it is possible to compare the most popular car makers of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car brands chosen.
 #NOTE: In the U.S.A. Tesla's cars are very diffused, this query EXCLUDES TESLA; we proposed also another version of this query  NOT excluding Tesla.
@@ -129,7 +129,9 @@ ORDER BY desc(?avgagi)
 
 -------------------------------------------------------------------------------------------------------
 
-[2]#Query 4: Outputs the amount of cars registered per model year. It is an overall indicator of how EV adoption is growing over time.
+#Query 2: Outputs the amount of cars registered per model year. It is an overall indicator of how EV adoption is growing over time.
+#Question/Purpose: How many cars are registered for every model year's year?
+#Solution Method: All cars are queried and counted grouped by their model year.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -145,7 +147,10 @@ ORDER BY DESC(?amount)
 
 -------------------------------------------------------------------------------------------------------
 
-[3]#Query 5: outputs the average range of the model years of every year.
+#Query 3: outputs the average range of the model years of every year.
+#Question/Purpose: According to what's in our dataset, what range did car models offer in a certain model year on average?
+#Solution Method: Keeping in mind that each vehicle can have a different range, the average range for each 'model year' of each model is computed.
+Afterwards, model years of the same year are averaged, obtaining the avg range of all models of a certain model year's year.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 
@@ -153,9 +158,9 @@ SELECT ?year (AVG(?myrange) as ?avgrange) WHERE{
 
 	#Here I obtain the avg. range that each model year has.
 	SELECT ?moye ?year (AVG(?range) as ?myrange) WHERE { 
-        ?moye elec:hasYear ?year .
-        ?car elec:hasModelYear ?moye .
-        ?car elec:hasRange ?range .
+		?moye elec:hasYear ?year .
+		?car elec:hasModelYear ?moye .
+		?car elec:hasRange ?range .
 	}
 	GROUP BY ?moye ?year
 
@@ -166,7 +171,9 @@ ORDER BY DESC(?avgrange)
 
 -------------------------------------------------------------------------------------------------------
 
-[4]#Query 9: shows the AGI and the number of both private and public electric stations per city. The aim of the query is to highlight a possible trend between cities wealth and the increment of the installed stations
+#Query 4: shows the AGI and the number of both private and public electric stations per city. The aim of the query is to highlight a possible trend between cities wealth and the increment of the installed stations
+#Question/Purpose: Is there some correlation between wealth and charging station density and type?
+#Solution Method: By joining a table containing public stations per zip, a table containing private stations per zip and another one containing the AGI for each zip we obtain another table containing (ZIP, AGI, #PUS, #PRS). By combining these rows between zipcodes of the same city we'll obtain the desired data to be plotted for analysis.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 
@@ -197,7 +204,9 @@ ORDER BY DESC (?Agi)
 
 -------------------------------------------------------------------------------------------------------
 
-[5]#Query 7: shows the amount of electric stations and cars (both full electric and plug-in) registered in each county. This can be useful to understand a possible relation between the presence of electric cars and installed electric station. 
+#Query 5: shows the amount of electric stations and cars (both full electric and plug-in) registered in each county. This can be useful to understand a possible relation between the presence of electric cars and installed electric station. 
+#Question/Purpose: At a county level, are people encouraged/discouraged to buy an EV because of a high/low number of charging stations?
+#Solution Method: A single table is created where all cars and all stations are saved (for each of their zipcodes). Afterwards, the items are grouped on having the zipcode belonging to the same County, counting total station and car entries.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 
@@ -218,7 +227,9 @@ ORDER BY ASC (?City)
 
 -------------------------------------------------------------------------------------------------------
 
-[6]#Query 8: shows the Washington cities, their AGI and the number of cars registered in each city. The result can be used to estimate a trend on purchased cars considering the average family income living in a particular city. 
+#Query 6: shows the Washington cities, their AGI and the number of cars registered in each city. The result can be used to estimate a trend on purchased cars considering the average family income living in a particular city. 
+#Question/Purpose: Is there a city-wise correlation between average AGI and number of registered cars?
+#Solution Method:  A single table is created where the AGI for each Zip and cars for each Zip are saved. Afterwards, the items are grouped on having the Zip part of the same City, while averaging their wage and counting the number of cars.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 
@@ -238,7 +249,9 @@ ORDER BY DESC (?AvgWage)
 
 -------------------------------------------------------------------------------------------------------
 
-[7]#Query 2: shows clean/not clean car count for each model year's year. This is to eventually highlight a trend over time towards a broader share of clean cars, influenced both by maker's and customer's choices.
+#Query 7: shows clean/not clean car count for each model year's year. This is to eventually highlight a trend over time towards a broader share of clean cars, influenced both by maker's and customer's choices.
+#Question/Purpose: How many clean and not clean cars have been bought for every model year's year?
+#Solution Method: Subqueries obtain clean cars per year and nonclean cars per year. Their join gives what we are looking for.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -269,7 +282,7 @@ ORDER BY DESC(?year)
 
 -------------------------------------------------------------------------------------------------------
 
-[8]#Query 10: this query outputs the average AGI and the number of cars for each County.
+#Query 8: this query outputs the average AGI and the number of cars for each County.
 #Question/Purpose: Do richest Counties have more cars?
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the number of cars and to verify that it is ordered in a descendent way as well.
 
@@ -303,7 +316,9 @@ ORDER BY desc(?avgagi)
 
 -------------------------------------------------------------------------------------------------------
 
-#Query 1: counts how many clean cars and how many not-clean cars are for every ZIP, showing also the ZIP's AGI to highlight an eventual correlation.
+#Query 9: counts how many clean cars and how many not-clean cars are for every ZIP, showing also the ZIP's AGI to highlight an eventual correlation.
+#Question/Purpose: Is there some correlation between clean-ness and wealth?
+#Solution Method: Zip-clean car count and zip-nonclean car count tables are joined adding the per-zip Agi. By doing so, the final tuples can be sorted by a descending AGI, highlighting an eventual correlation.
 
 PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
@@ -332,75 +347,7 @@ ORDER BY DESC(?agi)
 
 -------------------------------------------------------------------------------------------------------
 
-#Query 3: Outputs, for each ZIP, the most frequent model year found among its registered vehicles, along with the ZIP's AGI and the amount of such vehicles. This query was intended to highlight possible EV growth among different AGIs.
-
-PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-SELECT ?zip ?oagi ?oyear ?ocars WHERE {
-    #Here I retrive all zips, as a base.
-    ?zip rdf:type elec:ZipCode .
-    
-    #Below I retrieve ALL tuples (ZIP, AGI, YEAR, #CARS). To be filtered...
-	{
-        SELECT ?zip ?oagi ?oyear (COUNT(?ocar) as ?ocars) WHERE{
-            ?omoye elec:hasYear ?oyear .
-            ?ocar elec:hasModelYear ?omoye .
-            ?ocar elec:isRegisteredIn ?zip .
-            ?zip elec:hasAgi ?oagi .
-            #FILTER(?ozip = elec:98226)
-        }
-        GROUP BY ?zip ?oagi ?oyear
-    }
-    {
-        #Below, I compute for each ZIP the aboslute maximum number of cars it has for any model year.
-		SELECT ?zip (MAX(?cars) as ?mc) WHERE{
-            { #Below I retrieve all (ZIP, YEAR, #CARS) tuples == how many cars per model year each ZIP has.
-                SELECT ?zip ?year (COUNT(?car) as ?cars) WHERE{
-                    ?moye elec:hasYear ?year .
-                    ?car elec:hasModelYear ?moye .
-                    ?car elec:isRegisteredIn ?zip .
-                }
-                GROUP BY ?zip ?year    
-            }
-        }
-        GROUP BY ?zip
-    }
-    #Below, I filter the (ZIP, AGI, YEAR, #CARS) tuples in order to keep only a tuple for each ZIP: the one for which the corresponding model year had the most registrations.
-    FILTER( ?ocars = ?mc)
-		
-}
-ORDER BY DESC(?oagi)
-
-
--------------------------------------------------------------------------------------------------------
-
-#Query 6: shows which type of electric car (battery or plug-in) is purchased the most by county. The aim is to understand customer preferences and can be used to make sales or advertising campaigns more accurate
-
-PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
-
-SELECT ?County (COUNT(?battery) AS ?BatteryCar) (COUNT(?plugin) AS ?PluginCar) WHERE {
-    ?ZipCode elec:ofCity ?City .
-    ?City elec:belongsTo ?County
-    {    
-        ?battery a elec:BEV;
-              elec:isRegisteredIn ?ZipCode.
-    }
-    UNION 
-    {
-        ?plugin a elec:PHEV;
-                elec:isRegisteredIn ?ZipCode.
-    }
-    
-}
-GROUP BY (?County)
-ORDER BY ASC (?County)
-
-
--------------------------------------------------------------------------------------------------------
-
-#Query 13: this query outputs the average AGI and the average range of PLUG-IN (PHEV) cars for each County.
+#Query 10: this query outputs the average AGI and the average range of PLUG-IN (PHEV) cars for each County.
 #Question/Purpose: Do richest Counties have Plug-In cars with higher range?
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the cars' range average and to verify that it is ordered in a descendent way as well.
 
@@ -433,9 +380,82 @@ GROUP BY ?county
 ORDER BY desc(?avgagi)
 
 
+*******************************************************************************************************
+*					ADDITIONAL QUERIES BELOW				      *
+*******************************************************************************************************
+
+#Query 11: Outputs, for each ZIP, the most frequent model year found among its registered vehicles, along with the ZIP's AGI and the amount of such vehicles. This query was intended to highlight possible EV growth among different AGIs.
+#Question/Purpose: What model year is the most popular for each ZIP?
+#Solution Method: First, the maximum amount of cars of any model year is computed for each ZIP. Afterwards, car count is computed again for each ZIP, keeping only the model year with the highest car number.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?zip ?oagi ?oyear ?ocars WHERE {
+    #Here I retrive all zips, as a base.
+    ?zip rdf:type elec:ZipCode .
+    
+    #Below I retrieve ALL tuples (ZIP, AGI, YEAR, #CARS). To be filtered...
+	{
+        SELECT ?zip ?oagi ?oyear (COUNT(?ocar) as ?ocars) WHERE{
+            ?omoye elec:hasYear ?oyear .
+            ?ocar elec:hasModelYear ?omoye .
+            ?ocar elec:isRegisteredIn ?zip .
+            ?zip elec:hasAgi ?oagi .
+        }
+        GROUP BY ?zip ?oagi ?oyear
+    }
+    {
+        #Below, I compute for each ZIP the aboslute maximum number of cars it has for any model year.
+		SELECT ?zip (MAX(?cars) as ?mc) WHERE{
+            { #Below I retrieve all (ZIP, YEAR, #CARS) tuples == how many cars per model year each ZIP has.
+                SELECT ?zip ?year (COUNT(?car) as ?cars) WHERE{
+                    ?moye elec:hasYear ?year .
+                    ?car elec:hasModelYear ?moye .
+                    ?car elec:isRegisteredIn ?zip .
+                }
+                GROUP BY ?zip ?year    
+            }
+        }
+        GROUP BY ?zip
+    }
+    #Below, I filter the (ZIP, AGI, YEAR, #CARS) tuples in order to keep only a tuple for each ZIP: the one for which the corresponding model year had the most registrations.
+    FILTER( ?ocars = ?mc)
+		
+}
+ORDER BY DESC(?oagi)
+
+
 -------------------------------------------------------------------------------------------------------
 
-#Query 14: this query outputs the average AGI, the most popular car model and the number of cars (of that model) for each County.
+#Query 12: shows which type of electric car (battery or plug-in) is purchased the most by county. The aim is to understand customer preferences and can be used to make sales or advertising campaigns more accurate
+#Question/Purpose: Which type of electric car (battery or plug-in) is purchased the most by county?
+#Solution Method: Count of items (cars) that are places in different columns for different types.
+
+PREFIX elec: <http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#>
+
+SELECT ?County (COUNT(?battery) AS ?BatteryCar) (COUNT(?plugin) AS ?PluginCar) WHERE {
+    ?ZipCode elec:ofCity ?City .
+    ?City elec:belongsTo ?County
+    {    
+        ?battery a elec:BEV;
+              elec:isRegisteredIn ?ZipCode.
+    }
+    UNION 
+    {
+        ?plugin a elec:PHEV;
+                elec:isRegisteredIn ?ZipCode.
+    }
+    
+}
+GROUP BY (?County)
+ORDER BY ASC (?County)
+
+
+-------------------------------------------------------------------------------------------------------
+
+#Query 13A: this query outputs the average AGI, the most popular car model and the number of cars (of that model) for each County.
 #Question/Purpose: Which is the most popular car model for each County? Do richest Counties prefer some models?
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the car models and try to understand if the first Counties prefer a particular model. Furthermore it is possible to compare the most popular car models of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car models chosen.
 #NOTE: In the U.S.A. Tesla's cars are very diffused, we proposed also another version of this query excluding Tesla.
@@ -493,7 +513,7 @@ ORDER BY desc(?avgagi)
 
 -------------------------------------------------------------------------------------------------------
 
-#Query 15: this query outputs the average AGI, the most popular car brand and the number of cars (of that model) for each County (excluding the maker 'Tesla' and the related models).
+#Query 13B: this query outputs the average AGI, the most popular car brand and the number of cars (of that model) for each County (excluding the maker 'Tesla' and the related models).
 #Question/Purpose: Which is the most popular car model for each County? Do richest Counties prefer some car models?
 #Solution Method: since in the results the Counties are odered by descending value of AGI it is sufficient to look at the car models and try to understand if the first Counties prefer a particular model. Furthermore it is possible to compare the most popular car models of the richest counties with the ones of the poorest counties to understand if there are connection between the income and the car models chosen.
 #NOTE: In the U.S.A. Tesla's cars are very diffused, this query EXCLUDES TESLA; we proposed also another version of this query  NOT excluding Tesla.
