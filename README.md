@@ -26,6 +26,15 @@ The following tree represents the repository structure:
 │   ├── stations_pub+priv_open.csv
 │   └── wa_zips_cities_counties.csv
 ├── clean_data/
+├── ontology/
+│   ├── ElectricCarsOntology.drawio
+│   ├── ElectricCarsOntology.rdf
+│   ├── ElectricCarsOntology.png
+│   ├── ElectricCarsOntology.pdf
+│   └── ontology_with_namespaces/
+│       ├── ElectricCarsOntology.drawio
+│       ├── ElectricCarsOntology.png
+│       └── ElectricCarsOntology.pdf
 ├── output/
 ├── ElectricCarsOntology.drawio
 ├── ElectricCarsOntology.rdf
@@ -36,12 +45,17 @@ The following tree represents the repository structure:
 
 ```
 - src_data: contains all the source files from which we got the data.
+- ontology: contains the data related to the rdf ontology and its visual representation.
+- ontology_with_namespaces: contains the visual representation of the ontology with all the namespaces. 
 - clean_data: will contain a cleaned version of the source data (if not present the folder will be created running the python notebook).
 - output: will contain the output files of the python notebook (in turtle format), to be ingested in the graph database (if not present the folder will be created running the python notebook).
 - ElectricCarsOntology.drawio: the schema of the ontology.
 - ElectricCarsOntology.pdf: pdf version of the schema of the ontology.
 - ElectricCarsOntology.png: png version of the schema of the ontology.
 - ElectricCarsOntology.rdf: the ontology to be imported in the graph database.
+- ElectricCarsOntologyWithNamespaces.drawio: the schema of the ontology (with namespaces).
+- ElectricCarsOntologyWithNamespaces.pdf: pdf version of the schema of the ontology (with namespaces).
+- ElectricCarsOntologyWithNamespaces.png: png version of the schema of the ontology (with namespaces).
 - POOR6.ipynb: the python notebook that performs the cleaning and processing if the data.
 - queries.txt: the file containing our proposed queries.
 
