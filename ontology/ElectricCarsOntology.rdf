@@ -154,6 +154,40 @@
     
 
 
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasLatitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasLatitude">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
+                    <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasLongitude -->
+
+    <owl:DatatypeProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasLongitude">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
+                    <rdf:Description rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#ZipCode"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasMSRP -->
 
     <owl:DatatypeProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasMSRP">

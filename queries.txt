@@ -222,7 +222,7 @@ SELECT ?County (COUNT(?Station) AS ?Station) (COUNT(?Car) as ?Car) WHERE {
     }
 }
 GROUP BY (?County)
-ORDER BY ASC (?City)
+ORDER BY ASC (?Car)
 
 
 -------------------------------------------------------------------------------------------------------
