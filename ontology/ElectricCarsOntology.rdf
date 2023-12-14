@@ -138,6 +138,7 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
         <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Address of a Station</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -167,6 +168,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Latitude of a Station or of the center of a ZipCode</rdfs:comment>
     </owl:DatatypeProperty>
     
 
@@ -184,6 +186,7 @@
             </owl:Class>
         </rdfs:domain>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>Longitude of a Station or of the center of a ZipCode</rdfs:comment>
     </owl:DatatypeProperty>
     
 
