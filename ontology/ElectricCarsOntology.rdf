@@ -132,6 +132,16 @@
     
 
 
+    <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasAddress -->
+
+    <owl:DatatypeProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasAddress">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#Station"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasAgi -->
 
     <owl:DatatypeProperty rdf:about="http://www.dei.unipd.it/~poor6/db2/ontologies/2023/electricCars#hasAgi">
