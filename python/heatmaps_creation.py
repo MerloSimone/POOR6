@@ -13,9 +13,12 @@ for file in files:
     line = f.readline().strip().split(',')
     
     df = pd.read_csv(PATH + file)
-    fig = px.density_mapbox(df, lat = line[1], lon = line[0], z = line[2],
+    fig = px.density_mapbox(df, lat = line[0], lon = line[1], z = line[2],
                             radius = 8,
                             center = dict(lat = 47.5, lon = -120.5),
                             zoom = 7,
-                            mapbox_style = 'carto-positron')
+                            mapbox_style = 'carto-positron',
+                            color_continuous_scale = 'rainbow',
+                            title=file)
+
     fig.show() 
