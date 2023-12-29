@@ -3,9 +3,9 @@ import plotly.express as px
 from os import listdir
 from os.path import isfile
 
-PATH = "python/data/"
+PATH = "./data/"
 
-files = listdir("python/data")
+files = listdir("./data")
 print(files)
 
 for file in files:
@@ -18,7 +18,6 @@ for file in files:
                             center = dict(lat = 47.5, lon = -120.5),
                             zoom = 7,
                             mapbox_style = 'carto-positron',
-                            color_continuous_scale = 'rainbow',
                             title=file)
 
     fig.show() 

@@ -918,7 +918,7 @@ elec:110 a elec:PublicStation,
     elec:hasAddress "6370 N. 1st Circle"^^xsd:string ;
     elec:hasLatitude "45.81749"^^xsd:float ;
     elec:hasLongitude "-122.68359"^^xsd:float ;
-    elec:hasName "Ridgefield - Country Café"^^xsd:string ;
+    elec:hasName "Ridgefield - Country CafÃ©"^^xsd:string ;
     elec:locatedIn elec:98642 .
 
 elec:1100 a elec:PublicStation,
@@ -6421,7 +6421,7 @@ elec:172 a elec:PublicStation,
     elec:hasAddress "27618 Hansville Rd. NE"^^xsd:string ;
     elec:hasLatitude "47.812524"^^xsd:float ;
     elec:hasLongitude "-122.540217"^^xsd:float ;
-    elec:hasName "Kitsap Transit-George’s Corner Park & Ride"^^xsd:string ;
+    elec:hasName "Kitsap Transit-Georgeâ€™s Corner Park & Ride"^^xsd:string ;
     elec:locatedIn elec:98346 .
 
 elec:1720 a elec:PublicStation,
@@ -9811,7 +9811,7 @@ elec:210 a elec:PublicStation,
 elec:2100 a elec:PublicStation,
         elec:Station ;
     elec:hasAddress "4000 Columbia House Boulevard"^^xsd:string ;
-    elec:hasLatitude "45.61970112205079"^^xsd:float ;
+    elec:hasLatitude "45.619701122050785"^^xsd:float ;
     elec:hasLongitude "-122.62866141202132"^^xsd:float ;
     elec:hasName "HDQC"^^xsd:string ;
     elec:locatedIn elec:98661 .
