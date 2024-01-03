@@ -3,9 +3,9 @@ import plotly.express as px
 from os import listdir
 from os.path import isfile
 
-PATH = "./python/data/"
+PATH = "./data/"
 
-files = listdir("./python/data")
+files = listdir("./data")
 print(files)
 
 for file in files:
